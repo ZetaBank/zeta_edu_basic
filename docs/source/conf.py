@@ -2,12 +2,12 @@
 
 # -- Project information
 
-project = 'zetabank education Guide'
+project = 'Elementary Version'
 # copyright = '2021, Graziella'
 author = 'Zetabank'
 
-release = '0.1.1'
-version = '0.1.1'
+release = '0.1.3'
+version = '0.1.3'
 
 # -- General configuration
 
@@ -40,7 +40,7 @@ images_config = {
 # -- Options for HTML output
 html_static_path = ['_static']
 html_logo = "_static/logo.png"
-html_title = "ZetaBank - Education Guide"
+html_title = "ZetaBank - Instructor Version"
 html_theme = 'sphinx_rtd_theme'
 html_theme_options = {
     'analytics_id': 'UA-17821189-2',
