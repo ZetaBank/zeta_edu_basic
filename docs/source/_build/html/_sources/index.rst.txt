@@ -11,5 +11,20 @@ Zetabank Education Guide
     :titlesonly: 
 
     Day1/0.index
-    Day1/2.exploration
-    Day1/3.AI
+
+.. toctree:: 
+    :caption: Day2
+    :maxdepth: 1
+    :hidden:
+    :titlesonly: 
+
+    Day2/0.index
+
+
+.. toctree:: 
+    :caption: Day3
+    :maxdepth: 1
+    :hidden:
+    :titlesonly: 
+
+    Day3/0.index
