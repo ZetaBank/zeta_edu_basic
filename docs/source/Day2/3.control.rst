@@ -33,11 +33,11 @@ Open the provided jupyter notebook
 -   | Running the cell code
     | `Ctrl + Enter`
 
-.. thumbnail:: /_images/course_3/2.robot_driving_ros/robot_drive1.png
+.. thumbnail:: /_images/Day2/3.control/robot_drive1.png
 
 |
 
-.. thumbnail:: /_images/course_3/2.robot_driving_ros/robot_drive2.png
+.. thumbnail:: /_images/Day2/3.control/robot_drive2.png
 
 |
 

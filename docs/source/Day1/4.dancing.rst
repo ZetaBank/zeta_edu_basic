@@ -11,7 +11,7 @@ AI Robot Dancing
             <div class="line"><strong>-</strong> This mission is a <strong>group project.</strong></div>
             <div class="line"><strong>-</strong> Within your team, create a custom robot arm control system.</div>
             <div class="line"><strong>-</strong> System should be able to:</div>
-            <div class="line">&emsp;<strong>1.</strong>  Generate Graphical User Interface (GUI) that displays the robot arm camera.</div>
+            <div class="line">&emsp;<strong>1.</strong>  Generate Graphical Uai_trainingser Interface (GUI) that displays the robot arm camera.</div>
             <div class="line">&emsp;<strong>2.</strong> Controls that would allow the robot arm to move and pick up objects.</div>
             <div class="line">&emsp;<strong>3.</strong> Ability to play and stop the music while operating above tasks.</div>
             <div class="line"><strong>-</strong> It is recommended that the final code be on the Leaders computer. (Simultaneous commands to the robot must be avoided!)</div>
@@ -62,7 +62,7 @@ mission_lib custom Library
 
 - mission_lib.py
 
-.. thumbnail:: /_images/ai_training/mission_lib.png
+.. thumbnail:: /_images/Day1/4.dancing/mission_lib.png
 
 |
 
@@ -194,7 +194,7 @@ event_name custom Library
 
 - event_name.py
 
-.. thumbnail:: /_images/ai_training/event_name.png
+.. thumbnail:: /_images/Day1/4.dancing/event_name.png
 
 |
 
@@ -243,7 +243,7 @@ Open the mission folder and open the mission.ipynb file.
 
 - mission.ipynb
 
-.. thumbnail:: /_images/ai_training/mission.png
+.. thumbnail:: /_images/Day1/4.dancing/mission.png
 
 |
 
@@ -421,7 +421,7 @@ Pick up an object and place it somewhere else!
 
 Now that we have built our program, using the GUI control and grab an object and place it somewhere else. 
 
-.. thumbnail:: /_images/ai_training/gui.png
+.. thumbnail:: /_images/Day1/4.dancing/ai_training/gui.png
     
  
 (**IMPORTANT**) 
