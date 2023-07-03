@@ -5,7 +5,7 @@ AI Robot Control
 
     <div style="background: #C3F8FF" class="admonition note custom">
         <p style="background: light-blue" class="admonition-title">
-            Follow along: Robot Movement Examples
+            AI Robot Control Examples
         </p>
         
         <div class="line-block">

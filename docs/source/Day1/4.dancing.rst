@@ -3,9 +3,9 @@ AI Robot Dancing
 
 .. raw:: html
 
-    <div style="background: #ffe5b4" class="admonition note custom">
-        <p style="background: #ffbf00" class="admonition-title">
-            Project Name: Robot Arm Control System
+    <div style="background: #C3F8FF" class="admonition note custom">
+        <p style="background: light-blue" class="admonition-title">
+            AI Robot Dancing Examples
         </p>
         <div class="line-block">
             <div class="line"><strong>-</strong> This mission is a <strong>group project.</strong></div>
