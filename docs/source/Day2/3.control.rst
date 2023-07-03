@@ -1,4 +1,4 @@
-Follow Along!
+AI Robot Control
 ================
 
 .. raw:: html

@@ -1,4 +1,4 @@
-Mission Project
+AI Robot Dancing
 ==================
 
 .. raw:: html
