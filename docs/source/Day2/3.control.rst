@@ -16,7 +16,6 @@ AI Robot Control
             <li>
                 Movement Instructions
             </li>
-            <li>Movement Instructions with Odometry Information</li>
         </ul>
     </div>
 

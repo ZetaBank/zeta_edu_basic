@@ -1,7 +1,17 @@
 Presentation and discussion 
 ==============================
 
+.. raw:: html
 
-##of autonomous driving
+    <div style="background: #C3F8FF" class="admonition note custom">
+        <p style="background: light-blue" class="admonition-title">
+            Presentation and discussion
+        </p>
+        <div class="line-block">
+            <div class="line"><strong>-</strong> This mission is a <strong>group project.</strong></div>
+            <div class="line"><strong>-</strong> Let's team up and drive autonomously with robots.</div>
+            <div class="line"><strong>-</strong> Take a self-driving video and freely express what you felt.</div>
+        </div>
+    </div>
 
-dfdfddaffsf
+.. thumbnail:: /_images/Day3/2.presentation/map.png
