@@ -1,4 +1,4 @@
-Control AI Robot Arm
+Dance with AI Robot Arm
 =========================
 
 Here are the contents of this section:

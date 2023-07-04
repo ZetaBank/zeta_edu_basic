@@ -1,9 +1,6 @@
 Follow Along!
 ================
 
-Moving the Robot Arm
-====================
-
 .. raw:: html
     
     <div style="background: #C3F8FF" class="admonition note custom">
@@ -93,3 +90,6 @@ Moving the Robot Arm
 -   Remove the robot arm object.
 
 .. code-block:: python
+
+    del Arm  # Remove robot arm object.
+
