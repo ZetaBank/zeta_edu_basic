@@ -7,9 +7,6 @@ Here are the contents of this section:
     :maxdepth: 1
 
     2.exploration
-<<<<<<< Updated upstream
+    1.robot_arm/0.index
+    2.arm_dance/0.index
     3.AI
-=======
-    3.arm
-    4.mission_drawing
->>>>>>> Stashed changes
