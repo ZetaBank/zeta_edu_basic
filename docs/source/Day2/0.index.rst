@@ -6,5 +6,6 @@ Here are the contents of this section:
 .. toctree:: 
 
     2.AI
-    3.control
+    3.robot_arm/index
+    4.arm_performance/index
     4.autonomous
