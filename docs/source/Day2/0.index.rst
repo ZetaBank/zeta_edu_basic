@@ -4,7 +4,9 @@ Enjoy AI robot with eyes
 Here are the contents of this section:
 
 .. toctree:: 
-
+    :maxdepth: 1
+    :hidden:
+    :titlesonly: 
     2.AI
     3.robot_arm/index
     4.arm_performance/index
