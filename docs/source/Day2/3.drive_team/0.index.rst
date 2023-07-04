@@ -4,4 +4,4 @@ Control AI Robot as a Team
 Here are the contents of this section:
 
 .. toctree:: 
-    1.follow_along
+    1.mission
