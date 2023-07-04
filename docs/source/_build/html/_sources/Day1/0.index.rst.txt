@@ -7,4 +7,3 @@ Here are the contents of this section:
 
     2.exploration
     3.AI
-    4.dancing
