@@ -1,8 +1,4 @@
-<<<<<<< Updated upstream
-Object Detection with SSD-Mobilenet-v2
-=======
 Object Detection with COCO-Dog
->>>>>>> Stashed changes
 =========================================
 
 
