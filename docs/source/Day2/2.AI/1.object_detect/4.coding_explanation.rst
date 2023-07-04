@@ -41,19 +41,11 @@ With our python program, the user must specify
 
     .. code-block:: python
 
-<<<<<<< Updated upstream
-        !python3 $PROGRAM_PATH/posenet.py --network=resnet18-body $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME
-
-    With ``!python3 $PROGRAM_PATH/detectnet.py`` as our activation function, we have:
-    
-    1.  ``--network=ssd-mobilenet-v1``: to specify which network we wished to use. (for this case SSD-Mobilenet-v1 network)
-=======
         !python3 $PROGRAM_PATH/detectnet.py --network=coco-dog $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME
 
     With ``!python3 $PROGRAM_PATH/detectnet.py`` as our activation function, we have:
     
     1.  ``--network=coco-dog``: to specify which network we wished to use. (for this case COCO-Dog network)
->>>>>>> Stashed changes
     2.  ``$INPUT_PATH/$IMAGE_NAME``: to specify our input image location.
     3.  ``$OUTPUT_PATH/$OUTPUT_NAME``: to specify our output image location. 
 

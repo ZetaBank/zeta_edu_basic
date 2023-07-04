@@ -1,25 +1,25 @@
 Overall Explanation
 ====================
 
+
 Overview
----------
+^^^^^^^^
+ 
+PeopleNet is a deep learning-based object detection model specifically designed for identifying and tracking people in different poses, crowd densities, and lighting conditions.
+It proves to be immensely beneficial for applications like surveillance systems, people counting, crowd management, and advanced robotics.
 
-DashCamNet is a deep learning-based object detection model specifically designed for identifying and tracking various objects, such as cars, persons, road signs, and bicycles, in images or videos captured by dashcams.
-It is highly beneficial for applications like autonomous driving, traffic analysis, and road safety.
+As you may have noticed, we have this object detection and tracking method, PeopleNet, in our "follow along" step.
 
-As you may have noticed, we have object detection and tracking method, DashCamNet, in our "follow along" step.
+PeopleNet
+^^^^^^^^^^
 
-DashCamNet 
---------------------
+This model uses deep neural network architectures, including Convolutional Neural Networks (CNNs), for processing and analyzing input data.
+PeopleNet is trained on extensive datasets containing annotated images of various human forms in different environments, enabling it to learn and distinguish intricate features and patterns of human figures.
 
-This model uses deep neural network architectures like Convolutional Neural Networks (CNNs) for processing and analyzing input data.
-DashCamNet is trained on extensive datasets containing annotated images of various objects in different environments, allowing it to learn and recognize their features and patterns.
+During the training process, PeopleNet learns to identify and differentiate between individuals in a scene, even in crowded environments or under challenging lighting conditions.
+This ability allows it to generate accurate bounding boxes around the detected people in images or videos, helping it achieve high precision in people detection and tracking.
 
-During the training process, DashCamNet learns to identify and differentiate between the various objects in a scene.
-This enables it to generate accurate bounding boxes around these objects in images or videos, even in complex environments with multiple objects and varying lighting conditions.
+The advantage of using PeopleNet for object detection and tracking is its impressive accuracy in detecting and identifying people, all while maintaining reasonable computational requirements.
+This makes it suitable for real-time applications where people detection, tracking, and counting are essential, such as smart surveillance systems, advanced robotics, and crowd management systems.
 
-The advantage of using DashCamNet for object detection and tracking is that it can achieve high accuracy in detecting the target objects while maintaining reasonable computational requirements.
-This makes it suitable for applications where real-time processing is essential, such as autonomous vehicles, traffic monitoring systems, and smart cities.
-
-In summary, DashCamNet's ability to effectively detect and track multiple objects in various scenarios makes it a valuable tool for a wide range of computer vision applications.
-
+In summary, the proficiency of PeopleNet in detecting and tracking people effectively in various scenarios makes it an invaluable tool for a wide range of computer vision applications.

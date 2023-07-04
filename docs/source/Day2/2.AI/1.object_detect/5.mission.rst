@@ -31,13 +31,13 @@ Create a new python file in the Jupyter Notebook Environment:
 
 -   Press the blue plus button on the top left corner of the web.
 
-    .. thumbnail:: /_images/ai_training/add_plus.png
+    .. thumbnail:: /_images/Day2/2.AI/add_plus.png
 
 |
 
 -   Create a new python file by pressing the ``Python File`` button
 
-    .. thumbnail:: /_images/ai_training/pick_python.png
+    .. thumbnail:: /_images/Day2/2.AI/pick_python.png
 
 |
 
@@ -165,13 +165,9 @@ Executing the Custom Program
 
 -   Open the ``02_6-2. object_detection_camera.py`` notebook.
 
-<<<<<<< Updated upstream
-.. thumbnail:: /_images/course_2/2.ai_pose_detect/object_detection_camera.png
-=======
-.. thumbnail:: /_images/Day2/2.AI/object_detection_camera.png
->>>>>>> Stashed changes
 
-|
+.. thumbnail:: /_images/Day2/2.AI/object_detection_camera.png
+
 
 -   Run the cell code which initializes the input/ output stream of the environment as well as the CAMERA variable, which will be the flag that determines the input vairable for the program to be a camera stream. 
 
@@ -225,16 +221,8 @@ Let's Change the Overlay!!!
 
     Examples:
 
-<<<<<<< Updated upstream
-    .. thumbnail:: /_images/course_2/2.ai_pose_detect/object_detection_camera1.jpg
-
-    |
-
-    .. thumbnail:: /_images/course_2/2.ai_pose_detect/object_detection_camera2.jpg
-=======
     .. thumbnail:: /_images/Day2/2.AI/object_detection_camera1.jpg
 
     |
 
     .. thumbnail:: /_images/Day2/2.AI/object_detection_camera2.jpg
->>>>>>> Stashed changes
