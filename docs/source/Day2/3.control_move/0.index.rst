@@ -1,4 +1,4 @@
-Control AI Robot Arm
+Control AI Robot
 =========================
 
 Here are the contents of this section:
