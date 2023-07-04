@@ -3,20 +3,13 @@ Enjoy AI robot with eyes
 
 Here are the contents of this section:
 
-<<<<<<< Updated upstream
+
 .. toctree::
-    2.AI
+
+    2.AI/0.index
     4.autonomous
     1.robot_arm/0.index
     2.arm_dance/0.index
     3.control_move/0.index
     4.control_sensor/0.index
     5.control_team/0.index
-=======
-.. toctree:: 
-    :maxdepth: 1
-
-    2.AI/0.index
-    3.control
-    4.autonomous
->>>>>>> Stashed changes
