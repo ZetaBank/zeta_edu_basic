@@ -40,7 +40,11 @@ time. Example:
 - a: Single stage object detector 
 - b: Dual stage object detector
 
+<<<<<<< Updated upstream
 .. thumbnail:: /_images/course_2/2.ai_pose_detect/ssd.webp
+=======
+.. thumbnail:: /_images/Day2/2.AI/ssd.webp
+>>>>>>> Stashed changes
 
 
 The SSD-Mobilenet-v2 is a one-stage object detection model. Because

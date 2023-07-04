@@ -1,6 +1,10 @@
 Tao Peoplenet Examples
+<<<<<<< Updated upstream
 =============================================
 
+=======
+==========================
+>>>>>>> Stashed changes
 
 Here are the contents for this section:
 

@@ -1,0 +1,11 @@
+AI training with the body
+===========================
+
+asdfsdafsdfsdafsdaf
+
+.. toctree::
+    :maxdepth: 1
+
+    1.pose/1.index
+    2.background/1.index
+

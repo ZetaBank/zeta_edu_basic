@@ -1,5 +1,9 @@
 AI Robot Control
+<<<<<<< Updated upstream
 ================
+=======
+=================
+>>>>>>> Stashed changes
 
 .. raw:: html
 

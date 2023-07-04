@@ -30,7 +30,11 @@ Follow Along!
 -   | Running the cell code
     | `Ctrl + Enter`
 
+<<<<<<< Updated upstream
 .. thumbnail:: /_images/course_2/2.ai_pose_detect/object_det.png
+=======
+.. thumbnail:: /_images/Day2/2.AI/object_det.png
+>>>>>>> Stashed changes
 
 
 -   Initialize your output stream, and your path, and import in the Image library
@@ -57,7 +61,11 @@ Follow Along!
         !ls $INPUT_PATH/dog_*
 
 
+<<<<<<< Updated upstream
     .. thumbnail:: /_images/course_2/2.ai_pose_detect/object_det1.png
+=======
+    .. thumbnail:: /_images/Day2/2.AI/object_det1.png
+>>>>>>> Stashed changes
 
 |
 
@@ -76,7 +84,11 @@ Follow Along!
     .. code-block:: python
 
         %%capture
+<<<<<<< Updated upstream
         !python3 $PROGRAM_PATH/detectnet.py --network=ssd-mobilenet-v2 $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME
+=======
+        !python3 $PROGRAM_PATH/detectnet.py --network=coco-dog $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME
+>>>>>>> Stashed changes
 
 
 
@@ -91,4 +103,8 @@ Follow Along!
         Image(filename=output_path+'/detect_result.jpg') 
 
 
+<<<<<<< Updated upstream
     .. thumbnail:: /_images/course_2/2.ai_pose_detect/object_det2.jpg
+=======
+    .. thumbnail:: /_images/Day2/2.AI/object_det2.jpg
+>>>>>>> Stashed changes

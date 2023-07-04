@@ -1,0 +1,11 @@
+AI training with the body and eyes
+==================================
+
+.. toctree::
+    :maxdepth: 1
+
+    1.object_detect/1.index
+    2.tao_peoplenet/1.index
+    3.segmentation/1.index
+    4.posenet/1.index
+

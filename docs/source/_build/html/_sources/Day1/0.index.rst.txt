@@ -4,6 +4,12 @@ Enjoy AI robot with body
 Here are the contents of this section:
 
 .. toctree:: 
+    :maxdepth: 1
 
     2.exploration
+<<<<<<< Updated upstream
     3.AI
+=======
+    3.arm
+    4.mission_drawing
+>>>>>>> Stashed changes

@@ -1,5 +1,10 @@
+<<<<<<< Updated upstream:docs/source/Day2/3.control_move/1.follow_along.rst
 Follow Along!
 ================
+=======
+AI Robot Control
+=================
+>>>>>>> Stashed changes:docs/source/Day2/3.control.rst
 
 Open the provided jupyter notebook
 

@@ -277,6 +277,7 @@
       <link rel="stylesheet" href="../../../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\css\lightbox.css" type="text/css" />
       <link rel="stylesheet" href="../../../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\css\lightbox.css" type="text/css" />
       <link rel="stylesheet" href="../../../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\css\lightbox.css" type="text/css" />
+      <link rel="stylesheet" href="../../../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\css\lightbox.css" type="text/css" />
       <link rel="stylesheet" href="../../../_static/css/toc_custom.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../../../_static/js/html5shiv.min.js"></script>
@@ -286,6 +287,8 @@
         <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
         <script src="../../../_static/doctools.js"></script>
         <script src="../../../_static/sphinx_highlight.js"></script>
+        <script src="../../../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\js\lightbox-plus-jquery.min.js"></script>
+        <script src="../../../_static/sphinxcontrib-images\LightBox2\lightbox2-customize\jquery-noconflict.js"></script>
         <script src="../../../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\js\lightbox-plus-jquery.min.js"></script>
         <script src="../../../_static/sphinxcontrib-images\LightBox2\lightbox2-customize\jquery-noconflict.js"></script>
         <script src="../../../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\js\lightbox-plus-jquery.min.js"></script>
@@ -856,34 +859,12 @@
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../Day1/0.index.html">Enjoy AI robot with body</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="../../../Day1/2.exploration.html">AI Exploration Education</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../Day1/3.AI.html">AI training with the body</a></li>
 </ul>
 </li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Day2</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../0.index.html">Enjoy AI robot with eyes</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="../../4.autonomous.html">Team mission autonomous driving</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../1.robot_arm/0.index.html">Control AI Robot Arm</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../1.robot_arm/1.follow_along.html">Follow Along!</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../1.robot_arm/2.mission.html">Mission</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="../../2.arm_dance/0.index.html">Dance with AI Robot Arm</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../2.arm_dance/1.follow_along.html">Follow Along!</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../2.arm_dance/2.mission.html">Mission</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="../../3.control_move/0.index.html">Control AI Robot</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../3.control_move/1.follow_along.html">Follow Along!</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="../../5.control_team/0.index.html">Control AI Robot as a Team</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../5.control_team/1.follow_along.html">Follow Along!</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="../../0.index.html">Enjoy AI robot with eyes</a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">Day3</span></p>
 <ul>
@@ -952,82 +933,76 @@ time. Example:</p>
 <li><p class="linemarker linemarker-40">a: Single stage object detector</p></li>
 <li><p class="linemarker linemarker-41">b: Dual stage object detector</p></li>
 </ul>
-<a class=""
-               data-lightbox="group-952643dd-eace-45d0-9741-722665075138"
-               href="_images/course_2/2.ai_pose_detect/ssd.webp"
-               title=""
-               data-title=""
-               
-               ><img src="_images/course_2/2.ai_pose_detect/ssd.webp"
-                     class=""
-                     width="100%"
-                     height="auto"
-                     alt=""/>
-                </a><p class="linemarker linemarker-46">The SSD-Mobilenet-v2 is a one-stage object detection model. Because
+<p class="linemarker linemarker-43">&lt;&lt;&lt;&lt;&lt;&lt;&lt; Updated upstream
+.. thumbnail:: /_images/course_2/2.ai_pose_detect/ssd.webp
+=======
+.. thumbnail:: /_images/Day2/2.AI/ssd.webp
+&gt;&gt;&gt;&gt;&gt;&gt;&gt; Stashed changes</p>
+<p class="linemarker linemarker-50">The SSD-Mobilenet-v2 is a one-stage object detection model. Because
 the one-stage object detection merges the detection and recognition
 stage, it is much faster, light and requires less computational power.</p>
 </section>
 <section id="other-models-for-object-detection">
 <h2>Other models for Object Detection<a class="headerlink" href="#other-models-for-object-detection" title="Permalink to this heading"></a></h2>
-<p class="linemarker linemarker-53">With the jetson-inference examples, other pre-trained detection models are available:</p>
+<p class="linemarker linemarker-57">With the jetson-inference examples, other pre-trained detection models are available:</p>
 <table class="docutils align-default">
 <thead>
-<tr class="row-odd"><th class="head"><p class="linemarker linemarker-58">Model</p></th>
-<th class="head"><p class="linemarker linemarker-59">CLI argument</p></th>
-<th class="head"><p class="linemarker linemarker-60">NetworkType enum</p></th>
-<th class="head"><p class="linemarker linemarker-61">Object classes</p></th>
+<tr class="row-odd"><th class="head"><p class="linemarker linemarker-62">Model</p></th>
+<th class="head"><p class="linemarker linemarker-63">CLI argument</p></th>
+<th class="head"><p class="linemarker linemarker-64">NetworkType enum</p></th>
+<th class="head"><p class="linemarker linemarker-65">Object classes</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p class="linemarker linemarker-62">SSD-Mobilenet-v1</p></td>
-<td><p class="linemarker linemarker-63"><code class="docutils literal notranslate"><span class="pre">ssd-mobilenet-v1</span></code></p></td>
-<td><p class="linemarker linemarker-64"><code class="docutils literal notranslate"><span class="pre">SSD_MOBILENET_V1</span></code></p></td>
-<td><p class="linemarker linemarker-65">91 (COCO classes)</p></td>
-</tr>
-<tr class="row-odd"><td><p class="linemarker linemarker-66">SSD-Mobilenet-v2</p></td>
-<td><p class="linemarker linemarker-67"><code class="docutils literal notranslate"><span class="pre">ssd-mobilenet-v2</span></code></p></td>
-<td><p class="linemarker linemarker-68"><code class="docutils literal notranslate"><span class="pre">SSD_MOBILENET_V2</span></code></p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-66">SSD-Mobilenet-v1</p></td>
+<td><p class="linemarker linemarker-67"><code class="docutils literal notranslate"><span class="pre">ssd-mobilenet-v1</span></code></p></td>
+<td><p class="linemarker linemarker-68"><code class="docutils literal notranslate"><span class="pre">SSD_MOBILENET_V1</span></code></p></td>
 <td><p class="linemarker linemarker-69">91 (COCO classes)</p></td>
 </tr>
-<tr class="row-even"><td><p class="linemarker linemarker-70">SSD-Inception-v2</p></td>
-<td><p class="linemarker linemarker-71"><code class="docutils literal notranslate"><span class="pre">ssd-inception-v2</span></code></p></td>
-<td><p class="linemarker linemarker-72"><code class="docutils literal notranslate"><span class="pre">SSD_INCEPTION_V2</span></code></p></td>
+<tr class="row-odd"><td><p class="linemarker linemarker-70">SSD-Mobilenet-v2</p></td>
+<td><p class="linemarker linemarker-71"><code class="docutils literal notranslate"><span class="pre">ssd-mobilenet-v2</span></code></p></td>
+<td><p class="linemarker linemarker-72"><code class="docutils literal notranslate"><span class="pre">SSD_MOBILENET_V2</span></code></p></td>
 <td><p class="linemarker linemarker-73">91 (COCO classes)</p></td>
 </tr>
-<tr class="row-odd"><td><p class="linemarker linemarker-74">DetectNet-COCO-Dog</p></td>
-<td><p class="linemarker linemarker-75"><code class="docutils literal notranslate"><span class="pre">coco-dog</span></code></p></td>
-<td><p class="linemarker linemarker-76"><code class="docutils literal notranslate"><span class="pre">COCO_DOG</span></code></p></td>
-<td><p class="linemarker linemarker-77">dogs</p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-74">SSD-Inception-v2</p></td>
+<td><p class="linemarker linemarker-75"><code class="docutils literal notranslate"><span class="pre">ssd-inception-v2</span></code></p></td>
+<td><p class="linemarker linemarker-76"><code class="docutils literal notranslate"><span class="pre">SSD_INCEPTION_V2</span></code></p></td>
+<td><p class="linemarker linemarker-77">91 (COCO classes)</p></td>
 </tr>
-<tr class="row-even"><td><p class="linemarker linemarker-78">DetectNet-COCO-Bottle</p></td>
-<td><p class="linemarker linemarker-79"><code class="docutils literal notranslate"><span class="pre">coco-bottle</span></code></p></td>
-<td><p class="linemarker linemarker-80"><code class="docutils literal notranslate"><span class="pre">COCO_BOTTLE</span></code></p></td>
-<td><p class="linemarker linemarker-81">bottles</p></td>
+<tr class="row-odd"><td><p class="linemarker linemarker-78">DetectNet-COCO-Dog</p></td>
+<td><p class="linemarker linemarker-79"><code class="docutils literal notranslate"><span class="pre">coco-dog</span></code></p></td>
+<td><p class="linemarker linemarker-80"><code class="docutils literal notranslate"><span class="pre">COCO_DOG</span></code></p></td>
+<td><p class="linemarker linemarker-81">dogs</p></td>
 </tr>
-<tr class="row-odd"><td><p class="linemarker linemarker-82">DetectNet-COCO-Chair</p></td>
-<td><p class="linemarker linemarker-83"><code class="docutils literal notranslate"><span class="pre">coco-chair</span></code></p></td>
-<td><p class="linemarker linemarker-84"><code class="docutils literal notranslate"><span class="pre">COCO_CHAIR</span></code></p></td>
-<td><p class="linemarker linemarker-85">chair</p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-82">DetectNet-COCO-Bottle</p></td>
+<td><p class="linemarker linemarker-83"><code class="docutils literal notranslate"><span class="pre">coco-bottle</span></code></p></td>
+<td><p class="linemarker linemarker-84"><code class="docutils literal notranslate"><span class="pre">COCO_BOTTLE</span></code></p></td>
+<td><p class="linemarker linemarker-85">bottles</p></td>
 </tr>
-<tr class="row-even"><td><p class="linemarker linemarker-86">DetectNet-COCO-Airplane</p></td>
-<td><p class="linemarker linemarker-87"><code class="docutils literal notranslate"><span class="pre">coco-airplane</span></code></p></td>
-<td><p class="linemarker linemarker-88"><code class="docutils literal notranslate"><span class="pre">COCO_AIRPLANE</span></code></p></td>
-<td><p class="linemarker linemarker-89">airplane</p></td>
+<tr class="row-odd"><td><p class="linemarker linemarker-86">DetectNet-COCO-Chair</p></td>
+<td><p class="linemarker linemarker-87"><code class="docutils literal notranslate"><span class="pre">coco-chair</span></code></p></td>
+<td><p class="linemarker linemarker-88"><code class="docutils literal notranslate"><span class="pre">COCO_CHAIR</span></code></p></td>
+<td><p class="linemarker linemarker-89">chair</p></td>
 </tr>
-<tr class="row-odd"><td><p class="linemarker linemarker-90">ped-100</p></td>
-<td><p class="linemarker linemarker-91"><code class="docutils literal notranslate"><span class="pre">pednet</span></code></p></td>
-<td><p class="linemarker linemarker-92"><code class="docutils literal notranslate"><span class="pre">PEDNET</span></code></p></td>
-<td><p class="linemarker linemarker-93">pedestrians</p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-90">DetectNet-COCO-Airplane</p></td>
+<td><p class="linemarker linemarker-91"><code class="docutils literal notranslate"><span class="pre">coco-airplane</span></code></p></td>
+<td><p class="linemarker linemarker-92"><code class="docutils literal notranslate"><span class="pre">COCO_AIRPLANE</span></code></p></td>
+<td><p class="linemarker linemarker-93">airplane</p></td>
 </tr>
-<tr class="row-even"><td><p class="linemarker linemarker-94">multiped-500</p></td>
-<td><p class="linemarker linemarker-95"><code class="docutils literal notranslate"><span class="pre">multiped</span></code></p></td>
-<td><p class="linemarker linemarker-96"><code class="docutils literal notranslate"><span class="pre">PEDNET_MULTI</span></code></p></td>
-<td><p class="linemarker linemarker-97">pedestrians, luggage</p></td>
+<tr class="row-odd"><td><p class="linemarker linemarker-94">ped-100</p></td>
+<td><p class="linemarker linemarker-95"><code class="docutils literal notranslate"><span class="pre">pednet</span></code></p></td>
+<td><p class="linemarker linemarker-96"><code class="docutils literal notranslate"><span class="pre">PEDNET</span></code></p></td>
+<td><p class="linemarker linemarker-97">pedestrians</p></td>
 </tr>
-<tr class="row-odd"><td><p class="linemarker linemarker-98">facenet-120</p></td>
-<td><p class="linemarker linemarker-99"><code class="docutils literal notranslate"><span class="pre">facenet</span></code></p></td>
-<td><p class="linemarker linemarker-100"><code class="docutils literal notranslate"><span class="pre">FACENET</span></code></p></td>
-<td><p class="linemarker linemarker-101">faces</p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-98">multiped-500</p></td>
+<td><p class="linemarker linemarker-99"><code class="docutils literal notranslate"><span class="pre">multiped</span></code></p></td>
+<td><p class="linemarker linemarker-100"><code class="docutils literal notranslate"><span class="pre">PEDNET_MULTI</span></code></p></td>
+<td><p class="linemarker linemarker-101">pedestrians, luggage</p></td>
+</tr>
+<tr class="row-odd"><td><p class="linemarker linemarker-102">facenet-120</p></td>
+<td><p class="linemarker linemarker-103"><code class="docutils literal notranslate"><span class="pre">facenet</span></code></p></td>
+<td><p class="linemarker linemarker-104"><code class="docutils literal notranslate"><span class="pre">FACENET</span></code></p></td>
+<td><p class="linemarker linemarker-105">faces</p></td>
 </tr>
 </tbody>
 </table>
