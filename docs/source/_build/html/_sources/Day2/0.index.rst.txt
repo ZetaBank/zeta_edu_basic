@@ -5,6 +5,7 @@ Here are the contents of this section:
 
 
 .. toctree::
+    :maxdepth: 1
 
     2.AI/0.index
     4.autonomous
