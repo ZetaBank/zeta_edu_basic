@@ -6,6 +6,7 @@ Here are the contents of this section:
 
 .. toctree::
     2.AI/0.index
-    1.robot_drive/0.index
-    2.monitor_sensor/0.index
-    3.drive_team
+    2.robot_drive/0.index
+    3.monitor_sensor/0.index
+    4.drive_team
+    5.clean_garbage
