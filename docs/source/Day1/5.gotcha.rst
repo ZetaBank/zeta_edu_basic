@@ -1,2 +1,13 @@
-Let's Make a Doll with a AI Robot
+Let's Pick a Doll with a AI Robot
 =========================
+
+.. thumbnail:: /_images/Day1/4.dancing_arm/white_hand1.png
+
+1. Let's pick a doll using the joystick of the AI Robot.
+
+2. Rules
+    -
+
+    -
+
+    -
