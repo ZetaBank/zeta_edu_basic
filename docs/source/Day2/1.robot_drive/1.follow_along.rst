@@ -7,11 +7,11 @@ Open the provided jupyter notebook
 -   | Running the cell code
     | `Ctrl + Enter`
 
-.. thumbnail:: /_images/course_3/2.robot_driving_ros/robot_drive1.png
+.. thumbnail:: /_images/Day2/1.robot_drive/robot_drive1.png
 
 |
 
-.. thumbnail:: /_images/course_3/2.robot_driving_ros/robot_drive2.png
+.. thumbnail:: /_images/Day2/1.robot_drive/robot_drive2.png
 
 |
 

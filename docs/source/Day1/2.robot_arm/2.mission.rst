@@ -60,7 +60,7 @@ mission_lib custom Library
 
 - mission_lib.py
 
-.. thumbnail:: /_images/ai_training/mission_lib.png
+.. thumbnail:: /_images/Day1/2.robot_arm/mission_lib.png
 
 |
 
@@ -192,7 +192,7 @@ event_name custom Library
 
 - event_name.py
 
-.. thumbnail:: /_images/ai_training/event_name.png
+.. thumbnail:: /_images/Day1/2.robot_arm/event_name.png
 
 |
 
@@ -241,7 +241,7 @@ Open the mission folder and open the mission.ipynb file.
 
 - mission.ipynb
 
-.. thumbnail:: /_images/ai_training/mission.png
+.. thumbnail:: /_images/Day1/2.robot_arm/mission.png
 
 |
 
@@ -419,7 +419,7 @@ Pick up an object and place it somewhere else!
 
 Now that we have built our program, using the GUI control and grab an object and place it somewhere else. 
 
-.. thumbnail:: /_images/ai_training/gui.png
+.. thumbnail:: /_images/Day1/2.robot_arm/gui.png
     
  
 (**IMPORTANT**) 
