@@ -9,4 +9,4 @@ Here are the contents of this section:
     2.robot_drive/0.index
     3.monitor_sensor/0.index
     4.drive_team
-    5.clean_garbage
+    5.clean_earth

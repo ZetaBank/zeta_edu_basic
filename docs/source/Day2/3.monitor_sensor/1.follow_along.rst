@@ -9,21 +9,58 @@ Follow Along!
         </p>
         <div class="line-block">
             <div class="line"><strong>-</strong> This mission is an <strong>individual project</strong></div>
-            <div class="line"><strong>-</strong> Access the Isaac Sight server and discuss the different visuals within your team.</div>
-            <div class="line"><strong>-</strong> With your team members, see the different visual outcomes by moving the robot using "driving robot" examples. </div>
+            <div class="line"><strong>-</strong> Access the Isaac Sight server and monitor the robot's sensors.</div>
+            <div class="line"><strong>-</strong> While moving the robot, check the change amount of the sensors according to the change of the robot. </div>
         </div>
     </div>
 
 .. raw:: html
 
-    <div style="position: relative; color: black; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-        <h2>Overall Description:</h2>
-    </div>
+Overall Description
+-----------------------
 
-With our examples of Topics and Nodes within the ROS we were able to establish unidirectional communication channel topic and communicate with 
-publisher and subscriber nodes. 
+.. list-table:: 
+   :header-rows: 1
 
-We also saw that sensors attached to our robot communicates over a Topic, with each sensors publishing their data to a specific Topic. Although
+   * - Product Picture
+     - Product Description
+   * - |part_1| 
+     - | Jetson Nano
+       | GPU : 128-core Maxwell
+       | CPU : Quad-core ARM A57
+       | Memory : 4GB 64bit LPDDR 25.6GB/s
+       | Storage : Micro SD
+   * - |part_2| 
+     - | RP LIDAR
+       | 5.5hZ(2000 sample/s)
+       | 6meter measurement
+       | 360 degree scanA1M8
+   * - |part_3| 
+     - | Camera Module
+       | Resolution : 8mega pixel
+       | Sensor : Sony IMX 219 PQ CMOS
+   * - |part_4| 
+     - | Close range object detection sensor
+       | ⁠Model : HC-SR04
+       | Power : 5V
+       | Current : 2mA
+       | Ranging Distance : 2cm ~ 450cm
+   * - |part_5| 
+     - | Lithium ion battery pack
+       | Charge : 16.8V / 3.5A
+       | Output: 14.8V / 9.4Ah (139.12Wh)
+
+.. |part_1| thumbnail:: /_images/Day2/2.monitor_sensor/parts_1.webp 
+.. |part_2| thumbnail:: /_images/Day2/2.monitor_sensor/parts_2.webp 
+.. |part_3| thumbnail:: /_images/Day2/2.monitor_sensor/parts_3.webp 
+.. |part_4| thumbnail:: /_images/Day2/2.monitor_sensor/parts_4.webp 
+.. |part_5| thumbnail:: /_images/Day2/2.monitor_sensor/parts_5.jpg
+
+The advanced ai robot zetabaot is equipped with various sensors.
+
+sensors attached to our robot communicates over a Topic, with each sensors publishing their data to a specific Topic.
+
+Although
 we may subscribe to these specific topics and extract the published data, without proper user interface, it is hard to decipher what the values 
 mean just by looking at them. 
 
@@ -62,6 +99,5 @@ Activate all the available sensors and check for the visuals.
 
 Checking Visuals
 -------------------
-
 
 Lets move our robot to check how the visuals of the sensors change. 
