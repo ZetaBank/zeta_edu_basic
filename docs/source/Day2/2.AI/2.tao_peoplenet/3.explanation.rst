@@ -3,7 +3,7 @@ Overall Explanation
 
 
 Overview
-^^^^^^^^
+^^^^^^^^^
  
 PeopleNet is a deep learning-based object detection model specifically designed for identifying and tracking people in different poses, crowd densities, and lighting conditions.
 It proves to be immensely beneficial for applications like surveillance systems, people counting, crowd management, and advanced robotics.

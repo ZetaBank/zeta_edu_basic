@@ -1,0 +1,10 @@
+Let's See the Robot Dance
+================
+
+.. thumbnail:: /_images/Day1/4.dancing_arm/black_hand1.png
+
+1. Prepare the music file you want (ex. YouTube).
+
+2. Put the files on the provided USB.
+
+3. Wait a while for the series, You can see the robot arms dancing to the music.
