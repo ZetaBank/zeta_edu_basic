@@ -1,4 +1,4 @@
-Team Mission
+Control AI Robot as a Team
 ================
 
 .. raw:: html
@@ -38,7 +38,7 @@ Team Mission
 
     - The white area is a movable area.
 
-    - The black area is an area that cannot be moved (ex. a wall).
+    - The black area is an area that cannot be moved (ex. wall).
 
     - Gray areas are areas that have not yet been scanned.
 
