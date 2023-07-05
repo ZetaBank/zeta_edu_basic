@@ -6,6 +6,6 @@ Here are the contents of this section:
 .. toctree:: 
     :maxdepth: 1
     2.robot_arm/0.index
-    3.arm_dance/0.indexs
+    3.arm_dance/0.index
     4.dancing_arm
     5.gotcha
