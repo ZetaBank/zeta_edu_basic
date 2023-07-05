@@ -14,6 +14,10 @@ Let's Make a Clean Earth Using AI Robot
         </div>
     </div>
 
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth1.png
+
+|
+
 - The primary objective of the game is to guide the wheeled robots to accurately identify and segregate various types of trash.
 
 |
