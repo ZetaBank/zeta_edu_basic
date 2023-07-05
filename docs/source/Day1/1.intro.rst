@@ -1,8 +1,16 @@
 Let's go to AI Exploration Education
 ==========================
 
-.. thumbnail:: /_images/Day1/4.dancing_arm/dance.jpg
+.. thumbnail:: /_images/Day1/1.intro/intro.webp
 
-Welcome to the fascinating world of AI exploration education using robots!
-In this forward-looking field, we embark on a journey that merges the power of artificial intelligence with the hands-on experience of interacting with robots.
-It is a realm where learning becomes an exciting adventure, and students of all ages can unlock their potential as they delve into the wonders of AI and robotics.
+|
+
+- Welcome to the fascinating world of AI exploration education using robots!
+
+|
+
+- In this forward-looking field, we embark on a journey that merges the power of artificial intelligence with the hands-on experience of interacting with robots.
+
+|
+
+- It is a realm where learning becomes an exciting adventure, and students of all ages can unlock their potential as they delve into the wonders of AI and robotics.
