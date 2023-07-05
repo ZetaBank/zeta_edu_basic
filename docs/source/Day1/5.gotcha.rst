@@ -1,7 +1,7 @@
 Let's Pick a Toy with a AI Robot
 =========================
 
-.. thumbnail:: /_images/Day1/5.gotcha/gotcha.jpg
+.. thumbnail:: /_images/Day1/5.gotcha/gotcha1.png
 
 - you will have the unique opportunity to control the robot's arm movements, using their skills to delicately grasp and lift the toys.
 
