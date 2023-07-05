@@ -47,9 +47,6 @@ Following are the datasets used and their applications:
    
 
 
-
-
-
 FCN-ResNet18
 --------------------
 

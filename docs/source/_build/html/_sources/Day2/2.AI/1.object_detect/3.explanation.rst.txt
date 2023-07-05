@@ -5,51 +5,44 @@ Overall Explanation
 Overview
 ---------
 
-With the previous lectures, we looked at different ways to recognize object wihtin 
-an images. Within Image Recognition system, there are some serious problems.
+In our previous discussions, we examined various methods for recognizing objects within images.
+However, image recognition systems face a couple of substantial challenges:
 
-1. The image recognition system cannot locate where the recognized object is within the picture. 
-2. It has difficulty when it comes to multiple objects within one picture. 
+1. They cannot locate the position of the recognized object within the image. 
+2. They struggle when multiple objects exist within a single image.
 
-Object Detection system allows for solutions for all the downside the Image Recognition system may have.
-It allows for object detection and object recognition all at the same time, which allows the model
-to recognize and detect multiple objects at the same time. 
+An object detection system addresses these issues.
+It allows simultaneous object detection and recognition, enabling the model to recognize and detect multiple objects concurrently.
 
-The Object Detection system used for our system recieves an image as an input, and outputs a list of coordinates
-of the detected bounding boxes along with their classes and confidence values. With our follow along 
-example we used SSD-Mobile-v2 model which can detect 91 different classes and was trained on 
-MS COCO dataset. 
-
+The object detection system used in our course takes an image as input and outputs a list of coordinates of the detected bounding boxes along with their classes and confidence values. In our follow along example, we employed the Coco-Dog model.
+This model can detect and differentiate a specific class of objects (dogs) across a wide variety of breeds, and was trained on the MS COCO dataset.
 Having object detection system allows for many different applications ranging from intrusion detections, inventory management,
 foot traffic analysis and so on. 
 
+The implementation of an object detection system has numerous applications, including intrusion detection, inventory management, pet surveillance, and wildlife monitoring.
 
-SSD-Mobilenet-v2
+Coco-Dog
 -----------------
 
-When it comes to most of the object detection models, there are two different categorization:
+When it comes to object detection models, there are typically two categories:
 
 1. one (single) stage object detectors 
 2. two (dual) stage object detectors
 
-The difference between the two is that two (dual) stage object detectors first detect where the 
-object is within the image, and then carries out classification only on the detected region. This 
-yields much higher accuracy, but it leads to more computational resources and slower computational
-time. Example:
+The distinction between the two lies in their process:
+dual-stage object detectors first locate the object within the image, then carry out classification only on the detected region.
+While this approach yields higher accuracy, it demands more computational resources and slows down the processing time.
 
 - a: Single stage object detector 
 - b: Dual stage object detector
 
-<<<<<<< Updated upstream
-.. thumbnail:: /_images/course_2/2.ai_pose_detect/ssd.webp
-=======
 .. thumbnail:: /_images/Day2/2.AI/ssd.webp
->>>>>>> Stashed changes
 
 
-The SSD-Mobilenet-v2 is a one-stage object detection model. Because
-the one-stage object detection merges the detection and recognition
-stage, it is much faster, light and requires less computational power.
+The Coco-Dog model, however, is a single-stage object detection model.
+By merging the detection and recognition stages, it significantly speeds up the process and requires less computational power.
+As such, it is an ideal choice for applications where time and resource efficiency are essential, despite sacrificing a bit of accuracy compared to dual-stage models.
+This balance makes Coco-Dog a robust and versatile tool in scenarios such as real-time pet surveillance or quick wildlife identification.
 
 Other models for Object Detection
 ------------------------------------
