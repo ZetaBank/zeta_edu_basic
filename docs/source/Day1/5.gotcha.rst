@@ -3,7 +3,13 @@ Let's Pick a Doll with a AI Robot
 
 .. thumbnail:: /_images/Day1/5.gotcha/white_hand1.png
 
-1. Let's pick a doll using the joystick of the AI Robot.
+1. you will have the unique opportunity to control the robot's arm movements, using their skills to delicately grasp and lift the dolls.
+
+2. Success in this mission will depend on mastering precision and dexterity.
+
+3. You will need to carefully move the robot's arm to adjust its grip and approach to pick up the doll efficiently.
+
+4. So, Let's pick a doll using the joystick of the AI Robot.
 
 Rules
 -----------------------
