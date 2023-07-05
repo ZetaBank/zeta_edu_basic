@@ -3,8 +3,8 @@ Mission
 
 .. raw:: html
 
-    <div style="background: #ffe5b4" class="admonition note custom">
-        <p style="background: #ffbf00" class="admonition-title">
+    <div style="background: #C3F8FF" class="admonition note custom">
+        <p style="background: light-blue" class="admonition-title">
             Project Name: Robot Arm Control System
         </p>
         <div class="line-block">
@@ -71,7 +71,6 @@ mission_lib custom Library
   - *first_angle*: for storing angle information for the first servo (default value: 90)
   - *third_angle*: for storing angle information for the third servo (default value: 45)
   - *pincher_angle*: for storing angle information for the pincher (sixth) servo (default value: 90) 
-Mission Project
 
   .. code-block:: python 
 
