@@ -50,11 +50,11 @@ Overall Description
        | Charge : 16.8V / 3.5A
        | Output: 14.8V / 9.4Ah (139.12Wh)
 
-.. |part_1| thumbnail:: /_images/Day2/2.monitor_sensor/parts_1.webp 
-.. |part_2| thumbnail:: /_images/Day2/2.monitor_sensor/parts_2.webp 
-.. |part_3| thumbnail:: /_images/Day2/2.monitor_sensor/parts_3.webp 
-.. |part_4| thumbnail:: /_images/Day2/2.monitor_sensor/parts_4.webp 
-.. |part_5| thumbnail:: /_images/Day2/2.monitor_sensor/parts_5.jpg
+.. |part_1| thumbnail:: /_images/Day2/3.monitor_sensor/parts_1.webp
+.. |part_2| thumbnail:: /_images/Day2/3.monitor_sensor/parts_2.webp 
+.. |part_3| thumbnail:: /_images/Day2/3.monitor_sensor/parts_3.webp 
+.. |part_4| thumbnail:: /_images/Day2/3.monitor_sensor/parts_4.webp 
+.. |part_5| thumbnail:: /_images/Day2/3.monitor_sensor/parts_5.jpg
 
 The advanced ai robot zetabaot is equipped with various sensors.
 
@@ -85,7 +85,7 @@ is connected to the zeta wifi.
 
 When the website is accessed, the screen similar to the following will be displayed:
 
-.. thumbnail:: /_images/Day2/2.monitor_sensor/isaac_page.png
+.. thumbnail:: /_images/Day2/3.monitor_sensor/isaac_page.png
 
 |
 
