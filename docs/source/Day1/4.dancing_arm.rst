@@ -1,7 +1,7 @@
 Let's See the Robot Dance
 ================
 
-.. thumbnail:: /_images/Day1/4.dancing_arm/black_hand1.png
+.. thumbnail:: /_images/Day1/4.dancing_arm/dance.jpg
 
 - Music has the power to captivate our senses and inspire movement.
 
