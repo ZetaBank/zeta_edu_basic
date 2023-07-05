@@ -3,6 +3,18 @@ Let's See the Robot Dance
 
 .. thumbnail:: /_images/Day1/4.dancing_arm/black_hand1.png
 
+- Music has the power to captivate our senses and inspire movement.
+
+- Our advanced robot can analyze the music's beats, tempo, and rhythm to generate corresponding movements or actions within the game environment.
+
+- You will have the thrilling opportunity to control the robot arm's movements and actions based on the music they choose.
+
+- The nuances of the music, such as tempo, intensity, and melodic changes, will determine the speed, precision, and grace of the robot arm's motions.
+
+
+
+Preparation
+-----------------------
 1. Prepare the music file you want (ex. YouTube).
 
 2. Put the files on the provided USB.

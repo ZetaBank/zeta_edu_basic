@@ -9,8 +9,27 @@ Let's Make a Clean Earth Using AI Robot
         </p>
         <div class="line-block">
             <div class="line"><strong>-</strong> This mission is an <strong>team project</strong></div>
-            <div class="line"><strong>-</strong> Move the AI robot to the destination using navigation, camera and mouse manipulation on the web UI page.</div>
-            <div class="line"><strong>-</strong> With your team members, see the different visual outcomes by moving the robot using "driving robot" examples. </div>
+            <div class="line"><strong>-</strong> Utilize an AI robot to contribute towards creating a cleaner Earth.</div>
+            <div class="line"><strong>-</strong> By moving the robot, the garbage is sorted by type. </div>
         </div>
     </div>
 
+- The primary objective of the game is to guide the wheeled robots to accurately identify and segregate various types of trash.
+
+|
+
+- To enhance the gaming experience, the game features realistic environments and dynamic challenges. 
+- Participants will encounter various scenarios, such as maneuvering through obstacles, navigating around crowded areas, and adapting to different lighting conditions.
+
+|
+
+- To add excitement and a competitive element, the game incorporates time constraints.
+- Participants will race against the clock to separate as many items as possible within a given timeframe.
+- A scoring system based on accuracy, speed, and the number of correctly separated items will determine each player's performance.
+
+7. Promoting Environmental Consc
+
+|
+
+- Beyond the game's entertainment value, its primary objective is to raise awareness about the importance of waste management.
+- By actively participating in the trash separation challenge using real robots, you will experience firsthand experience of the challenges involved and the positive impact of responsible waste disposal.

@@ -5,9 +5,10 @@ Let's Pick a Doll with a AI Robot
 
 1. Let's pick a doll using the joystick of the AI Robot.
 
-2. Rules
-    -
+Rules
+-----------------------
+-
 
-    -
+-
 
-    -
+-
