@@ -78,7 +78,7 @@ Follow Along!
     .. code-block:: python
 
         %%capture
-        !python3 $PROGRAM_PATH/background.py --network=u2net $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME1
+        !python3 $PROGRAM_PATH/backgroundnet.py --network=u2net $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME1
 
 
 

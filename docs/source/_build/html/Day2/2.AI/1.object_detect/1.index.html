@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Object Detection with COCO-Dog &mdash; ZetaBank - Instructor Version</title>
+  <title>Object Detection with SSD-Mobilenet-v2 &mdash; ZetaBank - Instructor Version</title>
       <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../../_static/css/toc_custom.css" type="text/css" />
@@ -24,7 +24,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="Follow Along!" href="2.follow_along.html" />
-    <link rel="prev" title="AI training with the body and eyes" href="../0.index.html" /> 
+    <link rel="prev" title="Before you get AI training…" href="../5.before_start.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -53,6 +53,7 @@
               <p class="caption" role="heading"><span class="caption-text">Day1</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../Day1/0.index.html">Enjoy AI robot with body</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../Day1/1.intro.html">Let’s go to AI Exploration Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../Day1/2.robot_arm/0.index.html">Control AI Robot Arm</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../Day1/2.robot_arm/1.follow_along.html">Follow Along!</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../Day1/2.robot_arm/2.mission.html">Mission</a></li>
@@ -63,8 +64,8 @@
 <li class="toctree-l3"><a class="reference internal" href="../../../Day1/3.arm_dance/2.mission.html">Mission</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../../Day1/4.dancing_arm.html">Let’s Watch the Robot Dance</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../Day1/5.gotcha.html">Let’s Make a Doll with a AI Robot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Day1/4.dancing_arm.html">Let’s See the Robot Dance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Day1/5.gotcha.html">Let’s Pick a Toy with a AI Robot</a></li>
 </ul>
 </li>
 </ul>
@@ -72,7 +73,8 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../../0.index.html">Enjoy AI robot with eyes</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../0.index.html">AI training with the body and eyes</a><ul class="current">
-<li class="toctree-l3 current"><a class="current reference internal" href="#">Object Detection with COCO-Dog</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../5.before_start.html">Before you get AI training…</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Object Detection with SSD-Mobilenet-v2</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="2.follow_along.html">Follow Along!</a></li>
 <li class="toctree-l4"><a class="reference internal" href="3.explanation.html">Overall Explanation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="4.coding_explanation.html">Coding Explanation</a></li>
@@ -106,18 +108,16 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../1.robot_drive/0.index.html">Control AI Robot</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../1.robot_drive/1.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2.robot_drive/0.index.html">Control AI Robot</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../2.robot_drive/1.follow_along.html">Follow Along!</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../2.monitor_sensor/0.index.html">Monitor AI Robot Sensor</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../2.monitor_sensor/1.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../3.monitor_sensor/0.index.html">Monitor AI Robot Sensor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../3.monitor_sensor/1.follow_along.html">Follow Along!</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../3.drive_team/0.index.html">Control AI Robot as a Team</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../3.drive_team/1.mission.html">Team Mission</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="../../4.drive_team.html">Control AI Robot as a Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../5.clean_earth.html">Let’s Make a Clean Earth Using AI Robot</a></li>
 </ul>
 </li>
 </ul>
@@ -145,7 +145,7 @@
       <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../../0.index.html">Enjoy AI robot with eyes</a></li>
           <li class="breadcrumb-item"><a href="../0.index.html">AI training with the body and eyes</a></li>
-      <li class="breadcrumb-item active">Object Detection with COCO-Dog</li>
+      <li class="breadcrumb-item active">Object Detection with SSD-Mobilenet-v2</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../../_sources/Day2/2.AI/1.object_detect/1.index.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -155,15 +155,15 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="object-detection-with-coco-dog">
-<h1>Object Detection with COCO-Dog<a class="headerlink" href="#object-detection-with-coco-dog" title="Permalink to this heading"></a></h1>
+  <section id="object-detection-with-ssd-mobilenet-v2">
+<h1>Object Detection with SSD-Mobilenet-v2<a class="headerlink" href="#object-detection-with-ssd-mobilenet-v2" title="Permalink to this heading"></a></h1>
 <p class="linemarker linemarker-5">Here are the contents for this section:</p>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="2.follow_along.html">Follow Along!</a></li>
 <li class="toctree-l1"><a class="reference internal" href="3.explanation.html">Overall Explanation</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="3.explanation.html#overview">Overview</a></li>
-<li class="toctree-l2"><a class="reference internal" href="3.explanation.html#coco-dog">Coco-Dog</a></li>
+<li class="toctree-l2"><a class="reference internal" href="3.explanation.html#ssd-mobilenet-v2">SSD-Mobilenet-v2</a></li>
 <li class="toctree-l2"><a class="reference internal" href="3.explanation.html#other-models-for-object-detection">Other models for Object Detection</a></li>
 </ul>
 </li>
@@ -187,7 +187,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="../0.index.html" class="btn btn-neutral float-left" title="AI training with the body and eyes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../5.before_start.html" class="btn btn-neutral float-left" title="Before you get AI training…" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="2.follow_along.html" class="btn btn-neutral float-right" title="Follow Along!" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 

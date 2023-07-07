@@ -4,7 +4,7 @@ Body Pose Estimation with Pose-ResNet18-Body
 
 Here are the contents for this section:
 
-.. toctree:: 
+.. toctree::
 
     2.follow_along
     3.explanation

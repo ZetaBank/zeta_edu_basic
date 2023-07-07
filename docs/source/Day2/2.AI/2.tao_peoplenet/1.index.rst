@@ -3,7 +3,7 @@ Tao Peoplenet Examples
 
 Here are the contents for this section:
 
-.. toctree:: 
+.. toctree::
 
     2.follow_along
     3.explanation

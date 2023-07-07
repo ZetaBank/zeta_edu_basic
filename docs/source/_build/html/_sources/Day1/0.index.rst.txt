@@ -3,7 +3,8 @@ Enjoy AI robot with body
 
 Here are the contents of this section:
 
-.. toctree:: 
+.. toctree::
+    1.intro
     2.robot_arm/0.index
     3.arm_dance/0.index
     4.dancing_arm

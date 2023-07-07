@@ -1,13 +1,26 @@
-Let's Pick a Doll with a AI Robot
+Let's Pick a Toy with a AI Robot
 =========================
 
-.. thumbnail:: /_images/Day1/5.gotcha/white_hand1.png
+.. thumbnail:: /_images/Day1/5.gotcha/gotcha1.png
 
-1. Let's pick a doll using the joystick of the AI Robot.
+- you will have the unique opportunity to control the robot's arm movements, using their skills to delicately grasp and lift the toys.
 
-2. Rules
-    -
+- Success in this mission will depend on mastering precision and dexterity.
 
-    -
+- You will need to carefully move the robot's arm to adjust its grip and approach to pick up the toy efficiently.
 
-    -
+- So, Let's pick a toy using the joystick of the AI Robot.
+
+Rules
+-----------------------
+- The first round has a 10 minute time limit.
+
+    - Each team member picks up a toy using a robot and selects a representative team member with good skills.
+
+- The second round has a 4 minute time limit.
+
+    - The selected representative picks up the toy within the time limit and the rest of the team helps the representative team member.
+
+- The last round has a 2 minute time limit.
+
+    - The selected representative achieves the goal within the time limit.

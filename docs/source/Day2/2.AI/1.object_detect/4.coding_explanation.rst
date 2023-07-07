@@ -41,11 +41,11 @@ With our python program, the user must specify
 
     .. code-block:: python
 
-        !python3 $PROGRAM_PATH/detectnet.py --network=coco-dog $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME
+        !python3 $PROGRAM_PATH/detectnet.py --network=ssd-mobilenet-v2 $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME
 
     With ``!python3 $PROGRAM_PATH/detectnet.py`` as our activation function, we have:
     
-    1.  ``--network=coco-dog``: to specify which network we wished to use. (for this case COCO-Dog network)
+    1.  ``--network=ssd-mobilenet-v2``: to specify which network we wished to use. (for this case SSD-Mobilenet-v2 network)
     2.  ``$INPUT_PATH/$IMAGE_NAME``: to specify our input image location.
     3.  ``$OUTPUT_PATH/$OUTPUT_NAME``: to specify our output image location. 
 

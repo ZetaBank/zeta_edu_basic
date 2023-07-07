@@ -53,6 +53,7 @@
               <p class="caption" role="heading"><span class="caption-text">Day1</span></p>
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="../../../Day1/0.index.html">Enjoy AI robot with body</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../../Day1/1.intro.html">Let’s go to AI Exploration Education</a></li>
 <li class="toctree-l2"><a class="reference internal" href="../../../Day1/2.robot_arm/0.index.html">Control AI Robot Arm</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../../Day1/2.robot_arm/1.follow_along.html">Follow Along!</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../../../Day1/2.robot_arm/2.mission.html">Mission</a></li>
@@ -63,8 +64,8 @@
 <li class="toctree-l3"><a class="reference internal" href="../../../Day1/3.arm_dance/2.mission.html">Mission</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../../Day1/4.dancing_arm.html">Let’s Watch the Robot Dance</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../../Day1/5.gotcha.html">Let’s Make a Doll with a AI Robot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Day1/4.dancing_arm.html">Let’s See the Robot Dance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../Day1/5.gotcha.html">Let’s Pick a Toy with a AI Robot</a></li>
 </ul>
 </li>
 </ul>
@@ -72,7 +73,8 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../../0.index.html">Enjoy AI robot with eyes</a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="../0.index.html">AI training with the body and eyes</a><ul class="current">
-<li class="toctree-l3 current"><a class="reference internal" href="1.index.html">Object Detection with COCO-Dog</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../5.before_start.html">Before you get AI training…</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="1.index.html">Object Detection with SSD-Mobilenet-v2</a><ul class="current">
 <li class="toctree-l4"><a class="reference internal" href="2.follow_along.html">Follow Along!</a></li>
 <li class="toctree-l4 current"><a class="current reference internal" href="#">Overall Explanation</a></li>
 <li class="toctree-l4"><a class="reference internal" href="4.coding_explanation.html">Coding Explanation</a></li>
@@ -106,18 +108,16 @@
 </li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../1.robot_drive/0.index.html">Control AI Robot</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../1.robot_drive/1.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../2.robot_drive/0.index.html">Control AI Robot</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../2.robot_drive/1.follow_along.html">Follow Along!</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../2.monitor_sensor/0.index.html">Monitor AI Robot Sensor</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../2.monitor_sensor/1.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../3.monitor_sensor/0.index.html">Monitor AI Robot Sensor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../3.monitor_sensor/1.follow_along.html">Follow Along!</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../3.drive_team/0.index.html">Control AI Robot as a Team</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../3.drive_team/1.mission.html">Team Mission</a></li>
-</ul>
-</li>
+<li class="toctree-l2"><a class="reference internal" href="../../4.drive_team.html">Control AI Robot as a Team</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../5.clean_earth.html">Let’s Make a Clean Earth Using AI Robot</a></li>
 </ul>
 </li>
 </ul>
@@ -145,7 +145,7 @@
       <li><a href="../../../index.html" class="icon icon-home" aria-label="Home"></a></li>
           <li class="breadcrumb-item"><a href="../../0.index.html">Enjoy AI robot with eyes</a></li>
           <li class="breadcrumb-item"><a href="../0.index.html">AI training with the body and eyes</a></li>
-          <li class="breadcrumb-item"><a href="1.index.html">Object Detection with COCO-Dog</a></li>
+          <li class="breadcrumb-item"><a href="1.index.html">Object Detection with SSD-Mobilenet-v2</a></li>
       <li class="breadcrumb-item active">Overall Explanation</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../../_sources/Day2/2.AI/1.object_detect/3.explanation.rst.txt" rel="nofollow"> View page source</a>
@@ -160,36 +160,39 @@
 <h1>Overall Explanation<a class="headerlink" href="#overall-explanation" title="Permalink to this heading"></a></h1>
 <section id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading"></a></h2>
-<p class="linemarker linemarker-8">In our previous discussions, we examined various methods for recognizing objects within images.
-However, image recognition systems face a couple of substantial challenges:</p>
+<p class="linemarker linemarker-8">With the previous lectures, we looked at different ways to recognize object wihtin
+an images. Within Image Recognition system, there are some serious problems.</p>
 <ol class="arabic simple">
-<li><p class="linemarker linemarker-11">They cannot locate the position of the recognized object within the image.</p></li>
-<li><p class="linemarker linemarker-12">They struggle when multiple objects exist within a single image.</p></li>
+<li><p class="linemarker linemarker-11">The image recognition system cannot locate where the recognized object is within the picture.</p></li>
+<li><p class="linemarker linemarker-12">It has difficulty when it comes to multiple objects within one picture.</p></li>
 </ol>
-<p class="linemarker linemarker-14">An object detection system addresses these issues.
-It allows simultaneous object detection and recognition, enabling the model to recognize and detect multiple objects concurrently.</p>
-<p class="linemarker linemarker-17">The object detection system used in our course takes an image as input and outputs a list of coordinates of the detected bounding boxes along with their classes and confidence values. In our follow along example, we employed the Coco-Dog model.
-This model can detect and differentiate a specific class of objects (dogs) across a wide variety of breeds, and was trained on the MS COCO dataset.
-Having object detection system allows for many different applications ranging from intrusion detections, inventory management,
+<p class="linemarker linemarker-14">Object Detection system allows for solutions for all the downside the Image Recognition system may have.
+It allows for object detection and object recognition all at the same time, which allows the model
+to recognize and detect multiple objects at the same time.</p>
+<p class="linemarker linemarker-18">The Object Detection system used for our system recieves an image as an input, and outputs a list of coordinates
+of the detected bounding boxes along with their classes and confidence values. With our follow along
+example we used SSD-Mobile-v2 model which can detect 91 different classes and was trained on
+MS COCO dataset.</p>
+<p class="linemarker linemarker-23">Having object detection system allows for many different applications ranging from intrusion detections, inventory management,
 foot traffic analysis and so on.</p>
-<p class="linemarker linemarker-22">The implementation of an object detection system has numerous applications, including intrusion detection, inventory management, pet surveillance, and wildlife monitoring.</p>
 </section>
-<section id="coco-dog">
-<h2>Coco-Dog<a class="headerlink" href="#coco-dog" title="Permalink to this heading"></a></h2>
-<p class="linemarker linemarker-27">When it comes to object detection models, there are typically two categories:</p>
+<section id="ssd-mobilenet-v2">
+<h2>SSD-Mobilenet-v2<a class="headerlink" href="#ssd-mobilenet-v2" title="Permalink to this heading"></a></h2>
+<p class="linemarker linemarker-29">When it comes to most of the object detection models, there are two different categorization:</p>
 <ol class="arabic simple">
-<li><p class="linemarker linemarker-29">one (single) stage object detectors</p></li>
-<li><p class="linemarker linemarker-30">two (dual) stage object detectors</p></li>
+<li><p class="linemarker linemarker-31">one (single) stage object detectors</p></li>
+<li><p class="linemarker linemarker-32">two (dual) stage object detectors</p></li>
 </ol>
-<p class="linemarker linemarker-32">The distinction between the two lies in their process:
-dual-stage object detectors first locate the object within the image, then carry out classification only on the detected region.
-While this approach yields higher accuracy, it demands more computational resources and slows down the processing time.</p>
+<p class="linemarker linemarker-34">The difference between the two is that two (dual) stage object detectors first detect where the
+object is within the image, and then carries out classification only on the detected region. This
+yields much higher accuracy, but it leads to more computational resources and slower computational
+time. Example:</p>
 <ul class="simple">
-<li><p class="linemarker linemarker-36">a: Single stage object detector</p></li>
-<li><p class="linemarker linemarker-37">b: Dual stage object detector</p></li>
+<li><p class="linemarker linemarker-39">a: Single stage object detector</p></li>
+<li><p class="linemarker linemarker-40">b: Dual stage object detector</p></li>
 </ul>
 <a class=""
-               data-lightbox="group-1bd59936-1a53-4bb5-93e2-706c3b08808b"
+               data-lightbox="group-8ffff3b8-fdd8-41c6-b6bf-9cc57adfd697"
                href="../../../_images/ssd1.webp"
                title=""
                data-title=""
@@ -199,72 +202,71 @@ While this approach yields higher accuracy, it demands more computational resour
                      width="100%"
                      height="auto"
                      alt=""/>
-                </a><p class="linemarker linemarker-42">The Coco-Dog model, however, is a single-stage object detection model.
-By merging the detection and recognition stages, it significantly speeds up the process and requires less computational power.
-As such, it is an ideal choice for applications where time and resource efficiency are essential, despite sacrificing a bit of accuracy compared to dual-stage models.
-This balance makes Coco-Dog a robust and versatile tool in scenarios such as real-time pet surveillance or quick wildlife identification.</p>
+                </a><p class="linemarker linemarker-44">The SSD-Mobilenet-v2 is a one-stage object detection model. Because
+the one-stage object detection merges the detection and recognition
+stage, it is much faster, light and requires less computational power.</p>
 </section>
 <section id="other-models-for-object-detection">
 <h2>Other models for Object Detection<a class="headerlink" href="#other-models-for-object-detection" title="Permalink to this heading"></a></h2>
-<p class="linemarker linemarker-50">With the jetson-inference examples, other pre-trained detection models are available:</p>
+<p class="linemarker linemarker-51">With the jetson-inference examples, other pre-trained detection models are available:</p>
 <table class="docutils align-default">
 <thead>
-<tr class="row-odd"><th class="head"><p class="linemarker linemarker-55">Model</p></th>
-<th class="head"><p class="linemarker linemarker-56">CLI argument</p></th>
-<th class="head"><p class="linemarker linemarker-57">NetworkType enum</p></th>
-<th class="head"><p class="linemarker linemarker-58">Object classes</p></th>
+<tr class="row-odd"><th class="head"><p class="linemarker linemarker-56">Model</p></th>
+<th class="head"><p class="linemarker linemarker-57">CLI argument</p></th>
+<th class="head"><p class="linemarker linemarker-58">NetworkType enum</p></th>
+<th class="head"><p class="linemarker linemarker-59">Object classes</p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p class="linemarker linemarker-59">SSD-Mobilenet-v1</p></td>
-<td><p class="linemarker linemarker-60"><code class="docutils literal notranslate"><span class="pre">ssd-mobilenet-v1</span></code></p></td>
-<td><p class="linemarker linemarker-61"><code class="docutils literal notranslate"><span class="pre">SSD_MOBILENET_V1</span></code></p></td>
-<td><p class="linemarker linemarker-62">91 (COCO classes)</p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-60">SSD-Mobilenet-v1</p></td>
+<td><p class="linemarker linemarker-61"><code class="docutils literal notranslate"><span class="pre">ssd-mobilenet-v1</span></code></p></td>
+<td><p class="linemarker linemarker-62"><code class="docutils literal notranslate"><span class="pre">SSD_MOBILENET_V1</span></code></p></td>
+<td><p class="linemarker linemarker-63">91 (COCO classes)</p></td>
 </tr>
-<tr class="row-odd"><td><p class="linemarker linemarker-63">SSD-Mobilenet-v2</p></td>
-<td><p class="linemarker linemarker-64"><code class="docutils literal notranslate"><span class="pre">ssd-mobilenet-v2</span></code></p></td>
-<td><p class="linemarker linemarker-65"><code class="docutils literal notranslate"><span class="pre">SSD_MOBILENET_V2</span></code></p></td>
-<td><p class="linemarker linemarker-66">91 (COCO classes)</p></td>
+<tr class="row-odd"><td><p class="linemarker linemarker-64">SSD-Mobilenet-v2</p></td>
+<td><p class="linemarker linemarker-65"><code class="docutils literal notranslate"><span class="pre">ssd-mobilenet-v2</span></code></p></td>
+<td><p class="linemarker linemarker-66"><code class="docutils literal notranslate"><span class="pre">SSD_MOBILENET_V2</span></code></p></td>
+<td><p class="linemarker linemarker-67">91 (COCO classes)</p></td>
 </tr>
-<tr class="row-even"><td><p class="linemarker linemarker-67">SSD-Inception-v2</p></td>
-<td><p class="linemarker linemarker-68"><code class="docutils literal notranslate"><span class="pre">ssd-inception-v2</span></code></p></td>
-<td><p class="linemarker linemarker-69"><code class="docutils literal notranslate"><span class="pre">SSD_INCEPTION_V2</span></code></p></td>
-<td><p class="linemarker linemarker-70">91 (COCO classes)</p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-68">SSD-Inception-v2</p></td>
+<td><p class="linemarker linemarker-69"><code class="docutils literal notranslate"><span class="pre">ssd-inception-v2</span></code></p></td>
+<td><p class="linemarker linemarker-70"><code class="docutils literal notranslate"><span class="pre">SSD_INCEPTION_V2</span></code></p></td>
+<td><p class="linemarker linemarker-71">91 (COCO classes)</p></td>
 </tr>
-<tr class="row-odd"><td><p class="linemarker linemarker-71">DetectNet-COCO-Dog</p></td>
-<td><p class="linemarker linemarker-72"><code class="docutils literal notranslate"><span class="pre">coco-dog</span></code></p></td>
-<td><p class="linemarker linemarker-73"><code class="docutils literal notranslate"><span class="pre">COCO_DOG</span></code></p></td>
-<td><p class="linemarker linemarker-74">dogs</p></td>
+<tr class="row-odd"><td><p class="linemarker linemarker-72">DetectNet-COCO-Dog</p></td>
+<td><p class="linemarker linemarker-73"><code class="docutils literal notranslate"><span class="pre">coco-dog</span></code></p></td>
+<td><p class="linemarker linemarker-74"><code class="docutils literal notranslate"><span class="pre">COCO_DOG</span></code></p></td>
+<td><p class="linemarker linemarker-75">dogs</p></td>
 </tr>
-<tr class="row-even"><td><p class="linemarker linemarker-75">DetectNet-COCO-Bottle</p></td>
-<td><p class="linemarker linemarker-76"><code class="docutils literal notranslate"><span class="pre">coco-bottle</span></code></p></td>
-<td><p class="linemarker linemarker-77"><code class="docutils literal notranslate"><span class="pre">COCO_BOTTLE</span></code></p></td>
-<td><p class="linemarker linemarker-78">bottles</p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-76">DetectNet-COCO-Bottle</p></td>
+<td><p class="linemarker linemarker-77"><code class="docutils literal notranslate"><span class="pre">coco-bottle</span></code></p></td>
+<td><p class="linemarker linemarker-78"><code class="docutils literal notranslate"><span class="pre">COCO_BOTTLE</span></code></p></td>
+<td><p class="linemarker linemarker-79">bottles</p></td>
 </tr>
-<tr class="row-odd"><td><p class="linemarker linemarker-79">DetectNet-COCO-Chair</p></td>
-<td><p class="linemarker linemarker-80"><code class="docutils literal notranslate"><span class="pre">coco-chair</span></code></p></td>
-<td><p class="linemarker linemarker-81"><code class="docutils literal notranslate"><span class="pre">COCO_CHAIR</span></code></p></td>
-<td><p class="linemarker linemarker-82">chair</p></td>
+<tr class="row-odd"><td><p class="linemarker linemarker-80">DetectNet-COCO-Chair</p></td>
+<td><p class="linemarker linemarker-81"><code class="docutils literal notranslate"><span class="pre">coco-chair</span></code></p></td>
+<td><p class="linemarker linemarker-82"><code class="docutils literal notranslate"><span class="pre">COCO_CHAIR</span></code></p></td>
+<td><p class="linemarker linemarker-83">chair</p></td>
 </tr>
-<tr class="row-even"><td><p class="linemarker linemarker-83">DetectNet-COCO-Airplane</p></td>
-<td><p class="linemarker linemarker-84"><code class="docutils literal notranslate"><span class="pre">coco-airplane</span></code></p></td>
-<td><p class="linemarker linemarker-85"><code class="docutils literal notranslate"><span class="pre">COCO_AIRPLANE</span></code></p></td>
-<td><p class="linemarker linemarker-86">airplane</p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-84">DetectNet-COCO-Airplane</p></td>
+<td><p class="linemarker linemarker-85"><code class="docutils literal notranslate"><span class="pre">coco-airplane</span></code></p></td>
+<td><p class="linemarker linemarker-86"><code class="docutils literal notranslate"><span class="pre">COCO_AIRPLANE</span></code></p></td>
+<td><p class="linemarker linemarker-87">airplane</p></td>
 </tr>
-<tr class="row-odd"><td><p class="linemarker linemarker-87">ped-100</p></td>
-<td><p class="linemarker linemarker-88"><code class="docutils literal notranslate"><span class="pre">pednet</span></code></p></td>
-<td><p class="linemarker linemarker-89"><code class="docutils literal notranslate"><span class="pre">PEDNET</span></code></p></td>
-<td><p class="linemarker linemarker-90">pedestrians</p></td>
+<tr class="row-odd"><td><p class="linemarker linemarker-88">ped-100</p></td>
+<td><p class="linemarker linemarker-89"><code class="docutils literal notranslate"><span class="pre">pednet</span></code></p></td>
+<td><p class="linemarker linemarker-90"><code class="docutils literal notranslate"><span class="pre">PEDNET</span></code></p></td>
+<td><p class="linemarker linemarker-91">pedestrians</p></td>
 </tr>
-<tr class="row-even"><td><p class="linemarker linemarker-91">multiped-500</p></td>
-<td><p class="linemarker linemarker-92"><code class="docutils literal notranslate"><span class="pre">multiped</span></code></p></td>
-<td><p class="linemarker linemarker-93"><code class="docutils literal notranslate"><span class="pre">PEDNET_MULTI</span></code></p></td>
-<td><p class="linemarker linemarker-94">pedestrians, luggage</p></td>
+<tr class="row-even"><td><p class="linemarker linemarker-92">multiped-500</p></td>
+<td><p class="linemarker linemarker-93"><code class="docutils literal notranslate"><span class="pre">multiped</span></code></p></td>
+<td><p class="linemarker linemarker-94"><code class="docutils literal notranslate"><span class="pre">PEDNET_MULTI</span></code></p></td>
+<td><p class="linemarker linemarker-95">pedestrians, luggage</p></td>
 </tr>
-<tr class="row-odd"><td><p class="linemarker linemarker-95">facenet-120</p></td>
-<td><p class="linemarker linemarker-96"><code class="docutils literal notranslate"><span class="pre">facenet</span></code></p></td>
-<td><p class="linemarker linemarker-97"><code class="docutils literal notranslate"><span class="pre">FACENET</span></code></p></td>
-<td><p class="linemarker linemarker-98">faces</p></td>
+<tr class="row-odd"><td><p class="linemarker linemarker-96">facenet-120</p></td>
+<td><p class="linemarker linemarker-97"><code class="docutils literal notranslate"><span class="pre">facenet</span></code></p></td>
+<td><p class="linemarker linemarker-98"><code class="docutils literal notranslate"><span class="pre">FACENET</span></code></p></td>
+<td><p class="linemarker linemarker-99">faces</p></td>
 </tr>
 </tbody>
 </table>

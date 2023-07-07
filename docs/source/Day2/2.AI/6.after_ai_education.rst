@@ -1,0 +1,64 @@
+After you've finished AI training...
+=====================================
+
+.. raw:: html
+
+    <div style="background: #C3F8FF" class="admonition note custom">
+        <p style="background: light-blue" class="admonition-title">
+            Follow along: After Completion
+        </p>
+        <div class="line-block">
+            <div class="line">Here are the steps to reactivate your camera and screen display after completing your AI training.</div>
+        </div>
+        <ul>
+            <li>Ensure that you are not using the camera for any other AI training.</li>
+            <li>Ensure that there are no other applications that might obstruct the view of your screen display.</li>
+        </ul>
+        <div class="line">(The Jetson Board used for these examples is => Jetson Nano)</div>
+        
+    </div>
+
+.. raw:: html
+
+    <hr>
+
+- Open Browser and connect to "10.42.0.1:5000".
+
+.. thumbnail:: /_images/Day2/2.AI/after_ai_edu_0.png
+
+
+Reactivating lcd monitor
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+- First, click on "zetabankhub/edu:melodic-lcd-" to reactivate the screen display container.
+
+.. thumbnail:: /_images/Day2/2.AI/after_ai_edu_1_start_lcd.png
+
+- If the container is in STOPPED state, press start and wait for a while.
+
+- The "zetabankhub/edu:melodic-lcd-" text turns green when the container is starting up.
+
+.. thumbnail:: /_images/Day2/2.AI/after_ai_edu_2_start_lcd.png
+
+- The screen display is now activated and visible.
+
+.. thumbnail:: /_images/Day2/2.AI/after_ai_edu_3_start_lcd_result.jpg
+
+
+
+Reactivating camera
+^^^^^^^^^^^^^^^^^^^^^
+
+- Next, click on "zetabankhub/edu:melodic-l4t-csi-" to reactivate the camera container as well.
+
+.. thumbnail:: /_images/Day2/2.AI/after_ai_edu_4_start_csi.png
+
+- If the container is in STOPPED state, press start and wait for a while.
+
+- The "zetabankhub/edu:melodic-l4t-csi-" text turns green when the container is starting up.
+
+.. thumbnail:: /_images/Day2/2.AI/after_ai_edu_5_start_csi.png
+
+- Now, your camera and screen display are ready to use again for other purposes.
+
+- Remember, ensure that your AI training is fully completed before reactivating the camera and the screen display.

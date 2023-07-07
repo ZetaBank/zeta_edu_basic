@@ -75,16 +75,26 @@ Follow Along!
     .. code-block:: python
 
         %%capture
-        !python3 $PROGRAM_PATH/detectnet.py --network=coco-dog $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME
+        !python3 $PROGRAM_PATH/detectnet.py --network=ssd-mobilenet-v2 $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME
 
 |
 
 -   Show the resulting image
 
+    - If you have set image_name = 'cat_2.jpg'"
 
     .. code-block:: python
 
         Image(filename=output_path+'/detect_result.jpg') 
 
 
-    .. thumbnail:: /_images/Day2/2.AI/object_det2.jpg
+    .. thumbnail:: /_images/Day2/2.AI/object_det_result0.jpg
+
+    - If you have set image_name = 'dog_4.jpg'
+
+    .. code-block:: python
+
+        Image(filename=output_path+'/detect_result.jpg') 
+
+    
+    .. thumbnail:: /_images/Day2/2.AI/object_det_result1.jpg

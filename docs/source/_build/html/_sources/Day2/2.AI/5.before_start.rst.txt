@@ -11,14 +11,16 @@ Before you get AI training...
             <div class="line">Here are the things to keep in mind before starting the AI training.</div>
         </div>
         <ul>
-            <li>Ensure the camera container is properly shutting down.</li>
-            <li>If the camera does not work, check whether the camera container is running.</li>
+            <li>Ensure the camera and screen display containers are properly shutting down.</li>
+            <li>If the camera does not work or the screen display is obstructing your view, check whether the respective containers are running.</li>
             <li>If the camera is currently in use by another program, you won't be able to use it for the current AI training. Therefore, you need to stop its operation on the other program first.</li>
+            <li>When performing AI training, the screen display must be turned off to avoid hiding the essential information and visuals you need for the training.</li>
 
         </ul>
         <div class="line">(The Jetson Board used for these examples is => Jetson Nano)</div>
         
     </div>
+
 
 .. raw:: html
 
@@ -26,33 +28,47 @@ Before you get AI training...
 
 -   Open Browser and connect to "10.42.0.1:5000".
 
-
 .. thumbnail:: /_images/Day2/2.AI/ai_start_before_0.png
 
 
--   Currently, the camera may be in use by another program.
+Closed camera
+^^^^^^^^^^^^^^
 
+-   Currently, the camera may be in use by another program.
 
 -   We need to shut down the container that is currently using the camera in order to utilize it in our AI training.
 
-
 -   Click the "zetabankhub/edu:melodic-l4t-csi-" in green text.
 
-
-.. thumbnail:: /_images/Day2/2.AI/ai_start_before_1.png
-
+.. thumbnail:: /_images/Day2/2.AI/ai_start_before_1_stop_csi.png
 
 -   If the container is in RUNNING state, press stop and wait for a while.
 
-
 -   The "zetabankhub/edu:melodic-l4t-csi-" text turns white when the container is shutting down.
 
-
-.. thumbnail:: /_images/Day2/2.AI/ai_start_before_2.png
-
+.. thumbnail:: /_images/Day2/2.AI/ai_start_before_2_stop_csi.png
 
 -   Now, you can utilize the JupyterHub to proceed with your AI training using the camera.
 
--   Remember, the camera is now exclusively available for this purpose.
 
--   Conversely, if you want to use the camera again with the initial program, you can start the "zetabankhub/edu:melodic-l4t-csi-" container.
+Closed lcd mornitor
+^^^^^^^^^^^^^^^^^^^^
+
+- Next, click on "zetabankhub/edu:melodic-lcd-" to shut down the screen display container as well.
+
+.. thumbnail:: /_images/Day2/2.AI/ai_start_before_3_stop_lcd.png
+
+- If the container is in RUNNING state, press stop and wait for a while.
+
+- The "zetabankhub/edu:melodic-lcd-" text turns white when the container is shutting down.
+
+.. thumbnail:: /_images/Day2/2.AI/ai_start_before_4_stop_lcd.png
+
+- Now, you can utilize the JupyterHub to proceed with your AI training using the camera and without the obstruction of the screen display.
+
+.. thumbnail:: /_images/Day2/2.AI/ai_start_before_5_stop_lcd_result.jpg
+
+
+- Remember, the camera is now exclusively available for this purpose and your AI training information and visuals are clearly visible.
+
+- Conversely, if you want to use the camera again with the initial program, you can start the "zetabankhub/edu:melodic-l4t-csi-" container.
