@@ -1,11 +1,11 @@
-Coding Explanation
-====================
+BackgroundNet Coding Explanation
+=================================
 
 Major Functionalities
 ----------------------
 
-For our Pose Estimation task, we use NVIDIA built python program called the ``posenet.py``.
-The program does 3 major functions:
+For our background subtraction task, we use NVIDIA's Python program called ``backgroundnet.py``.
+ The program performs three major functions:
 
 1.  It manages input streams whether it is an image, a video or a camera.
 2.  It manages network inference on the said input stream.
@@ -18,8 +18,8 @@ With our python program, the user must specify
 3.  The output stream medium. (whether to output an image, a video or a camera)
 
 
--   Within our ``pose_estimation.ipynb``, we can see that we first initialize the *PATH* for our input and output images.
-    We set up jupyter environment variable with ``env`` as well as python variable.
+-   In our ``background_camera.ipynb``, we first initialize the PATH for our input and output images.
+-   We set up Jupyter environment variables with ``env`` as well as Python variables.
 
     .. code-block:: python
 
@@ -37,15 +37,15 @@ With our python program, the user must specify
 -   After choosing and initializing the name of our input images we can see that the ``IMAGE_NAME`` variable is also being 
     set to be an environment variable. 
 
--   When we execute our python program (posenet.py), we can see the three parameters the user has set up
+-   When we execute our python program (backgroundnet.py), we can see the three parameters the user has set up
 
     .. code-block:: python
 
-        !python3 $PROGRAM_PATH/posenet.py --network=resnet18-body $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME
+        !python3 $PROGRAM_PATH/backgroundnet.py --network=u2net $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME1
 
-    With ``!python3 $PROGRAM_PATH/posenet.py`` as our activation function, we have:
+    With ``!python3 $PROGRAM_PATH/backgroundnet.py`` as our activation function, we have:
     
-    1.  ``--network=resnet18-body``: to specify which network we wished to use. (for this case Pose-ResNet18-Body network)
+    1.  ``--network=u2net``: to specify which network we wished to use.
     2.  ``$INPUT_PATH/$IMAGE_NAME``: to specify our input image location.
     3.  ``$OUTPUT_PATH/$OUTPUT_NAME``: to specify our output image location. 
 
@@ -60,18 +60,25 @@ With our python program, the user must specify
 
         .. code-block:: python 
 
-            Image(filename=output_path+'/human_result.jpg') 
+           Image(filename=output_path+'/background_remove.jpg') 
 
 
 Minor Functionalities
 ----------------------
 
-There are optional flags or parameters you may set up for your ``posenet.py`` program. These parameters may control the width of the line connecting the keypoints
-the size of the keypoints displayed on the screen, how they are connected and so on. 
+There are optional flags or parameters you may set up for your ``backgroundnet.py`` program.
+These parameters may control the replacement of the background.
 
-There are 4 minor functionalities you may edit:
+There are 2 minor functionalities you may edit:
 
-1.  ``--overlay=links,keypoints``: This parameter allows us to choose how we wish to display our detected poses on top of our original input. The input can be comma-seperated combinations of ``box``, ``links``, ``keypoints``, and ``none``.
-2.  ``--keypoint-scale=0.0052``: This parameter controls the radius of the keypoint circle in the overlay.
-3.  ``--link-scale=0.0013``: This parameter controls the width of the link lines in the overlay.
-4.  ``--threshold=0.15``: This parameter sets the minimum threshold for detection. 
+1.  ``--network``: This parameter allows us to choose which network we wish to use. (for this case, the default is "u2net")
+2.  ``--replace``: This parameter allows us to specify an image filename to use for background replacement.
+
+
+For example, to replace the background with a specific image, you can use the following command:
+
+    .. code-block:: python
+
+        !python3 $PROGRAM_PATH/backgroundnet.py --network=u2net --replace=$INPUT_PATH/Ulleung_0.jpg $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME2
+
+In this command, the ``--replace=$INPUT_PATH/Ulleung_0.jpg`` parameter specifies the image to be used as the new background.

@@ -1,7 +1,7 @@
 Zetabank Education Guide
 ==========================
 
-.. thumbnail:: /_images/hardware/1.overview/agribot_overview.jpg
+.. thumbnail:: /_images/index/schedule.png
 
 
 .. toctree:: 
