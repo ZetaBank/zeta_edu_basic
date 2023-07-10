@@ -11,8 +11,20 @@ Let's Pick a Toy with a AI Robot
 
 - So, Let's pick a toy using the joystick of the AI Robot.
 
+
+How to play
+-----------------------
+
+1. The autonomous driving ai robot is equipped with a robotic arm. The object of the game is to pick up the doll with the robotic arm and return it to the starting point.
+
+2. The robot and robot arm can be moved with a joystick. The joystick operation method is as follows.
+
+3. Large and small dolls of various sizes are placed on the table.
+
+4. 
 Rules
 -----------------------
+
 - The first round has a 10 minute time limit.
 
     - Each team member picks up a toy using a robot and selects a representative team member with good skills.

@@ -23,15 +23,29 @@ Let's Make a Clean Earth Using AI Robot
 |
 
 - To enhance the gaming experience, the game features realistic environments and dynamic challenges. 
-- Participants will encounter various scenarios, such as maneuvering through obstacles, navigating around crowded areas, and adapting to different lighting conditions.
+- Participants will encounter various scenarios, such as maneuvering through obstacles, navigating around crowded areas.
 
 |
 
-- To add excitement and a competitive element, the game incorporates time constraints.
+- To add excitement and a competitive element, the game includes a time limit of 4 minutes per player.
 - Participants will race against the clock to separate as many items as possible within a given timeframe.
-- A scoring system based on accuracy, speed, and the number of correctly separated items will determine each player's performance.
 
 |
 
 - Beyond the game's entertainment value, its primary objective is to raise awareness about the importance of waste management.
 - By actively participating in the trash separation challenge using real robots, you will experience firsthand experience of the challenges involved and the positive impact of responsible waste disposal.
+
+|
+
+How to play
+-----------------------
+
+    1. The robot is equipped with a tool to move the trash. The goal of the game is to use this tool to classify the garbage into different types.
+
+    2. The robot can be moved with a joystick. The joystick operation method is as follows.
+
+    3. Various trash such as bottles and cans are placed on the stage.
+
+    4. The objective of the game is to control the robot and sort the trash in the designated area.
+
+|
