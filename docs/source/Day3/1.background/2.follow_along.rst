@@ -30,22 +30,22 @@ Follow Along!
 -   | Running the cell code
     | `Ctrl + Enter`
 
-.. thumbnail:: /_images/Day1/AI/background.png
+.. thumbnail:: /_images/Day3/1.background/background_0.png
 
 
 -   Initialize your output stream, and your path, and import in the Image library
 
-.. code-block:: python
+    .. code-block:: python
 
-    from IPython.display import Image
+        from IPython.display import Image
 
-    %env DISPLAY=:0
-    %env PROGRAM_PATH=/home/zeta/jetson-inference/build/aarch64/bin
-    %env INPUT_PATH=/home/zeta/jetson-inference/build/aarch64/bin/images
-    %env OUTPUT_PATH=/home/zeta/jetson-inference/build/aarch64/bin/images/test
+        %env DISPLAY=:0
+        %env PROGRAM_PATH=/home/zeta/jetson-inference/build/aarch64/bin
+        %env INPUT_PATH=/home/zeta/jetson-inference/build/aarch64/bin/images
+        %env OUTPUT_PATH=/home/zeta/jetson-inference/build/aarch64/bin/images/test
 
-    input_path='/home/zeta/jetson-inference/build/aarch64/bin/images'
-    output_path='/home/zeta/jetson-inference/build/aarch64/bin/images/test'
+        input_path='/home/zeta/jetson-inference/build/aarch64/bin/images'
+        output_path='/home/zeta/jetson-inference/build/aarch64/bin/images/test'
 
 
 
@@ -56,7 +56,7 @@ Follow Along!
         !ls $INPUT_PATH/*
 
 
-    .. thumbnail:: /_images/Day1/AI/background_1.png
+    .. thumbnail:: /_images/Day3/1.background/background_1_list.png
 
 |
 
@@ -72,6 +72,7 @@ Follow Along!
 
         Image(filename=input_path+'/'+image_name) 
 
+|
 
 -   Remove the background!
 
@@ -81,9 +82,6 @@ Follow Along!
         !python3 $PROGRAM_PATH/backgroundnet.py --network=u2net $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME1
 
 
-
-|
-
 -   Show the resulting image
 
 
@@ -92,7 +90,9 @@ Follow Along!
         Image(filename=output_path+'/background_remove.jpg') 
 
 
-    .. thumbnail:: /_images/Day1/AI/background_remove_result.jpg
+    .. thumbnail:: /_images/Day3/1.background/background_2_remove_result.jpg
+
+|
 
 
 -   Change the background!
@@ -100,10 +100,9 @@ Follow Along!
     .. code-block:: python
 
         %%capture
-        !python3 $PROGRAM_PATH/backgroundnet.py --network=u2net --replace=$INPUT_PATH/snow.jpg $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME2
+        !python3 $PROGRAM_PATH/backgroundnet.py --network=u2net --replace=$INPUT_PATH/Ulleung_0.jpg $INPUT_PATH/$IMAGE_NAME $OUTPUT_PATH/$OUTPUT_NAME2
 
 
-|
 
 -   Show the resulting image
 
@@ -113,4 +112,4 @@ Follow Along!
         Image(filename=output_path+'/background_replace.jpg') 
 
 
-    .. thumbnail:: /_images/Day1/AI/background_replace_result.jpg
+    .. thumbnail:: /_images/Day3/1.background/background_3_replace_result.jpg

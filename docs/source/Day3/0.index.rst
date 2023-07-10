@@ -3,6 +3,8 @@ Discuss AI robots
 
 Here are the contents of this section:
 
-.. toctree:: 
+.. toctree::
+    :maxdepth: 1
 
+    1.background/1.index
     2.presentation

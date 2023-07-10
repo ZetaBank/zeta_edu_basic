@@ -1,7 +1,6 @@
 Background Removal and Background Change
 ==========================================
 
-
 Here are the contents for this section:
 
 .. toctree:: 
