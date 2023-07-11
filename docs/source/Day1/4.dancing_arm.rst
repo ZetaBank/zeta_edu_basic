@@ -8,20 +8,20 @@ Let's Introduce Our Team with Music!
     </div>
 
 - Now, you must have become closer with your teammates through various activities.
-|
+
 - Let's take time to decide on team members, team names, team slogans and team music, and announce them.
-|
+
 - The robotic arm attached to the AI autonomous robot has the ability to dance to the music.
-|
+
 - Introduce your team with a dancing robot arm of your own choice, or music that suits you and your team.
 
 
 Preparation
 -----------------------
 1. Prepare the music file you want (ex. YouTube).
-|
+
 2. Put the files on the provided USB.
-|
+
 3. Wait a while for the series, You can see the robot arms dancing to the music.
-|
+
 4. Let's present team members, team names, team slogans and team music in groups.
