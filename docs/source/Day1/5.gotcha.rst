@@ -31,14 +31,14 @@ How to play
 Rules
 -----------------------
 
-- The first round has a 10 minute time limit.
+- The first round has a 3 minute time limit.
 
     - Each team member picks up a toy using a robot and selects a representative team member with good skills.
 
-- The second round has a 4 minute time limit.
+- The second round has a 3 minute time limit.
 
     - The selected representative picks up the toy within the time limit and the rest of the team helps the representative team member.
 
-- The last round has a 2 minute time limit.
+- The last round has a 1 minute time limit.
 
     - The selected representative achieves the goal within the time limit.

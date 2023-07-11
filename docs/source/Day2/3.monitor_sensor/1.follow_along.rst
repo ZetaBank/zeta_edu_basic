@@ -16,6 +16,8 @@ Follow Along!
 
 .. raw:: html
 
+.. thumbnail:: /_images/Day2/3.monitor_sensor/autodrive.jpg
+
 Overall Description
 -----------------------
 

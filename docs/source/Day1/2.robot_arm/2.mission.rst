@@ -16,6 +16,7 @@ Mission
         </div>
     </div>
 
+.. thumbnail:: /_images/Day1/2.robot_arm/donky.png
 
 Libraries used for this Mission
 ------------------------------------------
