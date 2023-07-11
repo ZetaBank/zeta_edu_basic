@@ -24,8 +24,8 @@ Overall Description
 .. list-table:: 
    :header-rows: 1
 
-   * - Product Picture
-     - Product Description
+   * - Inside the Robot
+     - Inside the Human
    * - |part_1| 
      - |part_6| 
    * - |part_2| 
