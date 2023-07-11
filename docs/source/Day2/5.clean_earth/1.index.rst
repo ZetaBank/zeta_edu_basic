@@ -1,0 +1,34 @@
+We save the earth
+==================
+
+marine debris
+^^^^^^^^^^^^^
+
+- The island is getting dirty because of our marine debris.
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth1.png
+
+- Our adults are protecting the environmental pollution of Ulleungdo Island.
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth2.png
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth3.png
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth4.png
+
+
+- Now it's our turn to protect.
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth5.png
+
+
+- The image of the Earth that we protected
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth6.png
+
+
+.. toctree::
+    :hidden:
+
+    2.recycling_garbage
+    3.clean_earth

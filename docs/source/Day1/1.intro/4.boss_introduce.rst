@@ -6,6 +6,10 @@ This is the Boss Monster!
 
    <div style="text-align: center; font-size: 18pt; text-decoration: underline;">Boss Monster Information</div>
 
+|
 
-.. figure:: /_images/Day1/1.intro/monster_boss_0.png
+.. figure:: /_images/Day1/1.intro/monster_boss_1.png
 
+|
+
+.. figure:: /_images/Day1/1.intro/monster_boss_2.png
