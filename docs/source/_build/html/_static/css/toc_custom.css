@@ -11,3 +11,9 @@
 .rst-content .custom .admonition-title:before {
     content: ""
 }
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

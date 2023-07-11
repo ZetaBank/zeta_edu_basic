@@ -4,7 +4,9 @@ Enjoy AI robot with body
 Here are the contents of this section:
 
 .. toctree::
-    1.intro
+    :maxdepth: 1
+
+    1.intro/1.intro.rst
     2.robot_arm/0.index
     3.arm_dance/0.index
     4.dancing_arm

@@ -1,0 +1,11 @@
+This is the Boss Monster!
+==========================
+
+
+.. raw:: html
+
+   <div style="text-align: center; font-size: 18pt; text-decoration: underline;">Boss Monster Information</div>
+
+
+.. figure:: /_images/Day1/1.intro/monster_boss_0.png
+

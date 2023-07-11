@@ -1,0 +1,44 @@
+Catch a troublemaker monster
+=============================
+
+.. thumbnail:: /_images/Day1/1.intro/monster_1_poster.png
+
+|
+
+Monsters invaded the earth. We need to catch them!
+--------------------------------------------------
+
+.. thumbnail:: /_images/Day1/1.intro/monster_2_explain.png
+
+
+How to play the game
+---------------------
+
+
+- Bring the robots to the starting point.
+
+.. thumbnail:: /_images/Day1/1.intro/monster_3_explain.png
+
+- Move the robot to capture the monsters.
+
+.. thumbnail:: /_images/Day1/1.intro/monster_4_explain.png
+
+
+.. thumbnail:: /_images/Day1/1.intro/monster_5_explain.png
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

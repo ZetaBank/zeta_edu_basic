@@ -1,5 +1,5 @@
 Let's go to AI Exploration Education
-==========================
+=====================================
 
 .. thumbnail:: /_images/Day1/1.intro/intro.jpg
 
@@ -10,3 +10,12 @@ Let's go to AI Exploration Education
 - In this forward-looking field, we embark on a journey that merges the power of artificial intelligence with the hands-on experience of interacting with robots.
 
 - It is a realm where learning becomes an exciting adventure, and students of all ages can unlock their potential as they delve into the wonders of AI and robotics.
+
+.. toctree::
+    :maxdepth: 1
+    :hidden:
+
+    2.team_and_naming
+    3.catch_monster
+    4.boss_introduce
+
