@@ -30,7 +30,7 @@ Follow Along!
 -   | Running the cell code
     | `Ctrl + Enter`
 
-.. thumbnail:: /_images/Day2/2.AI/object_det.png
+.. thumbnail:: /_images/Day2/2.AI/1.object_detection/object_det.png
 
 -   Initialize your output stream, and your path, and import in the Image library
 
@@ -56,7 +56,7 @@ Follow Along!
         !ls $INPUT_PATH/dog_*
 
 
-    .. thumbnail:: /_images/Day2/2.AI/object_det1.png
+    .. thumbnail:: /_images/Day2/2.AI/1.object_detection/object_det1.png
 
 |
 
@@ -88,7 +88,7 @@ Follow Along!
         Image(filename=output_path+'/detect_result.jpg') 
 
 
-    .. thumbnail:: /_images/Day2/2.AI/object_det_result0.jpg
+    .. thumbnail:: /_images/Day2/2.AI/1.object_detection/object_det_result0.jpg
 
     - If you have set image_name = 'dog_4.jpg'
 
@@ -97,4 +97,4 @@ Follow Along!
         Image(filename=output_path+'/detect_result.jpg') 
 
     
-    .. thumbnail:: /_images/Day2/2.AI/object_det_result1.jpg
+    .. thumbnail:: /_images/Day2/2.AI/1.object_detection/object_det_result1.jpg

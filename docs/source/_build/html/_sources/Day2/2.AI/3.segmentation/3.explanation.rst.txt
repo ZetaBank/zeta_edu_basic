@@ -54,7 +54,7 @@ Our previous image recognition models such as ResNet18 uses fully-connected (fc)
 layer as the output layer. This is done to classify the convolutional output
 from the middle layer. 
 
-.. thumbnail:: /_images/Day2/2.AI/Original-ResNet-18-Architecture.png
+.. thumbnail:: /_images/Day2/2.AI/3.segmantation/Original-ResNet-18-Architecture.png
 
 Having GC layer allows us to classify the entire image but it leads us to a big problems:
 
@@ -85,12 +85,12 @@ Here are all the datasets trained on FCN-ResNet18 with their labels:
    * - Dataset Name
      - labels
    * - Cityscapes
-     - .. thumbnail:: /_images/Day2/2.AI/segmentation-city-legend.jpg
+     - .. thumbnail:: /_images/Day2/2.AI/3.segmantation/segmentation-city-legend.jpg
    * - DeepScene
-     - .. thumbnail:: /_images/Day2/2.AI/segmentation-deepscene-legend.jpg
+     - .. thumbnail:: /_images/Day2/2.AI/3.segmantation/segmentation-deepscene-legend.jpg
    * - Multi-Human
-     - .. thumbnail:: /_images/Day2/2.AI/segmentation-mhp-legend.jpg
+     - .. thumbnail:: /_images/Day2/2.AI/3.segmantation/segmentation-mhp-legend.jpg
    * - Pascal VOC
-     - .. thumbnail:: /_images/Day2/2.AI/segmentation-voc-legend.jpg
+     - .. thumbnail:: /_images/Day2/2.AI/3.segmantation/segmentation-voc-legend.jpg
    * - SUN RGB-D
-     - .. thumbnail:: /_images/Day2/2.AI/segmentation-sun-legend.jpg
+     - .. thumbnail:: /_images/Day2/2.AI/3.segmantation/segmentation-sun-legend.jpg

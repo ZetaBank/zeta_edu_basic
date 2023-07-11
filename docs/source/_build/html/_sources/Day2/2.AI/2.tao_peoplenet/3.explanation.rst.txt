@@ -10,16 +10,30 @@ It proves to be immensely beneficial for applications like surveillance systems,
 
 As you may have noticed, we have this object detection and tracking method, PeopleNet, in our "follow along" step.
 
+|
+
 PeopleNet
 ^^^^^^^^^^
 
 This model uses deep neural network architectures, including Convolutional Neural Networks (CNNs), for processing and analyzing input data.
 PeopleNet is trained on extensive datasets containing annotated images of various human forms in different environments, enabling it to learn and distinguish intricate features and patterns of human figures.
 
+|
+
+.. thumbnail:: /_images/Day2/2.AI/2.tao_peoplenet/people_diagram.png
+
+1. The process begins with an input image or video.
+2. This input is then fed into the PeopleNet model.
+3. The model detects people in the input.
+4. These detected people are then tracked across frames in the case of video input.
+5. The output is the tracked people in the scene.
+
 During the training process, PeopleNet learns to identify and differentiate between individuals in a scene, even in crowded environments or under challenging lighting conditions.
 This ability allows it to generate accurate bounding boxes around the detected people in images or videos, helping it achieve high precision in people detection and tracking.
 
 The advantage of using PeopleNet for object detection and tracking is its impressive accuracy in detecting and identifying people, all while maintaining reasonable computational requirements.
 This makes it suitable for real-time applications where people detection, tracking, and counting are essential, such as smart surveillance systems, advanced robotics, and crowd management systems.
+
+|
 
 In summary, the proficiency of PeopleNet in detecting and tracking people effectively in various scenarios makes it an invaluable tool for a wide range of computer vision applications.

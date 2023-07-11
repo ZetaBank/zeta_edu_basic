@@ -30,7 +30,7 @@ Follow Along!
 -   | Running the cell code
     | `Ctrl + Enter`
 
-.. thumbnail:: /_images/Day2/2.AI/segmentation.png
+.. thumbnail:: /_images/Day2/2.AI/3.segmantation/segmentation.png
 
 
 -   Initialize your output stream, and your path, and import in the Image library
@@ -70,7 +70,7 @@ CityScapes
         Image(filename=input_path+'/'+image_name) 
 
 
-    .. thumbnail:: /_images/Day2/2.AI/city.jpg
+    .. thumbnail:: /_images/Day2/2.AI/3.segmantation/city.jpg
 
 |
 
@@ -93,7 +93,7 @@ CityScapes
         Image(filename=output_path+'/city_result.jpg') 
 
 
-    .. thumbnail:: /_images/Day2/2.AI/city_seg.jpg
+    .. thumbnail:: /_images/Day2/2.AI/3.segmantation/city_seg.jpg
 
 Outdoor (off-road)
 -------------------
@@ -117,7 +117,7 @@ Outdoor (off-road)
         Image(filename=input_path+'/'+image_name) 
 
 
-    .. thumbnail:: /_images/Day2/2.AI/outdoor.jpg
+    .. thumbnail:: /_images/Day2/2.AI/3.segmantation/outdoor.jpg
 
 |
 
@@ -139,7 +139,7 @@ Outdoor (off-road)
         Image(filename=output_path+'/trail_result.jpg') 
 
 
-    .. thumbnail:: /_images/Day2/2.AI/outdoor_seg.jpg
+    .. thumbnail:: /_images/Day2/2.AI/3.segmantation/outdoor_seg.jpg
 
 
 Segmenting Human Images
@@ -164,7 +164,7 @@ Segmenting Human Images
 
         Image(filename=input_path+'/'+image_name) 
 
-    .. thumbnail:: /_images/Day2/2.AI/people.jpg
+    .. thumbnail:: /_images/Day2/2.AI/3.segmantation/people.jpg
 
 |
 
@@ -187,7 +187,7 @@ Segmenting Human Images
         Image(filename=output_path+'/humans_seg_result.jpg') 
 
 
-    .. thumbnail:: /_images/Day2/2.AI/people_seg.jpg
+    .. thumbnail:: /_images/Day2/2.AI/3.segmantation/people_seg.jpg
 
 
 Variaty Objects and People
@@ -212,7 +212,7 @@ Variaty Objects and People
         Image(filename=input_path+'/'+image_name) 
 
 
-    .. thumbnail:: /_images/Day2/2.AI/object.jpg
+    .. thumbnail:: /_images/Day2/2.AI/3.segmantation/object.jpg
 
 |
 
@@ -235,7 +235,7 @@ Variaty Objects and People
         Image(filename=output_path+'/object_result.jpg') 
 
 
-    .. thumbnail:: /_images/Day2/2.AI/object_seg.jpg
+    .. thumbnail:: /_images/Day2/2.AI/3.segmantation/object_seg.jpg
 
 
 In-Doors
@@ -259,7 +259,7 @@ In-Doors
 
         Image(filename=input_path+'/'+image_name) 
  
-    .. thumbnail:: /_images/Day2/2.AI/indoor.jpg
+    .. thumbnail:: /_images/Day2/2.AI/3.segmantation/indoor.jpg
 
 |
 
@@ -281,4 +281,4 @@ In-Doors
         Image(filename=output_path+'/room_result.jpg') 
 
 
-    .. thumbnail:: /_images/Day2/2.AI/indoor_seg.jpg
+    .. thumbnail:: /_images/Day2/2.AI/3.segmantation/indoor_seg.jpg

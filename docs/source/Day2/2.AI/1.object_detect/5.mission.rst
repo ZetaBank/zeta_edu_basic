@@ -166,7 +166,7 @@ Executing the Custom Program
 -   Open the ``02_6-2. object_detection_camera.py`` notebook.
 
 
-.. thumbnail:: /_images/Day2/2.AI/object_detection_camera.png
+.. thumbnail:: /_images/Day2/2.AI/1.object_detection/object_detection_camera.png
 
 
 -   Run the cell code which initializes the input/ output stream of the environment as well as the CAMERA variable, which will be the flag that determines the input vairable for the program to be a camera stream. 
@@ -221,8 +221,8 @@ Let's Change the Overlay!!!
 
     Examples:
 
-    .. thumbnail:: /_images/Day2/2.AI/object_detection_camera1.jpg
+    .. thumbnail:: /_images/Day2/2.AI/1.object_detection/object_detection_camera1.jpg
 
     |
 
-    .. thumbnail:: /_images/Day2/2.AI/object_detection_camera2.jpg
+    .. thumbnail:: /_images/Day2/2.AI/1.object_detection/object_detection_camera2.jpg

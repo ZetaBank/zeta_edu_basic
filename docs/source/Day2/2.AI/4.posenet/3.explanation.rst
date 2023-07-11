@@ -36,7 +36,7 @@ The ResNet architecture resolves this issue with a concepts called the Residual 
 Residual Blocks
 ^^^^^^^^^^^^^^^
 
-.. thumbnail:: /_images/Day2/2.AI/residual_block.png
+.. thumbnail:: /_images/Day2/2.AI/4.posenet/residual_block.png
 
 |
 
