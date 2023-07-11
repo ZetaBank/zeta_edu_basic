@@ -1,4 +1,4 @@
-Let's Introduce Our Team with Music
+Let's Introduce Our Team with Music!
 ================
 
 .. raw:: html
@@ -7,18 +7,15 @@ Let's Introduce Our Team with Music
         <iframe src="https://www.youtube.com/embed/Fg_4In3TkVc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
     </div>
 
-- 
+- Now, you must have become closer with your teammates through various activities.
 
+- Let's take time to decide on team members, team names, team slogans and team music, and announce them.
 
+- The robotic arm attached to the AI autonomous robot has the ability to dance to the music.
 
-- Music has the power to captivate our senses and inspire movement.
+- Introduce your team with a dancing robot arm of your own choice, or music that suits you and your team.
 
-- Our advanced robot can analyze the music's beats, tempo, and rhythm to generate corresponding movements or actions within the game environment.
-
-- You will have the thrilling opportunity to control the robot arm's movements and actions based on the music they choose.
-
-- The nuances of the music, such as tempo, intensity, and melodic changes, will determine the speed, precision, and grace of the robot arm's motions.
-
+|
 
 
 Preparation
