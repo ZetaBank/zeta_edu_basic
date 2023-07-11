@@ -21,11 +21,11 @@ Open the provided jupyter notebook
 -   | Running the cell code
     | `Ctrl + Enter`
 
-.. thumbnail:: /_images/Day2/1.robot_drive/robot_drive1.png
+.. thumbnail:: /_images/Day2/2.robot_drive/robot_drive1.png
 
 |
 
-.. thumbnail:: /_images/Day2/1.robot_drive/robot_drive2.png
+.. thumbnail:: /_images/Day2/2.robot_drive/robot_drive2.png
 
 |
 
@@ -151,6 +151,10 @@ Open the provided jupyter notebook
 
     moveTo(1)
 
+.. thumbnail:: /_images/Day2/2.robot_drive/forward.gif
+
+|
+
 -   Run the turnTo(degree) function
 -   170 degree rotation
 
@@ -159,6 +163,9 @@ Open the provided jupyter notebook
     turnTo(170)
  
 
+.. thumbnail:: /_images/Day2/2.robot_drive/left.gif
+
+|
 
 -   Run the turnTo(degree) function
 -   25 degree rotation
@@ -167,3 +174,6 @@ Open the provided jupyter notebook
 .. code-block:: python
 
     turnTo(25)
+
+.. thumbnail:: /_images/Day2/2.robot_drive/right.gif
+
