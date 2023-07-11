@@ -25,6 +25,8 @@ Follow Along!
 
     <hr>
 
+.. thumbnail:: /_images/Day1/2.robot_arm/arm_dance.gif
+
 -   05_01_left_right.ipynb
 -   | Running the cell code.
     | `Ctrl + Enter`

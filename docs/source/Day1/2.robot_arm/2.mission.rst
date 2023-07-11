@@ -420,14 +420,6 @@ Pick up an object and place it somewhere else!
 
 .. thumbnail:: /_images/Day1/2.robot_arm/gui.png
 
-|
-
-- gui can be manipulated as follows.
-
-.. thumbnail:: /_images/Day1/2.robot_arm/gui_ex1.png
-
-|
-
 - gui can be manipulated as follows.
 
 .. thumbnail:: /_images/Day1/2.robot_arm/gui_ex1.png
