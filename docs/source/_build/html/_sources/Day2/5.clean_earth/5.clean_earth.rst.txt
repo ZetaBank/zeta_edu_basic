@@ -1,5 +1,5 @@
 Let's Make a Clean Earth Using AI Robot
-================
+========================================
 
 .. raw:: html
 
@@ -14,7 +14,7 @@ Let's Make a Clean Earth Using AI Robot
         </div>
     </div>
 
-.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth1.png
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth10.png
 
 |
 
@@ -40,12 +40,12 @@ Let's Make a Clean Earth Using AI Robot
 How to play
 -----------------------
 
-    1. The robot is equipped with a tool to move the trash. The goal of the game is to use this tool to classify the garbage into different types.
+1. The robot is equipped with a tool to move the trash. The goal of the game is to use this tool to classify the garbage into different types.
 
-    2. The robot can be moved with a joystick. The joystick operation method is as follows.
+2. The robot can be moved with a joystick. The joystick operation method is as follows.
 
-    3. Various trash such as bottles and cans are placed on the stage.
+3. Various trash such as bottles and cans are placed on the stage.
 
-    4. The objective of the game is to control the robot and sort the trash in the designated area.
+4. The objective of the game is to control the robot and sort the trash in the designated area.
 
 |

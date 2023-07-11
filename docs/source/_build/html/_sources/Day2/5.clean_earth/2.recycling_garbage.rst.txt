@@ -1,0 +1,21 @@
+Introduction to Recycling Garbage
+==================================
+
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth7.png
+
+- Paper
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth8_paper.png
+
+- can
+  
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth9_can.png
+
+- glass
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth10_glass.png
+
+- plastic
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth11_plastic.png

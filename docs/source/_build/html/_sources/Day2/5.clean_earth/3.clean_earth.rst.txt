@@ -1,0 +1,76 @@
+Let's Make a Clean Earth Using AI Robot
+========================================
+
+.. raw:: html
+
+    <div style="background: #C3F8FF" class="admonition note custom">
+        <p style="background: light-blue" class="admonition-title">
+            Project Name: Let's Make a Clean Earth Using AI Robot
+        </p>
+        <div class="line-block">
+            <div class="line"><strong>-</strong> This mission is an <strong>team project</strong></div>
+            <div class="line"><strong>-</strong> Utilize an AI robot to contribute towards creating a cleaner Earth.</div>
+            <div class="line"><strong>-</strong> By moving the robot, the garbage is sorted by type. </div>
+        </div>
+    </div>
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth12.png
+
+|
+
+- The primary objective of the game is to guide the wheeled robots to accurately identify and segregate various types of trash.
+
+|
+
+- To enhance the gaming experience, the game features realistic environments and dynamic challenges. 
+- Participants will encounter various scenarios, such as maneuvering through obstacles, navigating around crowded areas.
+
+|
+
+- To add excitement and a competitive element, the game includes a time limit of 30 seconds per player.
+- Participants will race against the clock to separate as many items as possible within a given timeframe.
+
+|
+
+- Beyond the game's entertainment value, its primary objective is to raise awareness about the importance of waste management.
+- By actively participating in the trash separation challenge using real robots, you will experience firsthand experience of the challenges involved and the positive impact of responsible waste disposal.
+
+|
+
+Game Rules: Trash Separation Collection Competition
+----------------------------------------------------
+
+- Teams compete to clean up trash piles by sorting them into different types.
+- Team members line up in sequential order and take turns controlling the robot.
+- Using a joystick, the robot must move and sort the trash within the designated areas.
+- Each team member gets their chance every 30 seconds.
+- The game continues until the designated end time is reached.
+- The team that sorts the most trash in the shortest time wins the competition.
+
+|
+
+
+How to Play
+-------------
+
+1. The robot is equipped with a tool to move the trash. The goal of the game is to use this tool to classify the garbage into different types.
+2. The robot can be controlled using a joystick.
+3. Various types of trash, such as bottles and cans, are placed on the stage.
+4. The objective of the game is to control the robot and sort the trash into the designated areas for each type.
+
+|
+
+Here's an example of how to proceed
+-------------------------------------
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth13.png
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth14.png
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth15.png
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth16.png
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth17.png
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth18.png
