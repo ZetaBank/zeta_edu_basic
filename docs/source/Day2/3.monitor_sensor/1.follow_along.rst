@@ -32,16 +32,24 @@ Overall Description
      - Inside the Human
    * - |part_1| 
      - |part_6|
-   * - |Jetson Nano
-     - |Brain 
+   * - Jetson Nano
+     - Brain 
    * - |part_2| 
      - |part_7| 
+   * - LIDAR Sensor
+     - Superpower
    * - |part_3| 
-     - |part_8| 
+     - |part_8|
+   * - Camera
+     - Eyes
    * - |part_4| 
      - |part_9| 
+   * - Ultrasonic Sensor
+     - Ears
    * - |part_5| 
      - |part_10| 
+   * - Battery
+     - Heart
 
 .. |part_1| thumbnail:: /_images/Day2/3.monitor_sensor/parts_1.webp
 .. |part_2| thumbnail:: /_images/Day2/3.monitor_sensor/parts_2.webp 
@@ -70,7 +78,7 @@ Accessing Isaac Sight
 
 - When the website is accessed, the screen similar to the following will be displayed:
 
-.. thumbnail:: /_images/Day2/3.monitor_sensor/isaac_page.png
+.. thumbnail:: /_images/Day2/3.monitor_sensor/screenshot1.png
 
 |
 
@@ -86,3 +94,15 @@ Checking Visuals
 -------------------
 
 - Lets move our robot to check how the visuals of the sensors change.
+
+.. thumbnail:: /_images/Day2/3.monitor_sensor/screenshot2.png
+
+|
+
+- In this part, the angular x,y,z and orientation x,y,z,w values of the imu value can be checked with graphs and measured values.
+
+.. thumbnail:: /_images/Day2/3.monitor_sensor/screenshot3.png
+
+|
+
+- In this part, you can check the orientation, z, w values, position x, y values, and ilnear x, angular z values of odometry with graphs and measured values.
