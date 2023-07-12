@@ -86,6 +86,9 @@ Follow Along!
         print(" Program closed! ")
         pass
 
+-   Now you can see the robot arm moving.
+
+.. thumbnail:: /_images/Day1/2.robot_arm/arm_dance.gif
 
 -   Remove the robot arm object.
 

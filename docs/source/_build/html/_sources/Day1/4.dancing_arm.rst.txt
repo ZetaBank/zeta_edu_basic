@@ -1,7 +1,15 @@
-Let's See the Robot Dance
+Let's Introduce Our Team with Music
 ================
 
-.. thumbnail:: /_images/Day1/4.dancing_arm/dance1.png
+.. raw:: html
+
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
+        <iframe src="https://www.youtube.com/embed/Fg_4In3TkVc" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+    </div>
+
+- 
+
+
 
 - Music has the power to captivate our senses and inspire movement.
 

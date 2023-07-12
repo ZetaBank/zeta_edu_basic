@@ -416,11 +416,43 @@ Open the mission folder and open the mission.ipynb file.
 Pick up an object and place it somewhere else!
 -------------------------------------------------
 
-Now that we have built our program, using the GUI control and grab an object and place it somewhere else. 
+- Now that we have built our program, using the GUI control and grab an object and place it somewhere else. 
 
 .. thumbnail:: /_images/Day1/2.robot_arm/gui.png
+
+|
+
+- gui can be manipulated as follows.
+
+.. thumbnail:: /_images/Day1/2.robot_arm/gui_ex1.png
+
+|
+
+- gui can be manipulated as follows.
+
+.. thumbnail:: /_images/Day1/2.robot_arm/gui_ex1.png
+
+- You can adjust the moving speed of the robot arm using the 'slow' ,'regular', and 'fast' buttons.
+
+.. thumbnail:: /_images/Day1/2.robot_arm/gui_ex2.png
+
+- You can control the moving direction of the robot arm using the 'up' ,'down', 'left', and 'right' buttons.
+
+.. thumbnail:: /_images/Day1/2.robot_arm/gui_ex3.png
+
+- You can operate the gripper of the robot arm using the 'pinch' and 'release' buttons.
+
+.. thumbnail:: /_images/Day1/2.robot_arm/gui_ex4.png
+
+- You can turn the music on and off using the 'play sound' and 'stop sound' buttons.
+
+.. thumbnail:: /_images/Day1/2.robot_arm/gui_ex5.png
+
+- You can end using the robot arm with the 'exit' button.
+
+.. thumbnail:: /_images/Day1/2.robot_arm/gui_ex6.png
+
     
- 
 (**IMPORTANT**) 
 - The preset angles of the arm might not be fit for the environment you are in. Go to the ``mission_lib.py`` to change the angles or add more servo motor updates. 
 - It is highly recommended that you change and experiment around the mission_lib.py file and see how the movement of the arm is set up. 

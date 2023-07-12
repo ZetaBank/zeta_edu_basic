@@ -9,9 +9,86 @@ Presentation and discussion
         </p>
         <div class="line-block">
             <div class="line"><strong>-</strong> This mission is a <strong>group project.</strong></div>
-            <div class="line"><strong>-</strong> Let's team up and drive autonomously with robots.</div>
-            <div class="line"><strong>-</strong> Take a self-driving video and freely express what you felt.</div>
+            <div class="line"><strong>-</strong> Let's team up and AI with robots.</div>
+            <div class="line"><strong>-</strong> Discover, Capture, and Blend the Beauty of Our Surroundings through Photo Composition.</div>
         </div>
     </div>
 
 .. thumbnail:: /_images/Day3/2.presentation/map.png
+
+Mission: Creating Amazing Photos Together
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+In this fun group project, we will be exploring the world of photography and unleashing our creativity!
+Our goal is to capture beautiful background photos and blend them with our own portraits to create stunning compositions.
+
+Here's how the activity will unfold:
+
+1. Capture Background Photos:
+-----------------------------
+
+   -   Each of us will take pictures of the beautiful scenery around us.
+   -   Look for interesting landscapes, colorful flowers, or any other captivating elements that catch your eye.
+
+.. list-table:: 
+   :widths: 50 50
+   :header-rows: 0
+
+   * - .. image:: /_images/Day3/2.presentation/background1.png
+     - .. image:: /_images/Day3/2.presentation/background2.png
+   * - .. image:: /_images/Day3/2.presentation/background3.png
+     - .. image:: /_images/Day3/2.presentation/background4.png
+
+
+2. Take Individual Portraits:
+-----------------------------
+
+   -   It's time to strike a pose! Let's take individual portraits that showcase our personalities.
+   -   Smile, make funny faces, or express your unique style.
+
+.. list-table:: 
+   :widths: 50 50
+   :header-rows: 0
+
+   * - .. image:: /_images/Day3/2.presentation/background5_person.png
+     - .. image:: /_images/Day3/2.presentation/background6_person.png
+   * - .. image:: /_images/Day3/2.presentation/background7_person.png
+     - .. image:: /_images/Day3/2.presentation/background8_person.png
+
+3. Create Amazing Compositions:
+---------------------------------
+
+   -   Now comes the exciting part! We will learn how to combine the background photos with our individual portraits.
+   -   It's like creating a visual masterpiece using puzzle pieces!
+   -   Film the production process in a minute's length.
+
+.. list-table:: 
+   :header-rows: 0
+
+   * - .. image:: /_images/Day3/2.presentation/background9_replace.jpg
+
+4. Share Your Journey:
+----------------------
+
+   -   We want to see how you bring your photos to life! Create a short video (around 1 minute) that shows the process of combining your photos.
+   -   Explain your artistic choices and how you transformed separate images into a stunning composition.
+
+.. thumbnail:: /_images/Day3/2.presentation/background10_family.jpg
+
+5. Get Feedback and Appreciation:
+----------------------------------
+
+   - Share your final compositions with your friends, family, or classmates.
+   - Ask them for feedback and let them appreciate your creative work. 
+   - It's a chance to show off your talent!
+
+.. thumbnail:: /_images/Day3/2.presentation/background11_zzang.png
+.. thumbnail:: /_images/Day3/2.presentation/background12_cong.jpg
+
+- Remember, the goal is to have fun, be creative, and enjoy the process of capturing the beauty around us.
+- So grab your camera or smartphone, let your imagination run wild, and create photos that will leave everyone in awe!
+
+|
+
+- Now, let's embark on this amazing journey together and create unforgettable memories through the magic of photography!
