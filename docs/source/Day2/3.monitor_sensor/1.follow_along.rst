@@ -113,4 +113,4 @@ Checking Visuals
 
 |
 
-- In this part, you can check the orientation, z, w values, position x, y values, and ilnear x, angular z values of odometry with graphs and measured values.
+- In this part, you can check the orientation, z, w values, position x, y values, and ilnear x, angular z values of Odometry with graphs and measured values.
