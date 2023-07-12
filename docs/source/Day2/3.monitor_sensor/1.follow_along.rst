@@ -31,9 +31,9 @@ Overall Description
    * - Inside the Robot
      - Inside the Human
    * - |part_1| 
-        Jetson nano
      - |part_6|
-        Brain
+   * - |Jetson Nano
+     - |Brain 
    * - |part_2| 
      - |part_7| 
    * - |part_3| 
