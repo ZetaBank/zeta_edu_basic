@@ -95,11 +95,19 @@ Checking Visuals
 
 - Lets move our robot to check how the visuals of the sensors change.
 
+- IMU stands for Inertial Measurement Unit.
+
+- IMU is a device that measures and reports the specific force (acceleration) and angular rate (rotation) of an object in three-dimensional space.
+
+- Odometry is a method used to estimate the position and movement of a robot or a vehicle based on the changes observed in wheel motion.
+
+- Odometry relies on measuring the rotation of wheels and the distance traveled by a robot or a vehicle to estimate its movement and position.
+
 .. thumbnail:: /_images/Day2/3.monitor_sensor/screenshot2.png
 
 |
 
-- In this part, the angular x,y,z and orientation x,y,z,w values of the imu value can be checked with graphs and measured values.
+- In this part, the angular x,y,z and orientation x,y,z,w values of the IMU value can be checked with graphs and measured values.
 
 .. thumbnail:: /_images/Day2/3.monitor_sensor/screenshot3.png
 
