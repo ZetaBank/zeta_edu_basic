@@ -1,6 +1,18 @@
-Let's Introduce Our Team with Music!
+Mission
 ================
 
+.. raw:: html
+
+    <div style="background: #C3F8FF" class="admonition note custom">
+        <p style="background: light-blue" class="admonition-title">
+            Mission: Let's Introduce Our Team with Music!
+        </p>
+        <div class="line-block">
+            <div class="line"><strong>-</strong> This mission is an <strong>team project</strong></div>
+            <div class="line"><strong>-</strong> It's time to introduce our team nicely.</div>
+            <div class="line"><strong>-</strong> Let's show the characteristics of our team using robot arms and music. </div>
+        </div>
+    </div>
 .. raw:: html
 
     <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">

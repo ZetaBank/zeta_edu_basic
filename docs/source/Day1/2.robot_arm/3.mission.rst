@@ -5,14 +5,12 @@ Mission
 
     <div style="background: #C3F8FF" class="admonition note custom">
         <p style="background: light-blue" class="admonition-title">
-            Mission: Let's Get Used to the Robot Arm
+            Mission: Let's Get Used to the Robot Arm!
         </p>
         <div class="line-block">
-            <div class="line"><strong>-</strong> Create a custom robot arm control system.</div>
-            <div class="line"><strong>-</strong> System should be able to:</div>
-            <div class="line">&emsp;<strong>1.</strong>  Generate Graphical User Interface (GUI) that displays the robot arm camera.</div>
-            <div class="line">&emsp;<strong>2.</strong> Controls that would allow the robot arm to move and pick up objects.</div>
-            <div class="line">&emsp;<strong>3.</strong> Ability to play and stop the music while operating above tasks.</div>
+            <div class="line"><strong>-</strong> This mission is an <strong>team project</strong></div>
+            <div class="line"><strong>-</strong> It's time to move the robot arm using GUI and camera.</div>
+            <div class="line"><strong>-</strong> Defeat the mid-boss with a powerful robot arm. </div>
         </div>
     </div>
 
