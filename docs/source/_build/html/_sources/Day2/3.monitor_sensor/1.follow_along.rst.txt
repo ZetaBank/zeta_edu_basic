@@ -1,11 +1,11 @@
-Follow Along!
+Let's Explore the Inside of the Robot's Body!
 ================
 
 .. raw:: html
 
     <div style="background: #C3F8FF" class="admonition note custom">
         <p style="background: light-blue" class="admonition-title">
-            Project Name: Robot Sensor Visualization
+            Follow Along: Robot Sensor Visualization
         </p>
         <div class="line-block">
             <div class="line"><strong>-</strong> This mission is an <strong>individual project</strong></div>
@@ -16,88 +16,101 @@ Follow Along!
 
 .. raw:: html
 
+.. thumbnail:: /_images/Day2/3.monitor_sensor/autodrive.jpg
+
 Overall Description
 -----------------------
+
+- The sensors in the body of the robot are similar to those in the human body.
+
+- The table below compares the sensors on the robot with those in the human body.
 
 .. list-table:: 
    :header-rows: 1
 
-   * - Product Picture
-     - Product Description
+   * - Inside the Robot
+     - Inside the Human
    * - |part_1| 
-     - | Jetson Nano
-       | GPU : 128-core Maxwell
-       | CPU : Quad-core ARM A57
-       | Memory : 4GB 64bit LPDDR 25.6GB/s
-       | Storage : Micro SD
+     - |part_6|
+   * - Jetson Nano
+     - Brain 
    * - |part_2| 
-     - | RP LIDAR
-       | 5.5hZ(2000 sample/s)
-       | 6meter measurement
-       | 360 degree scanA1M8
+     - |part_7| 
+   * - LIDAR Sensor
+     - Superpower
    * - |part_3| 
-     - | Camera Module
-       | Resolution : 8mega pixel
-       | Sensor : Sony IMX 219 PQ CMOS
+     - |part_8|
+   * - Camera
+     - Eyes
    * - |part_4| 
-     - | Close range object detection sensor
-       | ⁠Model : HC-SR04
-       | Power : 5V
-       | Current : 2mA
-       | Ranging Distance : 2cm ~ 450cm
+     - |part_9| 
+   * - Ultrasonic Sensor
+     - Ears
    * - |part_5| 
-     - | Lithium ion battery pack
-       | Charge : 16.8V / 3.5A
-       | Output: 14.8V / 9.4Ah (139.12Wh)
+     - |part_10| 
+   * - Battery
+     - Heart
 
 .. |part_1| thumbnail:: /_images/Day2/3.monitor_sensor/parts_1.webp
 .. |part_2| thumbnail:: /_images/Day2/3.monitor_sensor/parts_2.webp 
 .. |part_3| thumbnail:: /_images/Day2/3.monitor_sensor/parts_3.webp 
 .. |part_4| thumbnail:: /_images/Day2/3.monitor_sensor/parts_4.webp 
 .. |part_5| thumbnail:: /_images/Day2/3.monitor_sensor/parts_5.jpg
+.. |part_6| thumbnail:: /_images/Day2/3.monitor_sensor/brain.png
+.. |part_7| thumbnail:: /_images/Day2/3.monitor_sensor/superpower.jpg
+.. |part_8| thumbnail:: /_images/Day2/3.monitor_sensor/eye.png
+.. |part_9| thumbnail:: /_images/Day2/3.monitor_sensor/ear.png
+.. |part_10| thumbnail:: /_images/Day2/3.monitor_sensor/heart.png
 
-The advanced ai robot zetabaot is equipped with various sensors.
+- Like the human body, each sensor in the robot is work together again.
 
-sensors attached to our robot communicates over a Topic, with each sensors publishing their data to a specific Topic.
+- We will go inside the robot's body and explore how its sensors work.
 
-Although
-we may subscribe to these specific topics and extract the published data, without proper user interface, it is hard to decipher what the values 
-mean just by looking at them. 
-
-In order to illustrate what the sensors are publishing to the topics, we use a visualization service called the isaac sight. 
-
-Isaac Sight is a web service mounted on our Jetson Nano board. It uses a Isaac node to listen to all the Topics that are present on the machine. 
-
-With Isaac sight we may display the odometry sensor values from position, velocity, and orientation or imu sensor values such as orientation and 
-angular velocity in a graphs.
-
-It also can display the LIDAR datas in a 2 dimensional map setting and other sensors. 
-
-
-For this mission, we will access Isaac Sight, and check how the visual representations change when we move our robots. 
+- For this mission, we will access Isaac Sight, and check how the visual representations change when we move our robots. 
 
 
 Accessing Isaac Sight
 -----------------------
 
-Isaac Sight web service is mounted on port:3000 and can be accessed via `<http://10.42.0.1:3000/>`_ website. Make sure that the host computer 
-is connected to the zeta wifi. 
+- Isaac Sight web service is mounted on port:3000 and can be accessed via `<http://10.42.0.1:3000/>`_ website.
 
-When the website is accessed, the screen similar to the following will be displayed:
+- Make sure that the host computer is connected to the zeta wifi. 
 
-.. thumbnail:: /_images/Day2/3.monitor_sensor/isaac_page.png
+- When the website is accessed, the screen similar to the following will be displayed:
+
+.. thumbnail:: /_images/Day2/3.monitor_sensor/screenshot1.png
 
 |
 
-The middle of the section displays multiple windows with 2D visuals from various sensors. 
-The color and other visual settings may be accessed via the pencil icon or by directly updating the setting by right clicking on the desired 
-visual. 
+- The middle of the section displays multiple windows with 2D visuals from various sensors. 
 
-On the left you, the Isaac Sight displays all the available channels which can be visualized. 
-Activate all the available sensors and check for the visuals.
+- The color and other visual settings may be accessed via the pencil icon or by directly updating the setting by right clicking on the desired visual. 
 
+- On the left you, the Isaac Sight displays all the available channels which can be visualized. 
+
+- Activate all the available sensors and check for the visuals.
 
 Checking Visuals
 -------------------
 
-Lets move our robot to check how the visuals of the sensors change. 
+- Lets move our robot to check how the visuals of the sensors change.
+
+- IMU stands for Inertial Measurement Unit.
+
+- IMU is a device that measures and reports the specific force (acceleration) and angular rate (rotation) of an object in three-dimensional space.
+
+- Odometry is a method used to estimate the position and movement of a robot or a vehicle based on the changes observed in wheel motion.
+
+- Odometry relies on measuring the rotation of wheels and the distance traveled by a robot or a vehicle to estimate its movement and position.
+
+.. thumbnail:: /_images/Day2/3.monitor_sensor/screenshot2.png
+
+|
+
+- In this part, the angular x,y,z and orientation x,y,z,w values of the IMU value can be checked with graphs and measured values.
+
+.. thumbnail:: /_images/Day2/3.monitor_sensor/screenshot3.png
+
+|
+
+- In this part, you can check the orientation, z, w values, position x, y values, and ilnear x, angular z values of Odometry with graphs and measured values.

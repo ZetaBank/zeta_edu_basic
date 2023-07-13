@@ -23,7 +23,7 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Mission" href="2.mission.html" />
+    <link rel="next" title="Let’s Get Used to the Robot Arm" href="2.mission.html" />
     <link rel="prev" title="Control AI Robot Arm" href="0.index.html" /> 
 </head>
 
@@ -61,16 +61,15 @@
 </li>
 <li class="toctree-l2 current"><a class="reference internal" href="0.index.html">Control AI Robot Arm</a><ul class="current">
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Follow Along!</a></li>
-<li class="toctree-l3"><a class="reference internal" href="2.mission.html">Mission</a></li>
+<li class="toctree-l3"><a class="reference internal" href="2.mission.html">Let’s Get Used to the Robot Arm</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../3.arm_dance/0.index.html">Dance with AI Robot Arm</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../3.arm_dance/1.follow_along.html">Follow Along!</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../3.arm_dance/2.mission.html">Mission</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../3.arm_dance/2.dancing_arm.html">Let’s Introduce Our Team with Music!</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../4.dancing_arm.html">Let’s Introduce Our Team with Music</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../5.gotcha.html">Let’s Pick a Toy with a AI Robot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../5.gotcha.html">Let’s Protect the Earth from Naughty Monsters!</a></li>
 </ul>
 </li>
 </ul>
@@ -119,7 +118,7 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../Day2/3.monitor_sensor/0.index.html">Monitor AI Robot Sensor</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../Day2/3.monitor_sensor/1.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day2/3.monitor_sensor/1.follow_along.html">Let’s Explore the Inside of the Robot’s Body!</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../Day2/4.drive_team.html">Control AI Robot as a Team</a></li>
@@ -190,17 +189,28 @@
     </ul>
     <div class="line">(The Jetson Board used for these examples are => Jetson Nano)</div>
 
-</div><hr><ul>
-<li><p class="linemarker linemarker-28">05_01_left_right.ipynb</p></li>
+</div><hr><a class=""
+               data-lightbox="group-788f22b3-9111-4ddf-8850-fc4dad83b07c"
+               href="../../_images/arm_dance1.gif"
+               title=""
+               data-title=""
+               
+               ><img src="../../_images/arm_dance1.gif"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><ul>
+<li><p class="linemarker linemarker-30">05_01_left_right.ipynb</p></li>
 <li><div class="line-block">
 <div class="line">Running the cell code.</div>
 <div class="line"><cite>Ctrl + Enter</cite></div>
 </div>
 </li>
-<li><p class="linemarker linemarker-31">To control the robot arm from code, don’t forget to shut down the docker container. See <a class="reference external" href="https://zeta-edu-lecture.readthedocs.io/en/latest/lecture_courses/course_1/5.robot_arm_ex/2.basic_control/2.before_starting.html">here</a>.</p></li>
+<li><p class="linemarker linemarker-33">To control the robot arm from code, don’t forget to shut down the docker container. See <a class="reference external" href="https://zeta-edu-lecture.readthedocs.io/en/latest/lecture_courses/course_1/5.robot_arm_ex/2.basic_control/2.before_starting.html">here</a>.</p></li>
 </ul>
 <a class=""
-               data-lightbox="group-f26966e0-449c-4395-a037-77139f98885e"
+               data-lightbox="group-5833b9a3-1dc3-4778-a2cd-b9cbf7c04d2a"
                href="../../_images/arm11.png"
                title=""
                data-title=""
@@ -211,7 +221,7 @@
                      height="auto"
                      alt=""/>
                 </a><ul class="simple">
-<li><p class="linemarker linemarker-35">Load Arm_Lib module and register the robot arm as an object.</p></li>
+<li><p class="linemarker linemarker-37">Load Arm_Lib module and register the robot arm as an object.</p></li>
 </ul>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">time</span>
 <span class="kn">from</span> <span class="nn">Arm_Lib</span> <span class="kn">import</span> <span class="n">Arm_Device</span>
@@ -222,7 +232,7 @@
 </pre></div>
 </div>
 <ul class="simple">
-<li><p class="linemarker linemarker-47">Run the below cell within your jupyter notebook.</p></li>
+<li><p class="linemarker linemarker-49">Run the below cell within your jupyter notebook.</p></li>
 </ul>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Repeat swinging the robot arm up and down</span>
 <span class="c1"># Arm range = 0 ~ 180</span>
@@ -264,10 +274,10 @@
 </pre></div>
 </div>
 <ul class="simple">
-<li><p class="linemarker linemarker-89">Now you can see the robot arm moving.</p></li>
+<li><p class="linemarker linemarker-91">Now you can see the robot arm moving.</p></li>
 </ul>
 <a class=""
-               data-lightbox="group-fd535454-d858-43b7-8460-a5b0ce56ba8c"
+               data-lightbox="group-3b52b623-666c-4871-80f9-6dbf8cdb1f42"
                href="../../_images/arm_dance1.gif"
                title=""
                data-title=""
@@ -278,7 +288,7 @@
                      height="auto"
                      alt=""/>
                 </a><ul class="simple">
-<li><p class="linemarker linemarker-93">Remove the robot arm object.</p></li>
+<li><p class="linemarker linemarker-95">Remove the robot arm object.</p></li>
 </ul>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">del</span> <span class="n">Arm</span>  <span class="c1"># Remove robot arm object.</span>
 </pre></div>
@@ -290,7 +300,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="0.index.html" class="btn btn-neutral float-left" title="Control AI Robot Arm" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="2.mission.html" class="btn btn-neutral float-right" title="Mission" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="2.mission.html" class="btn btn-neutral float-right" title="Let’s Get Used to the Robot Arm" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

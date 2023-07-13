@@ -20,6 +20,7 @@ Follow Along!
         
     </div>
 
+.. thumbnail:: /_images/Day1/2.robot_arm/arm_dance2.gif
 
 .. raw:: html
 
@@ -185,7 +186,10 @@ Follow Along!
     except KeyboardInterrupt:
         print(" Program closed! ")
         pass
+    
+-   Now you can see the robot arm moving with music.
 
+.. thumbnail:: /_images/Day1/2.robot_arm/arm_dance2.gif
 
 -   Remove the robot arm object.
 

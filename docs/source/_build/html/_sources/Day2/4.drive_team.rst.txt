@@ -16,7 +16,7 @@ Control AI Robot as a Team
 
 .. thumbnail:: /_images/Day2/4.drive_team/ui1.png
 
-- Open a browser and connect to "10.42.0.1:5000".
+- Open a browser and connect to `<http://10.42.0.1:5000/>`_.
 
 |
 

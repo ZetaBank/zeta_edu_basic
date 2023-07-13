@@ -14,11 +14,8 @@ Presentation and discussion
         </div>
     </div>
 
-.. thumbnail:: /_images/Day3/2.presentation/map.png
-
 Mission: Creating Amazing Photos Together
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In this fun group project, we will be exploring the world of photography and unleashing our creativity!
 Our goal is to capture beautiful background photos and blend them with our own portraits to create stunning compositions.

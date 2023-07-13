@@ -1,4 +1,4 @@
-Mission
+Let's Get Used to the Robot Arm
 ================
 
 .. raw:: html
@@ -16,6 +16,7 @@ Mission
         </div>
     </div>
 
+.. thumbnail:: /_images/Day1/2.robot_arm/donky.png
 
 Libraries used for this Mission
 ------------------------------------------
@@ -416,17 +417,21 @@ Open the mission folder and open the mission.ipynb file.
 Pick up an object and place it somewhere else!
 -------------------------------------------------
 
+.. thumbnail:: /_images/Day1/2.robot_arm/donky.png
+
+- You can pick up several dolls by manipulating the robot arm using the mouse.
+
+- Also, you can use the camera attached to the robot arm to see the point of view of the robot arm and get used to the operation.
+
+- Place the doll where you want, pick it up with the robot arm and place it in your hand.
+
+
+How to play
+-----------------------
+
 - Now that we have built our program, using the GUI control and grab an object and place it somewhere else. 
 
 .. thumbnail:: /_images/Day1/2.robot_arm/gui.png
-
-|
-
-- gui can be manipulated as follows.
-
-.. thumbnail:: /_images/Day1/2.robot_arm/gui_ex1.png
-
-|
 
 - gui can be manipulated as follows.
 
@@ -452,7 +457,7 @@ Pick up an object and place it somewhere else!
 
 .. thumbnail:: /_images/Day1/2.robot_arm/gui_ex6.png
 
-    
+
 (**IMPORTANT**) 
 - The preset angles of the arm might not be fit for the environment you are in. Go to the ``mission_lib.py`` to change the angles or add more servo motor updates. 
 - It is highly recommended that you change and experiment around the mission_lib.py file and see how the movement of the arm is set up. 
