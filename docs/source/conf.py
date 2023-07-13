@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = 'Elementary Version'
+project = 'Basic Version'
 # copyright = '2021, Graziella'
 author = 'Zetabank'
 

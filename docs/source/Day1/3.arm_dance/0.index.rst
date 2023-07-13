@@ -6,3 +6,4 @@ Here are the contents of this section:
 .. toctree:: 
     1.follow_along
     2.dancing_arm
+    3.discussion
