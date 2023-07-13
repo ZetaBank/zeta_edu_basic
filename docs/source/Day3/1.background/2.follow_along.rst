@@ -21,6 +21,11 @@ Follow Along!
         <div class="line">(The Jetson Board used for these examples are => Jetson Nano)</div>
     </div>
 
+.. thumbnail:: /_images/Day3/1.background/background_2_remove_result.jpg
+
+.. thumbnail:: /_images/Day3/1.background/background_3_replace_result.jpg
+
+
 .. raw:: html
 
     <hr>

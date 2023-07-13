@@ -21,6 +21,8 @@ Follow Along!
         <div class="line">(The Jetson Board used for these examples are => Jetson Nano)</div>
     </div>
 
+.. thumbnail:: /_images/Day2/2.AI/4.posenet/pose_result.jpg
+
 .. raw:: html
 
     <hr>

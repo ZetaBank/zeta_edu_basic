@@ -17,7 +17,7 @@ Mission
     </div>
 
 
-
+.. thumbnail:: /_images/Day2/2.AI/1.object_detection/object_detection_camera1.jpg
 
 
 Writing Custom detectNet Program

@@ -15,6 +15,9 @@ Mission
         </div>
     </div>
 
+
+.. thumbnail:: /_images/Day2/2.AI/3.segmantation/segmentation_example1.jpg
+
 Writing Custom segNet Program
 ---------------------------------
 
@@ -24,7 +27,7 @@ Create a new python file in the Jupyter Notebook Environment:
 
 -   Press the blue plus button on the top left corner of the web.
 
-    .. thumbnail:: /_images/ai_Day2/2.AItraining/add_plus.png
+    .. thumbnail:: /_images/Day2/2.AI/add_plus.png
 
 |
 
@@ -231,9 +234,7 @@ Executing the Custom Program
 
 -   Be sure to turn the camera back online by:
 
-    .. code-block:: python
 
-        %%capture
-        !pm2 start 5
+.. thumbnail:: /_images/Day2/2.AI/3.segmantation/segmentation_example1.jpg
 
-
+.. thumbnail:: /_images/Day2/2.AI/3.segmantation/segmentation_example2.jpg

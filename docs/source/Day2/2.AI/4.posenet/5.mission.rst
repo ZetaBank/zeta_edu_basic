@@ -16,14 +16,12 @@ Mission
         </div>
     </div>
 
-
+.. thumbnail:: /_images/Day2/2.AI/4.posenet/pose_example1.jpg
 
 
 
 Writing Custom poseNet Program
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-
 
 Similar to how we created a new python file in our team assignment, generate a new python file and name it ``02_4-2. pose_estimation_camera.py``.
 
