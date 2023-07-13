@@ -1,11 +1,11 @@
-Let's Get Used to the Robot Arm
+Mission
 ================
 
 .. raw:: html
 
     <div style="background: #C3F8FF" class="admonition note custom">
         <p style="background: light-blue" class="admonition-title">
-            Project Name: Robot Arm Control System
+            Mission: Let's Get Used to the Robot Arm
         </p>
         <div class="line-block">
             <div class="line"><strong>-</strong> Create a custom robot arm control system.</div>
@@ -16,7 +16,7 @@ Let's Get Used to the Robot Arm
         </div>
     </div>
 
-.. thumbnail:: /_images/Day1/2.robot_arm/donky.png
+.. thumbnail:: /_images/Day1/2.robot_arm/boss1.jpg
 
 Libraries used for this Mission
 ------------------------------------------
@@ -414,16 +414,18 @@ Open the mission folder and open the mission.ipynb file.
         del Arm
 
 
-Pick up an object and place it somewhere else!
+Let's kill the mid-boss!
 -------------------------------------------------
 
-.. thumbnail:: /_images/Day1/2.robot_arm/donky.png
+.. thumbnail:: /_images/Day1/2.robot_arm/boss1.jpg
+
+.. thumbnail:: /_images/Day1/2.robot_arm/boss2.jpg
 
 - You can pick up several dolls by manipulating the robot arm using the mouse.
 
 - Also, you can use the camera attached to the robot arm to see the point of view of the robot arm and get used to the operation.
 
-- Place the doll where you want, pick it up with the robot arm and place it in your hand.
+- Pick up the mid-boss using the powerful robot arm and shake it.
 
 
 How to play
