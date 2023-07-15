@@ -14,7 +14,7 @@ Mission
         </div>
     </div>
 
-.. thumbnail:: /_images/Day1/2.robot_arm/boss1.jpg
+.. thumbnail:: /_images/Day1/2.robot_arm/boss3.png
 
 Libraries used for this Mission
 ------------------------------------------
@@ -415,9 +415,7 @@ Open the mission folder and open the mission.ipynb file.
 Let's kill the mid-boss!
 -------------------------------------------------
 
-.. thumbnail:: /_images/Day1/2.robot_arm/boss1.jpg
-
-.. thumbnail:: /_images/Day1/2.robot_arm/boss2.jpg
+.. thumbnail:: /_images/Day1/2.robot_arm/boss3.png
 
 - You can pick up several dolls by manipulating the robot arm using the mouse.
 
