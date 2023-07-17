@@ -16,7 +16,7 @@ Mission
 
 .. image:: /_images/Day1/2.robot_arm/boss3.png
     :align: center
-    :scale: 70%
+    :scale: 40%
 
 Libraries used for this Mission
 ------------------------------------------
