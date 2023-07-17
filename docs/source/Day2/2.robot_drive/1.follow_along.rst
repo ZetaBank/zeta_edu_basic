@@ -1,4 +1,4 @@
-Follow Along!
+Let's move the robot the way you want!
 ================
 
 .. raw:: html
