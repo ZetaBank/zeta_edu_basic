@@ -47,7 +47,7 @@ Rules
 
 .. thumbnail:: /_images/Day1/5.gotcha/ui1-4.png
 
-- The second round has a 3 minute time limit.
+- The second round has a 2 minute time limit.
 
     - Each team has 2 minutes to hold the doll and select the best representative.
 
