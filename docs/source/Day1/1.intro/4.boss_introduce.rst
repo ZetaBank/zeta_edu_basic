@@ -19,4 +19,4 @@ This is the Boss Monster!
 |
 .. image:: /_images/Day1/1.intro/fianl_boss_1.png
     :align: center
-    :scale: 37.5%
+    :scale: 38%
