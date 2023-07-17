@@ -1,0 +1,22 @@
+Discussion
+=============
+
+The robot arm allows us to do variety of tasks with our robot. We have only tried elementary tasks with our robot arm through our lecture.
+
+.. raw:: html
+
+    <div style="background: #CFFDE1" class="admonition note custom">
+        <p style="background: #68B984" class="admonition-title">
+            Group Discussion Points
+        </p>
+        <ul>
+            <li> 
+                The convergence of robot and art.
+                <ul>
+                    <li>The impact of robotic technology on artists.</li>
+                    <li>Delicate and creative artistic depiction that only robots can do.</li>
+                </ul>
+            </li>
+            
+        </ul>
+    </div>
