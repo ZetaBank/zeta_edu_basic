@@ -39,3 +39,9 @@ Preparation
 4. Let's present team members, team names, team slogans and team music in groups.
 
 .. thumbnail:: /_images/Day1/3.arm_dance/ui2-1.png
+
+5. After the preparation process is complete, click Perform with Robot.
+
+.. thumbnail:: /_images/Day1/3.arm_dance/ui2-2.png
+
+6. Wait for a while, press the start button and the robot arm will start dancing to the music!

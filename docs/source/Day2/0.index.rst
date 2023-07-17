@@ -10,5 +10,5 @@ Here are the contents of this section:
     2.AI/0.index
     2.robot_drive/0.index
     3.monitor_sensor/0.index
-    4.drive_team
+    4.drive_team/0.index
     5.clean_earth/1.index

@@ -1,4 +1,4 @@
-Control AI Robot as a Team
+Let's See the World Through the Eyes of a Robot!
 ================
 
 .. raw:: html
