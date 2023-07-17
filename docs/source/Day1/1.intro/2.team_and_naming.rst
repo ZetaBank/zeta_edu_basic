@@ -2,3 +2,5 @@ Team assignment & Team name
 ==============================
 
 팀 정하기 및 팀 이름 변경 추가
+
+.. thumbnail::  _images/Day1/1.intro/robot_name.png
