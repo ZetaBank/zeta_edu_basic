@@ -33,6 +33,20 @@ Let's Make a Clean Earth Using AI Robot
 Game Rules: Trash Separation Collection Competition
 ----------------------------------------------------
 
+- There are two main teams for this activity.
+
+.. thumbnail:: /_images/Day2/5.clean_earth/black_team.png
+
+- There is a black team that operates black robots.
+
+.. thumbnail:: /_images/Day2/5.clean_earth/white_team.png
+
+- There is a white team that operates white robots.
+
+.. thumbnail:: /_images/Day2/5.clean_earth/versus.png
+
+- Each group will be divided into two teams to compete.
+
 - Teams compete to clean up trash piles by sorting them into different types.
 - Team members line up in sequential order and take turns controlling the robot.
 - Using a joystick, the robot must move and sort the trash within the designated areas.
