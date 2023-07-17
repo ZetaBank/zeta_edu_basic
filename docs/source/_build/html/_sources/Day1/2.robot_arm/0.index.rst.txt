@@ -5,4 +5,6 @@ Here are the contents of this section:
 
 .. toctree:: 
     1.follow_along
-    2.mission
+    2.explanation
+    3.mission
+    4.discussion

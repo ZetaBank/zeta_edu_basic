@@ -8,8 +8,11 @@ This is the Boss Monster!
 
 |
 
-.. figure:: /_images/Day1/1.intro/monster_boss_1.png
 
+.. image:: /_images/Day1/1.intro/monster_boss_1_1.png
+    :align: center
+    :scale: 40%
 |
-
-.. figure:: /_images/Day1/1.intro/monster_boss_2.png
+.. image:: /_images/Day1/1.intro/monster_boss_2_1.png
+    :align: center
+    :scale: 40%

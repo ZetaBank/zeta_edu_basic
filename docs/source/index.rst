@@ -5,7 +5,7 @@ Zetabank Education Guide
 
 
 .. toctree:: 
-    :caption: Day1
+    :caption: Wanted troublemakers
     :maxdepth: 1
     :hidden:
     :titlesonly: 
@@ -13,7 +13,7 @@ Zetabank Education Guide
     Day1/0.index
 
 .. toctree:: 
-    :caption: Day2
+    :caption: Discarded trash of troublemakers
     :maxdepth: 1
     :hidden:
     :titlesonly: 
@@ -22,7 +22,7 @@ Zetabank Education Guide
 
 
 .. toctree:: 
-    :caption: Day3
+    :caption: Responsible for Ulleungdo's future
     :maxdepth: 1
     :hidden:
     :titlesonly: 

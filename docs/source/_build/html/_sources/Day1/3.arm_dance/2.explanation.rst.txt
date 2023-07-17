@@ -1,0 +1,52 @@
+Code Explanation
+==================
+
+Overall Explanation
+--------------------
+
+-   With our follow along examples, we were able to move our robot arm with precision as well. 
+
+-   The instructional codes have been compile into a jupyter notebook for the ease of use. 
+
+Main process
+--------------------
+
+- The main function built for our main process is camera function. Within the function:
+
+    1. Initialize the camera input, and the framerate. 
+
+        .. code-block:: python
+
+            # Open camera
+            capture = cv.VideoCapture(1)
+            
+    2. Capture every frame from the camera on loop.
+
+        .. code-block:: python
+            
+            while True:
+               
+        1. Import in the frame of the input feed and resize it to 640, 480 ratio. 
+
+            .. code-block:: python
+
+                _, img = capture.read()
+
+                img = cv.resize(img, (640, 480))
+
+        
+        2. If the model is set to exit, close all the windows opened and release the camera.
+
+            .. code-block:: python 
+
+                if model == 'Exit':
+                    cv.destroyAllWindows()
+                    capture.release()
+                    break
+    
+    3. To activate the function above, first activate a display output, then within a thread run the function.
+
+        .. code-block:: python
+
+            display(controls_box,output)
+            threading.Thread(target=camera, ).start()
