@@ -1,21 +1,24 @@
-Introduction to Recycling Garbage
+About Recyclable Garbages
 ==================================
-
 
 .. thumbnail:: /_images/Day2/5.clean_earth/clean_earth7.png
 
-- Paper
+- This chart guides you on how to properly recycle your garbage.
 
 .. thumbnail:: /_images/Day2/5.clean_earth/clean_earth8_paper.png
 
-- can
+- Paper can be recycled and repurposed in various forms, such as office paper, newspapers, magazines, cardboard boxes, and packaging materials.
   
 .. thumbnail:: /_images/Day2/5.clean_earth/clean_earth9_can.png
 
-- glass
+- Cans can be recycled into new products through the process of metal recycling, contributing to resource conservation and environmental sustainability.
 
 .. thumbnail:: /_images/Day2/5.clean_earth/clean_earth10_glass.png
 
-- plastic
+- Glass can be recycled and transformed into new glass products, helping to conserve natural resources and reduce waste.
 
 .. thumbnail:: /_images/Day2/5.clean_earth/clean_earth11_plastic.png
+
+- Plastic can be recycled to reduce its environmental impact and promote a circular economy.
+
+- Plastic recycling involves collecting, sorting, cleaning, and processing plastic waste into new products.
