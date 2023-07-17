@@ -1,6 +1,21 @@
-Team assignment & Team name
+To change the team name
 ==============================
 
-팀 정하기 및 팀 이름 변경 추가
+How to change the team name
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. thumbnail::  _images/Day1/1.intro/robot_name.png
+1. Pop-up generated when the top green button (ertyuio) is clicked
+
+.. thumbnail:: /_images/Day1/1.intro/team_name1.png
+
+2. Create a name in the pop-up and click the "OK" button
+
+.. thumbnail:: /_images/Day1/1.intro/team_name2.png
+
+3. Select the robot type from the pop-up and click the "OK" button
+
+.. thumbnail:: /_images/Day1/1.intro/team_name3.png
+
+4. You can see that the name of the robot has changed
+
+.. thumbnail:: /_images/Day1/1.intro/team_name4.png
