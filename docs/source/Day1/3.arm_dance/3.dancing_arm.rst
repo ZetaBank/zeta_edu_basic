@@ -37,3 +37,5 @@ Preparation
 3. Wait a while for the series, You can see the robot arms dancing to the music.
 
 4. Let's present team members, team names, team slogans and team music in groups.
+
+.. thumbnail:: /_images/Day1/3.arm_dance/ui2-1.png

@@ -14,21 +14,27 @@ Overall Explanation
 Sound
 -------------------------------
 
-.. thumbnail:: /_images/Day1/3.arm_dance/dance.png
+.. thumbnail:: /_images/Day1/3.arm_dance/music.png
 
 - For our dancing robot demonstration, we published an array of integer to ROS Topic called ``/play_specific``. 
 
 .. code-block:: python
+
     os.system('rostopic pub -1 /play_specific std_msgs/String "data: \'/root/scripts/sensor/arm_sounds/music_1.mp3\'"')
+
 
 - The ``play_specific`` topic publishes messages to the play_sound node. You can play a sound file by entering the absolute path of the sound file.
 
 .. code-block:: python
+
     os.system('rostopic pub -1 /play_specific std_msgs/String "data: \'stop\'"')
+
 
 - Or you can stop the currently playing music with the stop command.
 
 .. code-block:: python
+
     !ls /root/scripts/sensor/arm_sounds
+
 
 - The list of music files that can be played can be checked with the following command.
