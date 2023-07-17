@@ -31,13 +31,27 @@ How to play
 Rules
 -----------------------
 
+.. thumbnail:: /_images/Day1/5.gotcha/ui1-1.png
+
+- Touch the second 'Capture Monster'.
+
+.. thumbnail:: /_images/Day1/5.gotcha/ui1-2.png
+
+- A screen similar to the picture above will appear.
+
+.. thumbnail:: /_images/Day1/5.gotcha/ui1-3.png
+
 - The first round has a 3 minute time limit.
 
-    - Each team member picks up a toy using a robot and selects a representative team member with good skills.
+    - Individuals use the robot to pick up toys and become accustomed to operating the robot arm.
+
+.. thumbnail:: /_images/Day1/5.gotcha/ui1-4.png
 
 - The second round has a 3 minute time limit.
 
-    - The selected representative picks up the toy within the time limit and the rest of the team helps the representative team member.
+    - Each team has 2 minutes to hold the doll and select the best representative.
+
+.. thumbnail:: /_images/Day1/5.gotcha/ui1-5.png
 
 - The last round has a 1 minute time limit.
 

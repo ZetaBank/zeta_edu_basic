@@ -417,7 +417,9 @@ Open the mission folder and open the mission.ipynb file.
 Let's kill the mid-boss!
 -------------------------------------------------
 
-.. thumbnail:: /_images/Day1/2.robot_arm/boss3.png
+.. image:: /_images/Day1/2.robot_arm/boss3.png
+    :align: center
+    :scale: 40%
 
 - You can pick up several dolls by manipulating the robot arm using the mouse.
 
@@ -435,7 +437,9 @@ How to play
 
 - gui can be manipulated as follows.
 
-.. thumbnail:: /_images/Day1/2.robot_arm/gui_ex1.png
+(**IMPORTANT**) 
+- The preset angles of the arm might not be fit for the environment you are in. Go to the ``mission_lib.py`` to change the angles or add more servo motor updates. 
+- It is highly recommended that you change and experiment around the mission_lib.py file and see how the movement of the arm is set up. 
 
 - You can adjust the moving speed of the robot arm using the 'slow' ,'regular', and 'fast' buttons.
 
@@ -457,7 +461,6 @@ How to play
 
 .. thumbnail:: /_images/Day1/2.robot_arm/gui_ex6.png
 
+- Now let's beat the mid-boss!
 
-(**IMPORTANT**) 
-- The preset angles of the arm might not be fit for the environment you are in. Go to the ``mission_lib.py`` to change the angles or add more servo motor updates. 
-- It is highly recommended that you change and experiment around the mission_lib.py file and see how the movement of the arm is set up. 
+.. thumbnail:: /_images/Day1/2.robot_arm/donky.png
