@@ -17,6 +17,6 @@ This is the Boss Monster!
     :align: center
     :scale: 40%
 |
-.. image:: /_images/Day1/1.intro/fianl_boss_1.png
+.. image:: /_images/Day1/1.intro/final_boss_1.png
     :align: center
-    :scale: 38%
+    :scale: 27%
