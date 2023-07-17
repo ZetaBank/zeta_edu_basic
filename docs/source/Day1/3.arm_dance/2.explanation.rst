@@ -4,49 +4,31 @@ Code Explanation
 Overall Explanation
 --------------------
 
--   With our follow along examples, we were able to move our robot arm with precision as well. 
+- With our follow along examples, we were able to move our robot arm with precision as well as produce music with our integrated speaker within the zetabot.
 
--   The instructional codes have been compile into a jupyter notebook for the ease of use. 
+- The instructional codes have been compile into a jupyter notebook for the ease of use. 
 
-Main process
---------------------
+- This section will explain the libraries used for the *follow along* section. 
 
-- The main function built for our main process is camera function. Within the function:
 
-    1. Initialize the camera input, and the framerate. 
+Sound
+-------------------------------
 
-        .. code-block:: python
+.. thumbnail:: /_images/Day1/3.arm_dance/dance.png
 
-            # Open camera
-            capture = cv.VideoCapture(1)
-            
-    2. Capture every frame from the camera on loop.
+- For our dancing robot demonstration, we published an array of integer to ROS Topic called ``/play_specific``. 
 
-        .. code-block:: python
-            
-            while True:
-               
-        1. Import in the frame of the input feed and resize it to 640, 480 ratio. 
+.. code-block:: python
+    os.system('rostopic pub -1 /play_specific std_msgs/String "data: \'/root/scripts/sensor/arm_sounds/music_1.mp3\'"')
 
-            .. code-block:: python
+- The ``play_specific`` topic publishes messages to the play_sound node. You can play a sound file by entering the absolute path of the sound file.
 
-                _, img = capture.read()
+.. code-block:: python
+    os.system('rostopic pub -1 /play_specific std_msgs/String "data: \'stop\'"')
 
-                img = cv.resize(img, (640, 480))
+- Or you can stop the currently playing music with the stop command.
 
-        
-        2. If the model is set to exit, close all the windows opened and release the camera.
+.. code-block:: python
+    !ls /root/scripts/sensor/arm_sounds
 
-            .. code-block:: python 
-
-                if model == 'Exit':
-                    cv.destroyAllWindows()
-                    capture.release()
-                    break
-    
-    3. To activate the function above, first activate a display output, then within a thread run the function.
-
-        .. code-block:: python
-
-            display(controls_box,output)
-            threading.Thread(target=camera, ).start()
+- The list of music files that can be played can be checked with the following command.
