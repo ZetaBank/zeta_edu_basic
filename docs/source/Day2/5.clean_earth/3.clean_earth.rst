@@ -72,6 +72,7 @@ How to Play
 .. thumbnail:: /_images/Day2/5.clean_earth/ui3-2.png
 
 6. Pressing the start button starts a timer of approximately 30 seconds per runner.
+
 |
 
 Here's an example of how to proceed
