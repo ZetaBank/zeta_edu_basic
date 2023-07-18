@@ -16,3 +16,11 @@ This is the Boss Monster!
 .. image:: /_images/Day1/1.intro/monster_boss_2_1.png
     :align: center
     :scale: 40%
+|
+.. image:: /_images/Day1/2.robot_arm/boss3.png
+    :align: center
+    :scale: 40%
+|
+.. image:: /_images/Day1/1.intro/final_boss_1.png
+    :align: center
+    :scale: 27%
