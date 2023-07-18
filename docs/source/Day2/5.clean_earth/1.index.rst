@@ -29,7 +29,7 @@ Marine Debris
 - Let's all work together to create a beautiful Earth in the future.
 .. thumbnail:: /_images/Day2/5.clean_earth/clean_earth6.png
 
-.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth6-1.png
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth6_1.png
 
 
 .. toctree::
