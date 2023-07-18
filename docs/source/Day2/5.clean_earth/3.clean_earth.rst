@@ -65,7 +65,7 @@ How to Play
 3. Various types of trash, such as bottles and cans, are placed on the stage.
 4. The objective of the game is to control the robot and sort the trash into the designated areas for each type.
 .. thumbnail:: /_images/Day2/5.clean_earth/ui3-1.png
-5. Click Let's Save the Earth with Robots.
+5. Now when you're ready, click the Let's Save the Earth with Robots.
 .. thumbnail:: /_images/Day2/5.clean_earth/ui3-2.png
 6. Pressing the start button starts a timer of approximately 30 seconds per runner.
 |
