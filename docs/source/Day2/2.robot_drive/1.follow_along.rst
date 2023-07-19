@@ -157,11 +157,11 @@ Open the provided jupyter notebook
 |
 
 -   Run the turnTo(degree) function
--   170 degree rotation
+-   45 degree counterclockwise rotation
 
 .. code-block:: python
 
-    turnTo(170)
+    turnTo(45)
  
 
 .. thumbnail:: /_images/Day2/2.robot_drive/left.gif
@@ -169,12 +169,12 @@ Open the provided jupyter notebook
 |
 
 -   Run the turnTo(degree) function
--   25 degree rotation
+-   45 degree clockwise rotation
 
 
 .. code-block:: python
 
-    turnTo(25)
+    turnTo(-45)
 
 .. thumbnail:: /_images/Day2/2.robot_drive/right.gif
 
