@@ -8,6 +8,19 @@ This is the Boss Monster!
 
 |
 
+.. raw:: html
+
+   <div style="text-align: center; font-size: 12pt;">First Stage Boss</div>
+
+.. image:: /_images/Day1/2.robot_arm/boss3.png
+    :align: center
+    :scale: 40%
+
+|
+
+.. raw:: html
+
+   <div style="text-align: center; font-size: 12pt;">Second Stage Boss</div>
 
 .. image:: /_images/Day1/1.intro/monster_boss_1_1.png
     :align: center
@@ -16,11 +29,17 @@ This is the Boss Monster!
 .. image:: /_images/Day1/1.intro/monster_boss_2_1.png
     :align: center
     :scale: 40%
+
 |
-.. image:: /_images/Day1/2.robot_arm/boss3.png
-    :align: center
-    :scale: 40%
-|
+.. raw:: html
+
+   <div style="text-align: center; font-size: 12pt;">Final Stage Boss</div>
+
 .. image:: /_images/Day1/1.intro/final_boss_1.png
     :align: center
     :scale: 27%
+|
+
+.. image:: /_images/Day1/1.intro/others.png
+
+In addition, various bosses appear!
