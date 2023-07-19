@@ -54,7 +54,7 @@
 <ul class="current">
 <li class="toctree-l1 current"><a class="reference internal" href="../0.index.html">Enjoy AI robot with body</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="../1.intro/1.intro.html">Let’s go to AI Exploration Education</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../1.intro/2.team_and_naming.html">Team assignment &amp; Team name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../1.intro/2.team_and_naming.html">To change the team name</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../1.intro/3.catch_monster.html">Catch a troublemaker monster</a></li>
 <li class="toctree-l3"><a class="reference internal" href="../1.intro/4.boss_introduce.html">This is the Boss Monster!</a></li>
 </ul>
@@ -118,17 +118,20 @@
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../Day2/2.robot_drive/0.index.html">Control AI Robot</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../Day2/2.robot_drive/1.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day2/2.robot_drive/1.follow_along.html">Let’s Move the Robot the Way You Want!</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../../Day2/3.monitor_sensor/0.index.html">Monitor AI Robot Sensor</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="../../Day2/3.monitor_sensor/1.follow_along.html">Let’s Explore the Inside of the Robot’s Body!</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../../Day2/4.drive_team.html">Control AI Robot as a Team</a></li>
-<li class="toctree-l2"><a class="reference internal" href="../../Day2/5.clean_earth/1.index.html">We save the earth</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="../../Day2/5.clean_earth/2.recycling_garbage.html">Introduction to Recycling Garbage</a></li>
-<li class="toctree-l3"><a class="reference internal" href="../../Day2/5.clean_earth/3.clean_earth.html">Let’s Make a Clean Earth Using AI Robot</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../Day2/4.drive_team/0.index.html">Control AI Robot as a Team</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Day2/4.drive_team/1.follow_along.html">Let’s See the World Through the Eyes of a Robot!</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../Day2/5.clean_earth/1.index.html">We Save The Earth</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Day2/5.clean_earth/2.recycling_garbage.html">About Recyclable Garbages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day2/5.clean_earth/3.clean_earth.html">Let’s Make a Clean Earth Using AI Robot!</a></li>
 </ul>
 </li>
 </ul>
@@ -181,63 +184,44 @@
 <section id="overall-explanation">
 <h2>Overall Explanation<a class="headerlink" href="#overall-explanation" title="Permalink to this heading"></a></h2>
 <ul class="simple">
-<li><p class="linemarker linemarker-7">With our follow along examples, we were able to move our robot arm with precision as well.</p></li>
+<li><p class="linemarker linemarker-7">With our follow along examples, we were able to move our robot arm with precision as well as produce music with our integrated speaker within the zetabot.</p></li>
 <li><p class="linemarker linemarker-9">The instructional codes have been compile into a jupyter notebook for the ease of use.</p></li>
+<li><p class="linemarker linemarker-11">This section will explain the libraries used for the <em>follow along</em> section.</p></li>
 </ul>
 </section>
-<section id="main-process">
-<h2>Main process<a class="headerlink" href="#main-process" title="Permalink to this heading"></a></h2>
-<ul>
-<li><p class="linemarker linemarker-14">The main function built for our main process is camera function. Within the function:</p>
-<blockquote>
-<div><ol class="arabic">
-<li><p class="linemarker linemarker-16">Initialize the camera input, and the framerate.</p>
-<blockquote>
-<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Open camera</span>
-<span class="n">capture</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">VideoCapture</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+<section id="sound">
+<h2>Sound<a class="headerlink" href="#sound" title="Permalink to this heading"></a></h2>
+<a class=""
+               data-lightbox="group-b56a0987-9db3-4187-ad49-fb142a880655"
+               href="../../_images/music1.png"
+               title=""
+               data-title=""
+               
+               ><img src="../../_images/music1.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><ul class="simple">
+<li><p class="linemarker linemarker-19">For our dancing robot demonstration, we published an array of integer to ROS Topic called <code class="docutils literal notranslate"><span class="pre">/play_specific</span></code>.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39;rostopic pub -1 /play_specific std_msgs/String &quot;data: </span><span class="se">\&#39;</span><span class="s1">/root/scripts/sensor/arm_sounds/music_1.mp3</span><span class="se">\&#39;</span><span class="s1">&quot;&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-</div></blockquote>
-</li>
-<li><p class="linemarker linemarker-23">Capture every frame from the camera on loop.</p>
-<blockquote>
-<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
+<ul class="simple">
+<li><p class="linemarker linemarker-26">The <code class="docutils literal notranslate"><span class="pre">play_specific</span></code> topic publishes messages to the play_sound node. You can play a sound file by entering the absolute path of the sound file.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39;rostopic pub -1 /play_specific std_msgs/String &quot;data: </span><span class="se">\&#39;</span><span class="s1">stop</span><span class="se">\&#39;</span><span class="s1">&quot;&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-<ol class="arabic">
-<li><p class="linemarker linemarker-29">Import in the frame of the input feed and resize it to 640, 480 ratio.</p>
-<blockquote>
-<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">_</span><span class="p">,</span> <span class="n">img</span> <span class="o">=</span> <span class="n">capture</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-
-<span class="n">img</span> <span class="o">=</span> <span class="n">cv</span><span class="o">.</span><span class="n">resize</span><span class="p">(</span><span class="n">img</span><span class="p">,</span> <span class="p">(</span><span class="mi">640</span><span class="p">,</span> <span class="mi">480</span><span class="p">))</span>
+<ul class="simple">
+<li><p class="linemarker linemarker-33">Or you can stop the currently playing music with the stop command.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span>!ls /root/scripts/sensor/arm_sounds
 </pre></div>
 </div>
-</div></blockquote>
-</li>
-<li><p class="linemarker linemarker-38">If the model is set to exit, close all the windows opened and release the camera.</p>
-<blockquote>
-<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">if</span> <span class="n">model</span> <span class="o">==</span> <span class="s1">&#39;Exit&#39;</span><span class="p">:</span>
-    <span class="n">cv</span><span class="o">.</span><span class="n">destroyAllWindows</span><span class="p">()</span>
-    <span class="n">capture</span><span class="o">.</span><span class="n">release</span><span class="p">()</span>
-    <span class="k">break</span>
-</pre></div>
-</div>
-</div></blockquote>
-</li>
-</ol>
-</div></blockquote>
-</li>
-<li><p class="linemarker linemarker-47">To activate the function above, first activate a display output, then within a thread run the function.</p>
-<blockquote>
-<div><div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">display</span><span class="p">(</span><span class="n">controls_box</span><span class="p">,</span><span class="n">output</span><span class="p">)</span>
-<span class="n">threading</span><span class="o">.</span><span class="n">Thread</span><span class="p">(</span><span class="n">target</span><span class="o">=</span><span class="n">camera</span><span class="p">,</span> <span class="p">)</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
-</pre></div>
-</div>
-</div></blockquote>
-</li>
-</ol>
-</div></blockquote>
-</li>
+<ul class="simple">
+<li><p class="linemarker linemarker-40">The list of music files that can be played can be checked with the following command.</p></li>
 </ul>
 </section>
 </section>

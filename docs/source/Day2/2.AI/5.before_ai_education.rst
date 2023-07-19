@@ -21,18 +21,56 @@ Before you get AI training...
         
     </div>
 
+Initial work
+^^^^^^^^^^^^^^
+
+.. thumbnail:: /_images/Day2/2.AI/home_display.png
+
+- First, select "인공지능교욱" from the robot's home screen.
+
+.. thumbnail:: /_images/Day2/2.AI/home_display1.png
+
+- The following screen appears.
+
+.. thumbnail:: /_images/Day2/2.AI/home_display2.png
+
+- If you press the "이전" button
+
+.. thumbnail:: /_images/Day2/2.AI/home_display3.png
+
+- Return to the first screen.
+
+.. thumbnail:: /_images/Day2/2.AI/home_display.png
+
+- We have to press the "start" button.
+
+.. thumbnail:: /_images/Day2/2.AI/home_display4.png
+
+- If you press the "start" button. It starts the countdown.
+  
+.. thumbnail:: /_images/Day2/2.AI/home_display5.png
+
+- After that, there is a background image.
+
+.. thumbnail:: /_images/Day2/2.AI/home_display6.png
+
+- If you double-touch the AI icon, the robot will be ready for AI training.
+
+.. thumbnail:: /_images/Day2/2.AI/home_display7.png
 
 .. raw:: html
 
     <hr>
 
+|
+
+Closed camera
+^^^^^^^^^^^^^^
+
 -   Open Browser and connect to "10.42.0.1:5000".
 
 .. thumbnail:: /_images/Day2/2.AI/before_ai_edu_0.png
 
-
-Closed camera
-^^^^^^^^^^^^^^
 
 -   Currently, the camera may be in use by another program.
 
@@ -50,23 +88,6 @@ Closed camera
 
 -   Now, you can utilize the JupyterHub to proceed with your AI training using the camera.
 
-
-Closed lcd mornitor
-^^^^^^^^^^^^^^^^^^^^
-
-- Next, click on "zetabankhub/edu:melodic-lcd-" to shut down the screen display container as well.
-
-.. thumbnail:: /_images/Day2/2.AI/before_ai_edu_3_stop_lcd.png
-
-- If the container is in RUNNING state, press stop and wait for a while.
-
-- The "zetabankhub/edu:melodic-lcd-" text turns white when the container is shutting down.
-
-.. thumbnail:: /_images/Day2/2.AI/before_ai_edu_4_stop_lcd.png
-
-- Now, you can utilize the JupyterHub to proceed with your AI training using the camera and without the obstruction of the screen display.
-
-.. thumbnail:: /_images/Day2/2.AI/before_ai_edu_5_stop_lcd_result.jpg
 
 
 - Remember, the camera is now exclusively available for this purpose and your AI training information and visuals are clearly visible.

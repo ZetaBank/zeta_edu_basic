@@ -1,14 +1,16 @@
-We save the earth
+We Save The Earth
 ==================
 
-marine debris
+Marine Debris
 ^^^^^^^^^^^^^
 
-- The island is getting dirty because of our marine debris.
+- Marine debris is making the island dirty and polluting the environment.
+- Marine debris, which consists of various types of waste materials such as plastics, fishing nets, bottles, and other discarded items, poses a grave threat to the fragile island ecosystems.
 
 .. thumbnail:: /_images/Day2/5.clean_earth/clean_earth1.png
 
-- Our adults are protecting the environmental pollution of Ulleungdo Island.
+- The adults of Ulleungdo actively act to protect and preserve the environment of the beautiful island.
+- Recognizing the importance of their surroundings, they are cleaning up the trash to ensure the sustainability and natural beauty of Ulleungdo for future generations.
 
 .. thumbnail:: /_images/Day2/5.clean_earth/clean_earth2.png
 
@@ -22,9 +24,12 @@ marine debris
 .. thumbnail:: /_images/Day2/5.clean_earth/clean_earth5.png
 
 
-- The image of the Earth that we protected
-
+- The image of the Earth that we protected.
+- We have come together to address the pressing environmental challenges that threaten the very fabric of our existence.
+- Let's all work together to create a beautiful Earth in the future.
 .. thumbnail:: /_images/Day2/5.clean_earth/clean_earth6.png
+
+.. thumbnail:: /_images/Day2/5.clean_earth/clean_earth6_1.png
 
 
 .. toctree::
