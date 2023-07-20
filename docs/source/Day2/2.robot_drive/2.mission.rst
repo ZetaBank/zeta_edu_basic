@@ -14,9 +14,7 @@ Mission
         </div>
     </div>
 
-.. image:: /_images/Day1/2.robot_arm/boss3.png
-    :align: center
-    :scale: 40%
+.. thumbnail:: /_images/Day2/2.robot_drive/reward1.png
 
 How to Play
 ------------------------------------------
@@ -147,6 +145,8 @@ How to Play
 
 Let's Find the Right Password!
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. thumbnail:: /_images/Day2/2.robot_drive/password1.png
+
 - Talk about how to enter your password.
 
 - This code allows Jupyterhub to accept numeric input.
@@ -206,5 +206,11 @@ Let's Find the Right Password!
 - If you put 9, it will rotate 180 degrees, if you put 0, it will stop in place.
 
 - For example, if you enter the password "1290", The robot will move in the following order: forward 1, forward 2, turn 180 degrees, and stop.
+
+.. thumbnail:: /_images/Day2/2.robot_drive/reward2.png
+
+|
+
+.. thumbnail:: /_images/Day2/2.robot_drive/password2.png
 
 - Now, let's make the robot arrive by entering the password suitable for the destination!
