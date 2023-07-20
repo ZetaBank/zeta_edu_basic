@@ -6,3 +6,4 @@ Here are the contents of this section:
 .. toctree::
     
     1.follow_along
+    2.mission

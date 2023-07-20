@@ -113,12 +113,12 @@ Open the provided jupyter notebook
 .. code-block:: python
 
     def turnTo():
-        tmp = {"TurnDelta": math.radians(45)}
+        tmp = {"TurnDelta": math.radians(90)}
         msg = json.dumps(tmp)
         rospy.loginfo("Sent: %s", msg)
         pub.publish(msg)
 
--   Execute the turnTo() function which will turn the robot 45 degrees of angle from its initial position. 
+-   Execute the turnTo() function which will turn the robot 90 degrees of angle from its initial position. 
 
 
 .. code-block:: python 
