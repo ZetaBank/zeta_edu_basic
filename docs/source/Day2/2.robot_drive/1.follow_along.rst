@@ -18,7 +18,7 @@ Let's Move the Robot the Way You Want!
 
 Open the provided jupyter notebook
 
--   01_wheel.ipynb
+-   03_01_wheel.ipynb
 -   | Running the cell code
     | `Ctrl + Enter`
 
@@ -81,6 +81,19 @@ Open the provided jupyter notebook
 -   Convert {"MoveDelta": -0.5} to Json String
 -   Publish the converted message
 
+-   Run the move() function
+-   2 second time delay
+-   Run the stop() function
+
+.. code-block:: python
+
+    move()
+    time.sleep(2)
+    stop()
+
+-   Execute the moveTo(distance) function
+-   1 distance forward
+
 .. code-block:: python 
 
     def moveTo():
@@ -97,6 +110,23 @@ Open the provided jupyter notebook
 
 -   On top of moveTo() function, add distance parameter so that distance and directional information may be given. 
 
+.. code-block:: python
+
+    def turnTo():
+        tmp = {"TurnDelta": math.radians(45)}
+        msg = json.dumps(tmp)
+        rospy.loginfo("Sent: %s", msg)
+        pub.publish(msg)
+
+-   Execute the turnTo() function which will turn the robot 45 degrees of angle from its initial position. 
+
+
+.. code-block:: python 
+
+    turnTo()
+
+-   On top of turnTo() function, add degree parameter so that we may specify how much to turn the robot. 
+
 .. code-block:: python 
 
     def moveTo(distance):
@@ -112,41 +142,11 @@ Open the provided jupyter notebook
 
 .. code-block:: python
 
-    def turnTo():
-        tmp = {"TurnDelta": math.radians(45)}
-        msg = json.dumps(tmp)
-        rospy.loginfo("Sent: %s", msg)
-        pub.publish(msg)
-
--   Execute the turnTo() function which will turn the robot 45 degrees of angle from its initial position. 
-
-.. code-block:: python 
-
-    turnTo()
-
--   On top of turnTo() function, add degree parameter so that we may specify how much to turn the robot. 
-
-
-.. code-block:: python
-
     def turnTo(degree):
         tmp = {"TurnDelta": math.radians(int(degree))}
         msg = json.dumps(tmp)
         rospy.loginfo("Sent: %s", msg)
         pub.publish(msg)
-
--   Run the move() function
--   2 second time delay
--   Run the stop() function
-
-.. code-block:: python
-
-    move()
-    time.sleep(2)
-    stop()
-
--   Execute the moveTo(distance) function
--   1 distance forward
 
 .. code-block:: python
 
@@ -157,24 +157,24 @@ Open the provided jupyter notebook
 |
 
 -   Run the turnTo(degree) function
--   45 degree counterclockwise rotation
+-   180 degree clockwise rotation
 
 .. code-block:: python
 
-    turnTo(45)
+    turnTo(-180)
  
 
-.. thumbnail:: /_images/Day2/2.robot_drive/left.gif
+.. thumbnail:: /_images/Day2/2.robot_drive/right.gif
 
 |
 
 -   Run the turnTo(degree) function
--   45 degree clockwise rotation
+-   90 degree counterclockwise rotation
 
 
 .. code-block:: python
 
-    turnTo(-45)
+    turnTo(90)
 
-.. thumbnail:: /_images/Day2/2.robot_drive/right.gif
+.. thumbnail:: /_images/Day2/2.robot_drive/left.gif
 
