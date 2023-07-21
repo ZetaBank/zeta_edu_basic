@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mission &mdash; ZetaBank - Instructor Version</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/toc_custom.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\css\lightbox.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/toc_custom.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/sphinx_highlight.js"></script>
+        <script src="../../_static/sphinxcontrib-images\LightBox2\lightbox2\dist\js\lightbox-plus-jquery.min.js"></script>
+        <script src="../../_static/sphinxcontrib-images\LightBox2\lightbox2-customize\jquery-noconflict.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Monitor AI Robot Sensor" href="../3.monitor_sensor/0.index.html" />
+    <link rel="prev" title="Let’s Move the Robot the Way You Want!" href="1.follow_along.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+
+          
+          
+          <a href="../../index.html" class="icon icon-home">
+            Basic Version
+              <img src="../../_static/logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                0.1.3
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <p class="caption" role="heading"><span class="caption-text">Wanted troublemakers</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../Day1/0.index.html">Enjoy AI robot with body</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Day1/1.intro/1.intro.html">Let’s go to AI Exploration Education</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Day1/1.intro/2.team_and_naming.html">To change the team name</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day1/1.intro/3.catch_monster.html">Catch a troublemaker monster</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day1/1.intro/4.boss_introduce.html">This is the Boss Monster!</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../Day1/2.robot_arm/0.index.html">Control AI Robot Arm</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Day1/2.robot_arm/1.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day1/2.robot_arm/2.explanation.html">Code Explanation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day1/2.robot_arm/3.mission.html">Mission</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day1/2.robot_arm/4.discussion.html">Discussion</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../Day1/3.arm_dance/0.index.html">Dance with AI Robot Arm</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Day1/3.arm_dance/1.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day1/3.arm_dance/2.explanation.html">Code Explanation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day1/3.arm_dance/3.dancing_arm.html">Mission</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day1/3.arm_dance/4.discussion.html">Discussion</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../Day1/5.gotcha.html">Let’s Protect the Earth from Naughty Monsters!</a></li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Discarded trash of troublemakers</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../0.index.html">Enjoy AI robot with eyes</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../2.AI/0.index.html">AI training with the body and eyes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../2.AI/5.before_ai_education.html">Before you get AI training…</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../2.AI/1.object_detect/1.index.html">Object Detection with SSD-Mobilenet-v2</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/1.object_detect/2.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/1.object_detect/3.explanation.html">Overall Explanation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/1.object_detect/4.coding_explanation.html">Coding Explanation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/1.object_detect/5.mission.html">Mission</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/1.object_detect/6.discussion.html">Discussion</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../2.AI/2.tao_peoplenet/1.index.html">Tao Peoplenet Examples</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/2.tao_peoplenet/2.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/2.tao_peoplenet/3.explanation.html">Overall Explanation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/2.tao_peoplenet/4.coding_explanation.html">Coding Explanation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/2.tao_peoplenet/5.mission.html">Mission</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/2.tao_peoplenet/6.discussion.html">Discussion</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../2.AI/3.segmentation/1.index.html">Sematic Segmentation Examples</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/3.segmentation/2.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/3.segmentation/3.explanation.html">Overall Explanation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/3.segmentation/4.coding_explanation.html">Coding Explanation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/3.segmentation/5.mission.html">Mission</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/3.segmentation/6.discussion.html">Discussion</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../2.AI/4.posenet/1.index.html">Body Pose Estimation with Pose-ResNet18-Body</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/4.posenet/2.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/4.posenet/3.explanation.html">Overall Explanation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/4.posenet/4.coding_explanation.html">Coding Explanation</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/4.posenet/5.mission.html">Mission</a></li>
+<li class="toctree-l4"><a class="reference internal" href="../2.AI/4.posenet/6.discussion.html">Discussion</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../2.AI/6.after_ai_education.html">After you’ve finished AI training…</a></li>
+</ul>
+</li>
+<li class="toctree-l2 current"><a class="reference internal" href="0.index.html">Control AI Robot</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="1.follow_along.html">Let’s Move the Robot the Way You Want!</a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Mission</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../3.monitor_sensor/0.index.html">Monitor AI Robot Sensor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../3.monitor_sensor/1.follow_along.html">Let’s Explore the Inside of the Robot’s Body!</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../4.drive_team/0.index.html">Control AI Robot as a Team</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../4.drive_team/1.follow_along.html">Let’s See the World Through the Eyes of a Robot!</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../5.clean_earth/1.index.html">We Save The Earth</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../5.clean_earth/2.recycling_garbage.html">About Recyclable Garbages</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../5.clean_earth/3.clean_earth.html">Let’s Make a Clean Earth Using AI Robot!</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">Responsible for Ulleungdo's future</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../Day3/0.index.html">Discuss AI robots</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../Day3/1.background/1.index.html">Background Removal and Background Change</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="../../Day3/1.background/2.follow_along.html">Follow Along!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day3/1.background/3.explanation.html">Overall Explanation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day3/1.background/4.coding_explanation.html">BackgroundNet Coding Explanation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day3/1.background/5.mission.html">Mission</a></li>
+<li class="toctree-l3"><a class="reference internal" href="../../Day3/1.background/6.discussion.html">Discussion</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../Day3/2.presentation.html">Presentation and discussion</a></li>
+</ul>
+</li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">Basic Version</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home" aria-label="Home"></a></li>
+          <li class="breadcrumb-item"><a href="../0.index.html">Enjoy AI robot with eyes</a></li>
+          <li class="breadcrumb-item"><a href="0.index.html">Control AI Robot</a></li>
+      <li class="breadcrumb-item active">Mission</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/Day2/2.robot_drive/2.mission.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="mission">
+<h1>Mission<a class="headerlink" href="#mission" title="Permalink to this heading"></a></h1>
+<div style="background: #C3F8FF" class="admonition note custom">
+    <p style="background: light-blue" class="admonition-title">
+        Mission: Let's solve the password and reach the goal point!
+    </p>
+    <div class="line-block">
+        <div class="line"><strong>-</strong> This mission is an <strong>team project</strong></div>
+        <div class="line"><strong>-</strong> Move the robot to the desired point through a combination of simple numbers.</div>
+        <div class="line"><strong>-</strong> There may even be a reward if you arrive correctly! </div>
+    </div>
+</div><a class=""
+               data-lightbox="group-3eadaef8-36c3-45e0-a018-9d88f534c70c"
+               href="../../_images/reward11.png"
+               title=""
+               data-title=""
+               
+               ><img src="../../_images/reward11.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><section id="how-to-play">
+<h2>How to Play<a class="headerlink" href="#how-to-play" title="Permalink to this heading"></a></h2>
+<ul>
+<li><p class="linemarker linemarker-22">Arrive at the goal point by freely moving the robot through a combination of numbers from 0 to 9.</p></li>
+<li><p class="linemarker linemarker-24">To move the robot, we use Python functions.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p class="linemarker linemarker-26">First, import the required Python modules.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">rospy</span>
+<span class="kn">import</span> <span class="nn">json</span>
+<span class="kn">from</span> <span class="nn">std_msgs.msg</span> <span class="kn">import</span> <span class="n">UInt8MultiArray</span><span class="p">,</span> <span class="n">String</span>
+<span class="kn">from</span> <span class="nn">nav_msgs.msg</span> <span class="kn">import</span> <span class="n">Odometry</span>
+<span class="kn">import</span> <span class="nn">time</span>
+<span class="kn">import</span> <span class="nn">math</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-37">Create nodes and publishers to deliver messages to robots using ROS.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pub</span> <span class="o">=</span> <span class="n">rospy</span><span class="o">.</span><span class="n">Publisher</span><span class="p">(</span><span class="s1">&#39;/robot_command&#39;</span><span class="p">,</span> <span class="n">String</span><span class="p">,</span> <span class="n">queue_size</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">rospy</span><span class="o">.</span><span class="n">init_node</span><span class="p">(</span><span class="s1">&#39;zetabot&#39;</span><span class="p">,</span> <span class="n">anonymous</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-45">Write a function that goes forward by 1.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">move_forward_1</span><span class="p">():</span>
+<span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;MoveDelta&quot;</span><span class="p">:</span> <span class="mi">1</span><span class="p">}</span>
+<span class="n">msg</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+<span class="n">rospy</span><span class="o">.</span><span class="n">loginfo</span><span class="p">(</span><span class="s2">&quot;Sent: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+<span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-55">Write a function that goes forward by 2.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">move_forward_2</span><span class="p">():</span>
+<span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;MoveDelta&quot;</span><span class="p">:</span> <span class="mi">2</span><span class="p">}</span>
+<span class="n">msg</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+<span class="n">rospy</span><span class="o">.</span><span class="n">loginfo</span><span class="p">(</span><span class="s2">&quot;Sent: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+<span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-65">Write a function that goes backward by 1.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">move_backward_1</span><span class="p">():</span>
+<span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;MoveDelta&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mi">1</span><span class="p">}</span>
+<span class="n">msg</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+<span class="n">rospy</span><span class="o">.</span><span class="n">loginfo</span><span class="p">(</span><span class="s2">&quot;Sent: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+<span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-75">Write a function that goes backward by 2.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">move_backward_2</span><span class="p">():</span>
+<span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;MoveDelta&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mi">2</span><span class="p">}</span>
+<span class="n">msg</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+<span class="n">rospy</span><span class="o">.</span><span class="n">loginfo</span><span class="p">(</span><span class="s2">&quot;Sent: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+<span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-85">Write a function that turns 45 degrees to the right.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">turn_right_45</span><span class="p">():</span>
+<span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;TurnDelta&quot;</span><span class="p">:</span> <span class="n">math</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="o">-</span><span class="mi">45</span><span class="p">))}</span>
+<span class="n">msg</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+<span class="n">rospy</span><span class="o">.</span><span class="n">loginfo</span><span class="p">(</span><span class="s2">&quot;Sent: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+<span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-95">Write a function that turns 90 degrees to the right.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">turn_right_90</span><span class="p">():</span>
+<span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;TurnDelta&quot;</span><span class="p">:</span> <span class="n">math</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="o">-</span><span class="mi">90</span><span class="p">))}</span>
+<span class="n">msg</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+<span class="n">rospy</span><span class="o">.</span><span class="n">loginfo</span><span class="p">(</span><span class="s2">&quot;Sent: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+<span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-105">Write a function that turns 45 degrees to the left.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">turn_left_45</span><span class="p">():</span>
+<span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;TurnDelta&quot;</span><span class="p">:</span> <span class="n">math</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="mi">45</span><span class="p">))}</span>
+<span class="n">msg</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+<span class="n">rospy</span><span class="o">.</span><span class="n">loginfo</span><span class="p">(</span><span class="s2">&quot;Sent: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+<span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-115">Write a function that turns 90 degrees to the left.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">turn_left_90</span><span class="p">():</span>
+<span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;TurnDelta&quot;</span><span class="p">:</span> <span class="n">math</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="mi">90</span><span class="p">))}</span>
+<span class="n">msg</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+<span class="n">rospy</span><span class="o">.</span><span class="n">loginfo</span><span class="p">(</span><span class="s2">&quot;Sent: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+<span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-125">Write a function that turns 180 degrees to the left.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">spin</span><span class="p">():</span>
+<span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;TurnDelta&quot;</span><span class="p">:</span> <span class="n">math</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="mi">180</span><span class="p">))}</span>
+<span class="n">msg</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+<span class="n">rospy</span><span class="o">.</span><span class="n">loginfo</span><span class="p">(</span><span class="s2">&quot;Sent: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+<span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-135">Write a function that stops in place.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">stop</span><span class="p">():</span>
+<span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;Stop&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">}</span>
+<span class="n">msg</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+<span class="n">rospy</span><span class="o">.</span><span class="n">loginfo</span><span class="p">(</span><span class="s2">&quot;Sent: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+<span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<section id="let-s-find-the-right-password">
+<h3>Let’s Find the Right Password!<a class="headerlink" href="#let-s-find-the-right-password" title="Permalink to this heading"></a></h3>
+<a class=""
+               data-lightbox="group-ad830334-3722-478e-81ee-331dcc9d4118"
+               href="../../_images/password11.png"
+               title=""
+               data-title=""
+               
+               ><img src="../../_images/password11.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><ul class="simple">
+<li><p class="linemarker linemarker-150">Talk about how to enter your password.</p></li>
+<li><p class="linemarker linemarker-152">This code allows Jupyterhub to accept numeric input.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">user_input</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Password : &quot;</span><span class="p">))</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-158">After executing the cell by pressing “Shift + Enter”, enter a number and press “Enter” to save the password.</p></li>
+<li><p class="linemarker linemarker-160">The robot moves differently depending on the password, which is a combination of entered numbers.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">char</span> <span class="ow">in</span> <span class="n">user_input</span><span class="p">:</span>
+    <span class="k">if</span> <span class="n">char</span> <span class="o">==</span> <span class="s2">&quot;1&quot;</span><span class="p">:</span>
+        <span class="n">move_forward_1</span><span class="p">()</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">char</span> <span class="o">==</span> <span class="s2">&quot;2&quot;</span><span class="p">:</span>
+        <span class="n">move_forward_2</span><span class="p">()</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">char</span> <span class="o">==</span> <span class="s2">&quot;3&quot;</span><span class="p">:</span>
+        <span class="n">move_backward_1</span><span class="p">()</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">4</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">char</span> <span class="o">==</span> <span class="s2">&quot;4&quot;</span><span class="p">:</span>
+        <span class="n">move_backward_2</span><span class="p">()</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">8</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">char</span> <span class="o">==</span> <span class="s2">&quot;5&quot;</span><span class="p">:</span>
+        <span class="n">turn_left_45</span><span class="p">()</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">char</span> <span class="o">==</span> <span class="s2">&quot;6&quot;</span><span class="p">:</span>
+        <span class="n">turn_left_90</span><span class="p">()</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">char</span> <span class="o">==</span> <span class="s2">&quot;7&quot;</span><span class="p">:</span>
+        <span class="n">turn_right_45</span><span class="p">()</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">3</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">char</span> <span class="o">==</span> <span class="s2">&quot;8&quot;</span><span class="p">:</span>
+        <span class="n">turn_right_90</span><span class="p">()</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">6</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">char</span> <span class="o">==</span> <span class="s2">&quot;9&quot;</span><span class="p">:</span>
+        <span class="n">spin</span><span class="p">()</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">12</span><span class="p">)</span>
+    <span class="k">elif</span> <span class="n">char</span> <span class="o">==</span> <span class="s2">&quot;0&quot;</span><span class="p">:</span>
+        <span class="n">stop</span><span class="p">()</span>
+        <span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Invalid input:&quot;</span><span class="p">,</span> <span class="n">char</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-198">If you put in 1, it goes forward by 1, if you put in 2, it goes forward by 2.</p></li>
+<li><p class="linemarker linemarker-200">If you put in 3, it goes backwards by 1, if you put in 4, it goes backward by 2.</p></li>
+<li><p class="linemarker linemarker-202">If you put in 5, it goes 45 degrees to the left, and if you put in 6, it goes 90 degrees to the left.</p></li>
+<li><p class="linemarker linemarker-204">If you put in 7, it goes 45 degrees to the right, and if you put in 8, it goes 90 degrees to the right.</p></li>
+<li><p class="linemarker linemarker-206">If you put 9, it will rotate 180 degrees, if you put 0, it will stop in place.</p></li>
+<li><p class="linemarker linemarker-208">For example, if you enter the password “1290”, The robot will move in the following order: forward 1, forward 2, turn 180 degrees, and stop.</p></li>
+</ul>
+<a class=""
+               data-lightbox="group-98a71d60-4499-451f-820c-1c8349a450d8"
+               href="../../_images/reward21.png"
+               title=""
+               data-title=""
+               
+               ><img src="../../_images/reward21.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><div class="line-block">
+<div class="line"><br /></div>
+</div>
+<a class=""
+               data-lightbox="group-7707ca06-da75-4a3a-ac59-be3d5c56ab66"
+               href="../../_images/password21.png"
+               title=""
+               data-title=""
+               
+               ><img src="../../_images/password21.png"
+                     class=""
+                     width="100%"
+                     height="auto"
+                     alt=""/>
+                </a><ul class="simple">
+<li><p class="linemarker linemarker-216">Now, let’s make the robot arrive by entering the password suitable for the destination!</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="1.follow_along.html" class="btn btn-neutral float-left" title="Let’s Move the Robot the Way You Want!" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../3.monitor_sensor/0.index.html" class="btn btn-neutral float-right" title="Monitor AI Robot Sensor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright .</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+    <!-- Theme Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-17821189-2"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-17821189-2', {
+          'anonymize_ip': false,
+      });
+    </script> 
+
+</body>
+</html>

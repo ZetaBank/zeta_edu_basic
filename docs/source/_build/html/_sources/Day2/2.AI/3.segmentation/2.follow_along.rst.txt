@@ -22,6 +22,9 @@ Follow Along!
         <div class="line">(The Jetson Board used for these examples are => Jetson Nano)</div>
     </div>
 
+.. thumbnail:: /_images/Day2/2.AI/3.segmantation/city_seg.jpg
+
+
 .. raw:: html
 
     <hr>

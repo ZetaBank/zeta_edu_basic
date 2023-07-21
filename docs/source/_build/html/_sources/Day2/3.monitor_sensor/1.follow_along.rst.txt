@@ -8,7 +8,7 @@ Let's Explore the Inside of the Robot's Body!
             Follow Along: Robot Sensor Visualization
         </p>
         <div class="line-block">
-            <div class="line"><strong>-</strong> This mission is an <strong>individual project</strong></div>
+            <div class="line"><strong>-</strong> This mission is an <strong>team project</strong></div>
             <div class="line"><strong>-</strong> Access the Isaac Sight server and monitor the robot's sensors.</div>
             <div class="line"><strong>-</strong> While moving the robot, check the change amount of the sensors according to the change of the robot. </div>
         </div>

@@ -23,7 +23,7 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Monitor AI Robot Sensor" href="../3.monitor_sensor/0.index.html" />
+    <link rel="next" title="Mission" href="2.mission.html" />
     <link rel="prev" title="Control AI Robot" href="0.index.html" /> 
 </head>
 
@@ -119,6 +119,7 @@
 </li>
 <li class="toctree-l2 current"><a class="reference internal" href="0.index.html">Control AI Robot</a><ul class="current">
 <li class="toctree-l3 current"><a class="current reference internal" href="#">Let’s Move the Robot the Way You Want!</a></li>
+<li class="toctree-l3"><a class="reference internal" href="2.mission.html">Mission</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="../3.monitor_sensor/0.index.html">Monitor AI Robot Sensor</a><ul>
@@ -191,7 +192,7 @@
         <div class="line"><strong>-</strong> Be careful as surrounding objects may be damaged or injured by the moving robot. </div>
     </div>
 </div><a class=""
-               data-lightbox="group-61232585-2208-4951-be10-b41fb72d646a"
+               data-lightbox="group-d679a8de-5451-41b4-8f8b-23eb1ae36f96"
                href="../../_images/forward1.gif"
                title=""
                data-title=""
@@ -203,7 +204,7 @@
                      alt=""/>
                 </a><p class="linemarker linemarker-19">Open the provided jupyter notebook</p>
 <ul>
-<li><p class="linemarker linemarker-21">01_wheel.ipynb</p></li>
+<li><p class="linemarker linemarker-21">03_01_wheel.ipynb</p></li>
 <li><div class="line-block">
 <div class="line">Running the cell code</div>
 <div class="line"><cite>Ctrl + Enter</cite></div>
@@ -211,7 +212,7 @@
 </li>
 </ul>
 <a class=""
-               data-lightbox="group-80aff907-ebd0-40d3-9d4f-a1270ac5df62"
+               data-lightbox="group-b157a9ab-2b76-4ff5-bbf0-66dff1509a06"
                href="../../_images/robot_drive11.png"
                title=""
                data-title=""
@@ -225,7 +226,7 @@
 <div class="line"><br /></div>
 </div>
 <a class=""
-               data-lightbox="group-951b1164-f949-40f4-af6c-3b1eba1fedd6"
+               data-lightbox="group-de9f4312-c4d8-4802-be1c-341c3fd025cc"
                href="../../_images/robot_drive21.png"
                title=""
                data-title=""
@@ -285,6 +286,18 @@
 <li><p class="linemarker linemarker-80">Create a moveTo() function</p></li>
 <li><p class="linemarker linemarker-81">Convert {“MoveDelta”: -0.5} to Json String</p></li>
 <li><p class="linemarker linemarker-82">Publish the converted message</p></li>
+<li><p class="linemarker linemarker-84">Run the move() function</p></li>
+<li><p class="linemarker linemarker-85">2 second time delay</p></li>
+<li><p class="linemarker linemarker-86">Run the stop() function</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">move</span><span class="p">()</span>
+<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">stop</span><span class="p">()</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-94">Execute the moveTo(distance) function</p></li>
+<li><p class="linemarker linemarker-95">1 distance forward</p></li>
 </ul>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">moveTo</span><span class="p">():</span>
     <span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;MoveDelta&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">0.5</span><span class="p">}</span>
@@ -294,13 +307,29 @@
 </pre></div>
 </div>
 <ul class="simple">
-<li><p class="linemarker linemarker-92">Execute the moveTo() function which will move the robot backwards for 0.5 meters</p></li>
+<li><p class="linemarker linemarker-105">Execute the moveTo() function which will move the robot backwards for 0.5 meters</p></li>
 </ul>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">moveTo</span><span class="p">()</span> <span class="c1"># Move backwards for 0.5 meters</span>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p class="linemarker linemarker-98">On top of moveTo() function, add distance parameter so that distance and directional information may be given.</p></li>
+<li><p class="linemarker linemarker-111">On top of moveTo() function, add distance parameter so that distance and directional information may be given.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">turnTo</span><span class="p">():</span>
+    <span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;TurnDelta&quot;</span><span class="p">:</span> <span class="n">math</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="mi">90</span><span class="p">)}</span>
+    <span class="n">msg</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+    <span class="n">rospy</span><span class="o">.</span><span class="n">loginfo</span><span class="p">(</span><span class="s2">&quot;Sent: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
+    <span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-121">Execute the turnTo() function which will turn the robot 90 degrees of angle from its initial position.</p></li>
+</ul>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">turnTo</span><span class="p">()</span>
+</pre></div>
+</div>
+<ul class="simple">
+<li><p class="linemarker linemarker-128">On top of turnTo() function, add degree parameter so that we may specify how much to turn the robot.</p></li>
 </ul>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">moveTo</span><span class="p">(</span><span class="n">distance</span><span class="p">):</span>
     <span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;MoveDelta&quot;</span><span class="p">:</span> <span class="n">distance</span><span class="p">}</span>
@@ -310,26 +339,10 @@
 </pre></div>
 </div>
 <ul class="simple">
-<li><p class="linemarker linemarker-108">Create turnTo() function</p></li>
-<li><p class="linemarker linemarker-109">Convert 45° to radians</p></li>
-<li><p class="linemarker linemarker-110">Convert {“TurnDelta”: math.radians(45)} to Json string</p></li>
-<li><p class="linemarker linemarker-111">Publish the converted message</p></li>
-</ul>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">turnTo</span><span class="p">():</span>
-    <span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;TurnDelta&quot;</span><span class="p">:</span> <span class="n">math</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="mi">45</span><span class="p">)}</span>
-    <span class="n">msg</span> <span class="o">=</span> <span class="n">json</span><span class="o">.</span><span class="n">dumps</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
-    <span class="n">rospy</span><span class="o">.</span><span class="n">loginfo</span><span class="p">(</span><span class="s2">&quot;Sent: </span><span class="si">%s</span><span class="s2">&quot;</span><span class="p">,</span> <span class="n">msg</span><span class="p">)</span>
-    <span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
-</pre></div>
-</div>
-<ul class="simple">
-<li><p class="linemarker linemarker-121">Execute the turnTo() function which will turn the robot 45 degrees of angle from its initial position.</p></li>
-</ul>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">turnTo</span><span class="p">()</span>
-</pre></div>
-</div>
-<ul class="simple">
-<li><p class="linemarker linemarker-127">On top of turnTo() function, add degree parameter so that we may specify how much to turn the robot.</p></li>
+<li><p class="linemarker linemarker-138">Create turnTo() function</p></li>
+<li><p class="linemarker linemarker-139">Convert 45° to radians</p></li>
+<li><p class="linemarker linemarker-140">Convert {“TurnDelta”: math.radians(45)} to Json string</p></li>
+<li><p class="linemarker linemarker-141">Publish the converted message</p></li>
 </ul>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">turnTo</span><span class="p">(</span><span class="n">degree</span><span class="p">):</span>
     <span class="n">tmp</span> <span class="o">=</span> <span class="p">{</span><span class="s2">&quot;TurnDelta&quot;</span><span class="p">:</span> <span class="n">math</span><span class="o">.</span><span class="n">radians</span><span class="p">(</span><span class="nb">int</span><span class="p">(</span><span class="n">degree</span><span class="p">))}</span>
@@ -338,25 +351,11 @@
     <span class="n">pub</span><span class="o">.</span><span class="n">publish</span><span class="p">(</span><span class="n">msg</span><span class="p">)</span>
 </pre></div>
 </div>
-<ul class="simple">
-<li><p class="linemarker linemarker-138">Run the move() function</p></li>
-<li><p class="linemarker linemarker-139">2 second time delay</p></li>
-<li><p class="linemarker linemarker-140">Run the stop() function</p></li>
-</ul>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">move</span><span class="p">()</span>
-<span class="n">time</span><span class="o">.</span><span class="n">sleep</span><span class="p">(</span><span class="mi">2</span><span class="p">)</span>
-<span class="n">stop</span><span class="p">()</span>
-</pre></div>
-</div>
-<ul class="simple">
-<li><p class="linemarker linemarker-148">Execute the moveTo(distance) function</p></li>
-<li><p class="linemarker linemarker-149">1 distance forward</p></li>
-</ul>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">moveTo</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 </div>
 <a class=""
-               data-lightbox="group-a9d7ac81-bd83-40ae-a6aa-f856126ae2af"
+               data-lightbox="group-5c7e020f-55e1-4fe3-9a4b-4bc9823b7c7e"
                href="../../_images/forward1.gif"
                title=""
                data-title=""
@@ -371,18 +370,18 @@
 </div>
 <ul class="simple">
 <li><p class="linemarker linemarker-159">Run the turnTo(degree) function</p></li>
-<li><p class="linemarker linemarker-160">170 degree rotation</p></li>
+<li><p class="linemarker linemarker-160">180 degree clockwise rotation</p></li>
 </ul>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">turnTo</span><span class="p">(</span><span class="mi">170</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">turnTo</span><span class="p">(</span><span class="o">-</span><span class="mi">180</span><span class="p">)</span>
 </pre></div>
 </div>
 <a class=""
-               data-lightbox="group-a190780e-1741-426b-a734-cdfc41f27bad"
-               href="../../_images/left1.gif"
+               data-lightbox="group-c2caefd8-8076-4931-b77e-cff0e904ad45"
+               href="../../_images/right1.gif"
                title=""
                data-title=""
                
-               ><img src="../../_images/left1.gif"
+               ><img src="../../_images/right1.gif"
                      class=""
                      width="100%"
                      height="auto"
@@ -392,18 +391,18 @@
 </div>
 <ul class="simple">
 <li><p class="linemarker linemarker-171">Run the turnTo(degree) function</p></li>
-<li><p class="linemarker linemarker-172">25 degree rotation</p></li>
+<li><p class="linemarker linemarker-172">90 degree counterclockwise rotation</p></li>
 </ul>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">turnTo</span><span class="p">(</span><span class="mi">25</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">turnTo</span><span class="p">(</span><span class="mi">90</span><span class="p">)</span>
 </pre></div>
 </div>
 <a class=""
-               data-lightbox="group-442c45cb-3717-47b9-b2ee-938e18e215cb"
-               href="../../_images/right1.gif"
+               data-lightbox="group-3d80e540-b462-4c73-9ae9-17d89d8690f7"
+               href="../../_images/left1.gif"
                title=""
                data-title=""
                
-               ><img src="../../_images/right1.gif"
+               ><img src="../../_images/left1.gif"
                      class=""
                      width="100%"
                      height="auto"
@@ -415,7 +414,7 @@
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="0.index.html" class="btn btn-neutral float-left" title="Control AI Robot" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="../3.monitor_sensor/0.index.html" class="btn btn-neutral float-right" title="Monitor AI Robot Sensor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="2.mission.html" class="btn btn-neutral float-right" title="Mission" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

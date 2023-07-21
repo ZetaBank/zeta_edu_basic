@@ -9,7 +9,7 @@ Let's Protect the Earth from Naughty Monsters!
 
 - Now, let's defeat naughty monsters with zetabot and keep the peace on earth!
 
-How to play
+How to Play
 -----------------------
 
 .. thumbnail:: /_images/Day1/5.gotcha/gotcha2.png
